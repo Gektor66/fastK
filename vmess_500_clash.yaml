@@ -6,6 +6,22 @@ log-level: info
 proxies:
   - name: "proxy-0"
     type: vmess
+    server: 45.15.185.17
+    port: 80
+    uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-1"
+    type: vmess
+    server: 45.15.185.17
+    port: 80
+    uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-2"
+    type: vmess
     server: 5.188.190.252
     port: 22324
     uuid: 04621bae-ab36-11ec-b909-0242ac120002
@@ -18,6 +34,8 @@ proxy-groups:
     type: select
     proxies:
       - "proxy-0"
+      - "proxy-1"
+      - "proxy-2"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
