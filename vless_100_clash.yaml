@@ -711,17 +711,6 @@ proxies:
         Host: sni.111000.v6.navy
   - name: "proxy-60"
     type: vless
-    server: 94.131.100.163
-    port: 443
-    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /pyzrgqws
-  - name: "proxy-61"
-    type: vless
     server: 46.101.57.231
     port: 443
     uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
@@ -731,6 +720,17 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
+  - name: "proxy-61"
+    type: vless
+    server: 94.131.100.163
+    port: 443
+    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
+    udp: true
+    network: ws
+    tls: true
+    servername: api.avito.ru
+    ws-opts:
+      path: /pyzrgqws
   - name: "proxy-62"
     type: vless
     server: 146.19.143.15
@@ -775,81 +775,6 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-67"
     type: vless
-    server: est-def.sbrf-cdn342.ru
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-68"
-    type: vless
-    server: 159.100.9.64
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-69"
-    type: vless
-    server: 84.200.77.90
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-70"
-    type: vless
-    server: 84.200.87.244
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-71"
-    type: vless
-    server: 84.201.14.22
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-72"
-    type: vless
-    server: reserve.pilates.rodeo
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-73"
-    type: vless
-    server: 203.189.233.67
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-74"
-    type: vless
     server: 80.66.65.95
     port: 443
     uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
@@ -858,37 +783,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-75"
-    type: vless
-    server: 84.252.101.105
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-76"
-    type: vless
-    server: 84.252.101.90
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-77"
-    type: vless
-    server: yt-noads.sbrf-cdn342.ru
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-78"
+  - name: "proxy-68"
     type: vless
     server: 188.114.98.0
     port: 2082
@@ -899,9 +794,9 @@ proxies:
     ws-opts:
       headers:
         Host: DOFF.mehrsazi.ir
-  - name: "proxy-79"
+  - name: "proxy-69"
     type: vless
-    server: 38.244.139.141
+    server: 38.244.139.145
     port: 443
     uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
     udp: true
@@ -909,7 +804,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-80"
+  - name: "proxy-70"
     type: vless
     server: 172.64.155.209
     port: 443
@@ -922,7 +817,7 @@ proxies:
       path: /vless
       headers:
         Host: g.sandesh.qzz.io
-  - name: "proxy-81"
+  - name: "proxy-71"
     type: vless
     server: 103.106.228.126
     port: 2053
@@ -935,7 +830,7 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-82"
+  - name: "proxy-72"
     type: vless
     server: 217.25.92.83
     port: 4443
@@ -943,7 +838,101 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-83"
+  - name: "proxy-73"
+    type: vless
+    server: est-def.sbrf-cdn342.ru
+    port: 443
+    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-74"
+    type: vless
+    server: 159.100.9.64
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-75"
+    type: vless
+    server: 84.200.77.90
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-76"
+    type: vless
+    server: 84.200.87.244
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-77"
+    type: vless
+    server: 84.201.14.22
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-78"
+    type: vless
+    server: 203.189.233.67
+    port: 443
+    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-79"
+    type: vless
+    server: 84.252.101.105
+    port: 443
+    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-80"
+    type: vless
+    server: 84.252.101.90
+    port: 443
+    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-81"
+    type: vless
+    server: yt-noads.sbrf-cdn342.ru
+    port: 443
+    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-82"
     type: vless
     server: kinode24.boevik-tut.org
     port: 443
@@ -952,7 +941,7 @@ proxies:
     network: tcp
     tls: true
     servername: kinode24.boevik-tut.org
-  - name: "proxy-84"
+  - name: "proxy-83"
     type: vless
     server: kinode18.boevik-tut.org
     port: 443
@@ -961,7 +950,7 @@ proxies:
     network: tcp
     tls: true
     servername: kinode18.boevik-tut.org
-  - name: "proxy-85"
+  - name: "proxy-84"
     type: vless
     server: 185.218.204.186
     port: 2034
@@ -972,7 +961,7 @@ proxies:
     servername: de4.x3vpn.ru
     ws-opts:
       path: /
-  - name: "proxy-86"
+  - name: "proxy-85"
     type: vless
     server: secdn13.dramatorg.net
     port: 443
@@ -981,7 +970,7 @@ proxies:
     network: tcp
     tls: true
     servername: secdn13.dramatorg.net
-  - name: "proxy-87"
+  - name: "proxy-86"
     type: vless
     server: kinonl5.boevik-tut.org
     port: 443
@@ -990,14 +979,14 @@ proxies:
     network: tcp
     tls: true
     servername: kinonl5.boevik-tut.org
-  - name: "proxy-88"
+  - name: "proxy-87"
     type: vless
     server: 185.221.214.140
     port: 58888
     uuid: 4fb684c9-977f-4a7c-82a5-1f70fc141510
     udp: true
     network: tcp
-  - name: "proxy-89"
+  - name: "proxy-88"
     type: vless
     server: 212.92.101.163
     port: 443
@@ -1007,7 +996,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-90"
+  - name: "proxy-89"
     type: vless
     server: 5.182.5.140
     port: 443
@@ -1017,7 +1006,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-91"
+  - name: "proxy-90"
     type: vless
     server: 217.18.63.21
     port: 443
@@ -1027,7 +1016,7 @@ proxies:
     tls: true
     servername: plmain.list-fg.co.uk
     flow: xtls-rprx-vision
-  - name: "proxy-92"
+  - name: "proxy-91"
     type: vless
     server: fi-bridge.sbrf-cdn342.ru
     port: 443
@@ -1037,7 +1026,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-93"
+  - name: "proxy-92"
     type: vless
     server: 217.16.30.129
     port: 4443
@@ -1046,7 +1035,7 @@ proxies:
     network: tcp
     tls: true
     servername: 217.16.30.129
-  - name: "proxy-94"
+  - name: "proxy-93"
     type: vless
     server: ru2.mambo-jambo.ru
     port: 49169
@@ -1055,7 +1044,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-95"
+  - name: "proxy-94"
     type: vless
     server: 89.208.85.162
     port: 6444
@@ -1065,7 +1054,7 @@ proxies:
     tls: true
     servername: de-one.cloudload.org
     flow: xtls-rprx-vision
-  - name: "proxy-96"
+  - name: "proxy-95"
     type: vless
     server: tt.mambo-jambo.ru
     port: 49856
@@ -1074,7 +1063,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-97"
+  - name: "proxy-96"
     type: vless
     server: tt.mambo-jambo.ru
     port: 49322
@@ -1083,7 +1072,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
     server: nl-bridge.sbrf-cdn342.ru
     port: 443
@@ -1093,7 +1082,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-99"
+  - name: "proxy-98"
     type: vless
     server: swe-bridge.sbrf-cdn342.ru
     port: 443
@@ -1103,6 +1092,19 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
+  - name: "proxy-99"
+    type: vless
+    server: s95358.cdn.ngenix.net
+    port: 443
+    uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
+    udp: true
+    network: ws
+    tls: true
+    servername: s95358.cdn.ngenix.net
+    ws-opts:
+      path: /
+      headers:
+        Host: s95358.cdn.ngenix.net
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
