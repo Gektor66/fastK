@@ -536,6 +536,13 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: XBR_sBUQuDK-ZodYhRJjHTSusRYErq4E
     udp: true
+  - name: "proxy-93"
+    type: ss
+    server: 5.188.181.201
+    port: 9003
+    cipher: aes-256-cfb
+    password: JdmRK9gMEqFgs8nP
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -617,6 +624,7 @@ proxy-groups:
       - "proxy-90"
       - "proxy-91"
       - "proxy-92"
+      - "proxy-93"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
