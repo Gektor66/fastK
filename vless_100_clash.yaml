@@ -1139,7 +1139,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-96"
     type: vless
-    server: 80.66.65.95
+    server: est-def.sbrf-cdn342.ru
     port: 443
     uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
     udp: true
@@ -1149,28 +1149,29 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-97"
     type: vless
-    server: 84.252.101.90
-    port: 443
-    uuid: 7e7452f2-1004-45ed-a55a-f9d474e152c7
+    server: 159.100.9.64
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
-    network: tcp
+    network: grpc
     tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
   - name: "proxy-98"
     type: vless
-    server: 188.114.98.0
-    port: 2082
-    uuid: f0ff4425-8c26-4d81-8662-f34593060c8d
+    server: 84.200.77.90
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: DOFF.mehrsazi.ir
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
   - name: "proxy-99"
     type: vless
-    server: 84.201.4.56
+    server: 84.200.87.244
     port: 2053
     uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
