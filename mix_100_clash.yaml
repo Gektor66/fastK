@@ -1172,48 +1172,45 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-96"
     type: vless
-    server: 159.100.9.64
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    server: 188.114.98.0
+    port: 2082
+    uuid: f0ff4425-8c26-4d81-8662-f34593060c8d
     udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: DOFF.mehrsazi.ir
   - name: "proxy-97"
     type: vless
-    server: 84.200.77.90
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    server: 152.233.28.198
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
     udp: true
-    network: grpc
+    network: tcp
     tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
+    servername: uk1.fromblancwithlove.com
   - name: "proxy-98"
     type: vless
-    server: 84.200.87.244
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    server: node215.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
     udp: true
-    network: grpc
+    network: tcp
     tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
+    flow: xtls-rprx-vision
   - name: "proxy-99"
     type: vless
-    server: 84.201.14.22
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    server: 193.233.198.113
+    port: 8443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     udp: true
-    network: grpc
+    network: ws
     tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
+    servername: 3-abf.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-abf.pages.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
