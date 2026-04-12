@@ -1110,17 +1110,6 @@ proxies:
         Host: sni.111000.indevs.in
   - name: "proxy-89"
     type: vless
-    server: 46.101.57.231
-    port: 443
-    uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
-    udp: true
-    network: ws
-    tls: true
-    servername: m.vk.com
-    ws-opts:
-      path: /esoznjws
-  - name: "proxy-90"
-    type: vless
     server: 94.131.100.163
     port: 443
     uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
@@ -1130,6 +1119,17 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
+  - name: "proxy-90"
+    type: vless
+    server: 46.101.57.231
+    port: 443
+    uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /esoznjws
   - name: "proxy-91"
     type: vless
     server: 146.19.143.15
@@ -1174,6 +1174,43 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-96"
     type: vless
+    server: node111.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-97"
+    type: vless
+    server: node215.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-98"
+    type: vless
+    server: rus.krasivovpn.ru
+    port: 443
+    uuid: 3b7e7ab6-feb0-4c12-b575-b5b2b8e7b8e5
+    udp: true
+    network: tcp
+  - name: "proxy-99"
+    type: vless
+    server: 193.233.231.232
+    port: 8443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-8gy.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-8gy.pages.dev
+  - name: "proxy-100"
+    type: vless
     server: 188.114.98.0
     port: 2082
     uuid: f0ff4425-8c26-4d81-8662-f34593060c8d
@@ -1183,7 +1220,17 @@ proxies:
     ws-opts:
       headers:
         Host: DOFF.mehrsazi.ir
-  - name: "proxy-97"
+  - name: "proxy-101"
+    type: vless
+    server: 38.244.139.147
+    port: 443
+    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-102"
     type: vless
     server: 152.233.28.198
     port: 8443
@@ -1192,20 +1239,7 @@ proxies:
     network: tcp
     tls: true
     servername: uk1.fromblancwithlove.com
-  - name: "proxy-98"
-    type: vless
-    server: 172.64.155.209
-    port: 443
-    uuid: 1027b850-de79-4a94-b337-eccdac28e141
-    udp: true
-    network: ws
-    tls: true
-    servername: g.sandesh.qzz.io
-    ws-opts:
-      path: /vless
-      headers:
-        Host: g.sandesh.qzz.io
-  - name: "proxy-99"
+  - name: "proxy-103"
     type: vless
     server: 103.106.228.126
     port: 2053
@@ -1218,44 +1252,6 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-100"
-    type: vless
-    server: 217.25.92.83
-    port: 4443
-    uuid: 5969352d-fdff-44b5-9783-cf4bca6dd59f
-    udp: true
-    network: tcp
-    tls: false
-  - name: "proxy-101"
-    type: vless
-    server: node111.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-102"
-    type: vless
-    server: node215.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-103"
-    type: vless
-    server: 193.233.231.232
-    port: 8443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-8gy.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-8gy.pages.dev
   - name: "proxy-104"
     type: vless
     server: kinode24.boevik-tut.org
@@ -4617,6 +4613,16 @@ proxies:
         Host: rayan-007.foton.dpdns.org
   - name: "proxy-396"
     type: vless
+    server: 77.221.156.7
+    port: 9250
+    uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
+    udp: true
+    network: grpc
+    tls: false
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-397"
+    type: vless
     server: 57.129.137.81
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -4627,7 +4633,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-397"
+  - name: "proxy-398"
     type: vless
     server: 172.67.68.119
     port: 443
@@ -4639,7 +4645,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-398"
+  - name: "proxy-399"
     type: vless
     server: 172.232.248.242
     port: 2321
@@ -4647,7 +4653,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-399"
+  - name: "proxy-400"
     type: vless
     server: 89.116.180.238
     port: 2096
@@ -4659,7 +4665,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-400"
+  - name: "proxy-401"
     type: vless
     server: 5.61.47.9
     port: 443
@@ -4671,7 +4677,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-401"
+  - name: "proxy-402"
     type: vless
     server: 84.201.4.56
     port: 2053
@@ -4682,7 +4688,7 @@ proxies:
     servername: nice.ducks.tel
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-402"
+  - name: "proxy-403"
     type: vless
     server: 57.128.178.183
     port: 443
@@ -4694,7 +4700,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-403"
+  - name: "proxy-404"
     type: vless
     server: 2a03:6f00:a::8c9e
     port: 443
@@ -4704,7 +4710,7 @@ proxies:
     tls: true
     servername: ru205.mechvpn.online
     flow: xtls-rprx-vision
-  - name: "proxy-404"
+  - name: "proxy-405"
     type: vless
     server: 8.35.211.15
     port: 2053
@@ -4716,7 +4722,7 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-405"
+  - name: "proxy-406"
     type: vless
     server: 162.159.12.151
     port: 443
@@ -4728,7 +4734,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-406"
+  - name: "proxy-407"
     type: vless
     server: 104.17.106.12
     port: 443
@@ -4740,7 +4746,7 @@ proxies:
     ws-opts:
       headers:
         Host: xn--cz8h.pages.dev
-  - name: "proxy-407"
+  - name: "proxy-408"
     type: vless
     server: 162.243.8.196
     port: 443
@@ -4752,7 +4758,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-408"
+  - name: "proxy-409"
     type: vless
     server: s35222.cdn.ngenix.net
     port: 443
@@ -4764,7 +4770,7 @@ proxies:
     ws-opts:
       headers:
         Host: s35222.cdn.ngenix.net
-  - name: "proxy-409"
+  - name: "proxy-410"
     type: vless
     server: 51.91.249.9
     port: 443
@@ -4776,7 +4782,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-410"
+  - name: "proxy-411"
     type: vless
     server: 135.84.73.100
     port: 443
@@ -4788,7 +4794,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-411"
+  - name: "proxy-412"
     type: vless
     server: 147.78.140.238
     port: 2096
@@ -4800,7 +4806,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-412"
+  - name: "proxy-413"
     type: vless
     server: 188.114.97.3
     port: 80
@@ -4811,7 +4817,7 @@ proxies:
     ws-opts:
       headers:
         Host: germany.vipserver14.workers.dev
-  - name: "proxy-413"
+  - name: "proxy-414"
     type: vless
     server: 104.19.35.216
     port: 80
@@ -4822,7 +4828,7 @@ proxies:
     ws-opts:
       headers:
         Host: amirvpn.amirhm00100.workers.dev
-  - name: "proxy-414"
+  - name: "proxy-415"
     type: vless
     server: ru4.ultima.foundation
     port: 4443
@@ -4830,7 +4836,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-415"
+  - name: "proxy-416"
     type: vless
     server: 8.39.125.244
     port: 2083
@@ -4842,7 +4848,7 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-416"
+  - name: "proxy-417"
     type: vless
     server: 172.64.155.209
     port: 2053
@@ -4854,7 +4860,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-417"
+  - name: "proxy-418"
     type: vless
     server: 129.212.236.160
     port: 443
@@ -4866,7 +4872,7 @@ proxies:
     ws-opts:
       headers:
         Host: 1-cw6.pages.dev
-  - name: "proxy-418"
+  - name: "proxy-419"
     type: vless
     server: 213.210.4.131
     port: 443
@@ -4878,7 +4884,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-2h8.pages.dev
-  - name: "proxy-419"
+  - name: "proxy-420"
     type: vless
     server: 104.21.224.5
     port: 80
@@ -4889,7 +4895,7 @@ proxies:
     ws-opts:
       headers:
         Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-  - name: "proxy-420"
+  - name: "proxy-421"
     type: vless
     server: 51.38.227.155
     port: 8443
@@ -4901,7 +4907,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-421"
+  - name: "proxy-422"
     type: vless
     server: 194.48.141.232
     port: 2053
@@ -4913,7 +4919,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-422"
+  - name: "proxy-423"
     type: vless
     server: 193.108.112.212
     port: 443
@@ -4925,7 +4931,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-9sp.pages.dev
-  - name: "proxy-423"
+  - name: "proxy-424"
     type: vless
     server: 160.153.1.23
     port: 443
@@ -4937,7 +4943,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-424"
+  - name: "proxy-425"
     type: vless
     server: 92.118.205.177
     port: 443
@@ -4949,7 +4955,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-deu.pages.dev
-  - name: "proxy-425"
+  - name: "proxy-426"
     type: vless
     server: 51.195.37.32
     port: 443
@@ -4961,7 +4967,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-426"
+  - name: "proxy-427"
     type: vless
     server: sub.danfeng.eu.org
     port: 443
@@ -4973,7 +4979,7 @@ proxies:
     ws-opts:
       headers:
         Host: tg.wag13.ggff.net
-  - name: "proxy-427"
+  - name: "proxy-428"
     type: vless
     server: 57.128.183.90
     port: 443
@@ -4985,7 +4991,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-428"
+  - name: "proxy-429"
     type: vless
     server: 129.153.91.86
     port: 3701
@@ -4997,7 +5003,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-429"
+  - name: "proxy-430"
     type: vless
     server: dongjing2.zqjsqapi.com
     port: 443
@@ -5009,7 +5015,7 @@ proxies:
     ws-opts:
       headers:
         Host: dongjing2.zqjsqapi.com
-  - name: "proxy-430"
+  - name: "proxy-431"
     type: vless
     server: 8.35.211.98
     port: 443
@@ -5021,7 +5027,7 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-431"
+  - name: "proxy-432"
     type: vless
     server: 51.38.226.4
     port: 8443
@@ -5033,7 +5039,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-432"
+  - name: "proxy-433"
     type: vless
     server: 104.16.9.24
     port: 80
@@ -5044,7 +5050,7 @@ proxies:
     ws-opts:
       headers:
         Host: fragrant-recipe-09f4.wopecuyubak61.workers.dev
-  - name: "proxy-433"
+  - name: "proxy-434"
     type: vless
     server: 51.195.118.15
     port: 2053
@@ -5056,7 +5062,17 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-434"
+  - name: "proxy-435"
+    type: vless
+    server: 62.60.186.24
+    port: 9250
+    uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
+    udp: true
+    network: grpc
+    tls: false
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-436"
     type: vless
     server: 104.16.250.22
     port: 2096
@@ -5068,7 +5084,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-435"
+  - name: "proxy-437"
     type: vless
     server: 104.234.50.115
     port: 2053
@@ -5080,7 +5096,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-436"
+  - name: "proxy-438"
     type: vless
     server: 188.114.98.134
     port: 443
@@ -5092,7 +5108,7 @@ proxies:
     ws-opts:
       headers:
         Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-  - name: "proxy-437"
+  - name: "proxy-439"
     type: vless
     server: 57.129.63.42
     port: 2053
@@ -5104,7 +5120,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-438"
+  - name: "proxy-440"
     type: vless
     server: 125.227.233.197
     port: 2083
@@ -5116,7 +5132,7 @@ proxies:
     ws-opts:
       headers:
         Host: 1-axj.pages.dev
-  - name: "proxy-439"
+  - name: "proxy-441"
     type: vless
     server: 77.221.143.154
     port: 443
@@ -5128,7 +5144,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-440"
+  - name: "proxy-442"
     type: vless
     server: 104.18.15.201
     port: 2096
@@ -5140,17 +5156,7 @@ proxies:
     ws-opts:
       headers:
         Host: daluan.eu.org
-  - name: "proxy-441"
-    type: vless
-    server: 38.244.139.147
-    port: 443
-    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-442"
+  - name: "proxy-443"
     type: vless
     server: usbad.osaip.net
     port: 443
@@ -5160,7 +5166,7 @@ proxies:
     tls: false
     grpc-opts:
       grpc-service-name: violet
-  - name: "proxy-443"
+  - name: "proxy-444"
     type: vless
     server: nl-tx.sbrf-cdn342.ru
     port: 443
@@ -5170,7 +5176,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-444"
+  - name: "proxy-445"
     type: vless
     server: cdn.veilvpn.fans
     port: 443
@@ -5179,7 +5185,7 @@ proxies:
     network: httpupgrade
     tls: true
     servername: cdn.veilvpn.fans
-  - name: "proxy-445"
+  - name: "proxy-446"
     type: vless
     server: 82.117.245.166
     port: 2053
@@ -5191,7 +5197,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-446"
+  - name: "proxy-447"
     type: vless
     server: 43.163.109.39
     port: 443
@@ -5203,7 +5209,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-447"
+  - name: "proxy-448"
     type: vless
     server: 185.162.231.138
     port: 2096
@@ -5215,7 +5221,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-448"
+  - name: "proxy-449"
     type: vless
     server: ru198.mechvpn.online
     port: 443
@@ -5225,7 +5231,7 @@ proxies:
     tls: true
     servername: ru198.mechvpn.online
     flow: xtls-rprx-vision
-  - name: "proxy-449"
+  - name: "proxy-450"
     type: vless
     server: 195.135.255.177
     port: 443
@@ -5237,7 +5243,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-450"
+  - name: "proxy-451"
     type: vless
     server: 104.24.55.23
     port: 443
@@ -5249,7 +5255,7 @@ proxies:
     ws-opts:
       headers:
         Host: fancy-disk-fbb6.tmpesterouglas.workers.dev
-  - name: "proxy-451"
+  - name: "proxy-452"
     type: vless
     server: 51.91.251.37
     port: 443
@@ -5261,7 +5267,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-452"
+  - name: "proxy-453"
     type: vless
     server: 103.219.194.43
     port: 443
@@ -5273,7 +5279,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-453"
+  - name: "proxy-454"
     type: vless
     server: 51.38.225.63
     port: 2053
@@ -5285,7 +5291,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-454"
+  - name: "proxy-455"
     type: vless
     server: 51.91.255.152
     port: 443
@@ -5297,7 +5303,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-455"
+  - name: "proxy-456"
     type: vless
     server: 57.128.181.219
     port: 8443
@@ -5309,7 +5315,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-456"
+  - name: "proxy-457"
     type: vless
     server: 51.77.140.38
     port: 8443
@@ -5321,7 +5327,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-457"
+  - name: "proxy-458"
     type: vless
     server: 150.241.73.28
     port: 443
@@ -5331,7 +5337,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-458"
+  - name: "proxy-459"
     type: vless
     server: 51.75.16.244
     port: 2053
@@ -5343,7 +5349,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-459"
+  - name: "proxy-460"
     type: vless
     server: 129.212.254.251
     port: 2096
@@ -5355,7 +5361,7 @@ proxies:
     ws-opts:
       headers:
         Host: 1-7gs.pages.dev
-  - name: "proxy-460"
+  - name: "proxy-461"
     type: vless
     server: de.sbrf-cdn342.ru
     port: 443
@@ -5365,7 +5371,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-461"
+  - name: "proxy-462"
     type: vless
     server: 216.205.52.238
     port: 2096
@@ -5377,7 +5383,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-462"
+  - name: "proxy-463"
     type: vless
     server: 193.124.188.208
     port: 443
@@ -5389,7 +5395,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-463"
+  - name: "proxy-464"
     type: vless
     server: 51.91.251.16
     port: 443
@@ -5401,7 +5407,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-464"
+  - name: "proxy-465"
     type: vless
     server: 84.252.101.105
     port: 443
@@ -5411,7 +5417,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-465"
+  - name: "proxy-466"
     type: vless
     server: 116.203.252.143
     port: 443
@@ -5423,7 +5429,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-466"
+  - name: "proxy-467"
     type: vless
     server: 8.35.211.249
     port: 2087
@@ -5435,7 +5441,7 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-467"
+  - name: "proxy-468"
     type: vless
     server: 51.75.24.59
     port: 8443
@@ -5447,7 +5453,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-468"
+  - name: "proxy-469"
     type: vless
     server: 57.129.47.78
     port: 2053
@@ -5459,7 +5465,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-469"
+  - name: "proxy-470"
     type: vless
     server: 185.36.140.105
     port: 443
@@ -5471,7 +5477,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-abf.pages.dev
-  - name: "proxy-470"
+  - name: "proxy-471"
     type: vless
     server: 51.89.224.186
     port: 8443
@@ -5483,7 +5489,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-471"
+  - name: "proxy-472"
     type: vless
     server: 2a03:6f00:a::b5b6
     port: 443
@@ -5493,7 +5499,7 @@ proxies:
     tls: true
     servername: ru166.mechvpn.online
     flow: xtls-rprx-vision
-  - name: "proxy-472"
+  - name: "proxy-473"
     type: vless
     server: 51.91.100.128
     port: 8443
@@ -5505,7 +5511,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-473"
+  - name: "proxy-474"
     type: vless
     server: 51.91.255.121
     port: 8443
@@ -5517,7 +5523,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-474"
+  - name: "proxy-475"
     type: vless
     server: 134.209.30.166
     port: 443
@@ -5529,7 +5535,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-475"
+  - name: "proxy-476"
     type: vless
     server: 64.227.174.213
     port: 2053
@@ -5541,7 +5547,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-476"
+  - name: "proxy-477"
     type: vless
     server: 45.131.4.192
     port: 80
@@ -5552,7 +5558,7 @@ proxies:
     ws-opts:
       headers:
         Host: silent-paper-fa57.fipiyag989.workers.dev
-  - name: "proxy-477"
+  - name: "proxy-478"
     type: vless
     server: 8.35.211.133
     port: 2096
@@ -5564,7 +5570,7 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-478"
+  - name: "proxy-479"
     type: vless
     server: ru3.whoshere.site
     port: 443
@@ -5574,7 +5580,7 @@ proxies:
     tls: true
     servername: ru3.whoshere.site
     flow: xtls-rprx-vision
-  - name: "proxy-479"
+  - name: "proxy-480"
     type: vless
     server: 188.114.97.3
     port: 443
@@ -5586,7 +5592,7 @@ proxies:
     ws-opts:
       headers:
         Host: gardconfig12.bnam38637.workers.dev
-  - name: "proxy-480"
+  - name: "proxy-481"
     type: vless
     server: 51.91.100.9
     port: 2053
@@ -5598,7 +5604,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-481"
+  - name: "proxy-482"
     type: vless
     server: 104.17.219.32
     port: 80
@@ -5609,7 +5615,7 @@ proxies:
     ws-opts:
       headers:
         Host: 29.alij47649.workers.dev
-  - name: "proxy-482"
+  - name: "proxy-483"
     type: vless
     server: 57.129.137.83
     port: 443
@@ -5621,7 +5627,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-483"
+  - name: "proxy-484"
     type: vless
     server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
     port: 443
@@ -5633,7 +5639,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-484"
+  - name: "proxy-485"
     type: vless
     server: 5.144.181.240
     port: 443
@@ -5645,7 +5651,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-485"
+  - name: "proxy-486"
     type: vless
     server: 192.200.160.253
     port: 2053
@@ -5657,7 +5663,7 @@ proxies:
     ws-opts:
       headers:
         Host: qyi.fqjd663.ggff.net
-  - name: "proxy-486"
+  - name: "proxy-487"
     type: vless
     server: 146.190.207.55
     port: 443
@@ -5669,7 +5675,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-487"
+  - name: "proxy-488"
     type: vless
     server: mullsite.applepie-recipe.ru
     port: 443
@@ -5681,7 +5687,7 @@ proxies:
     ws-opts:
       headers:
         Host: mullsite.applepie-recipe.ru
-  - name: "proxy-488"
+  - name: "proxy-489"
     type: vless
     server: 101.32.116.73
     port: 443
@@ -5693,7 +5699,7 @@ proxies:
     ws-opts:
       headers:
         Host: 2-ee1.pages.dev
-  - name: "proxy-489"
+  - name: "proxy-490"
     type: vless
     server: 104.21.34.189
     port: 443
@@ -5705,7 +5711,7 @@ proxies:
     ws-opts:
       headers:
         Host: stipulations.gelatin.workers.dev
-  - name: "proxy-490"
+  - name: "proxy-491"
     type: vless
     server: 104.21.88.28
     port: 443
@@ -5717,7 +5723,7 @@ proxies:
     ws-opts:
       headers:
         Host: gardconfig12.bnam38637.workers.dev
-  - name: "proxy-491"
+  - name: "proxy-492"
     type: vless
     server: 57.129.16.72
     port: 2053
@@ -5729,7 +5735,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-492"
+  - name: "proxy-493"
     type: vless
     server: 51.38.227.72
     port: 2053
@@ -5741,7 +5747,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-493"
+  - name: "proxy-494"
     type: vless
     server: 161.35.64.81
     port: 8443
@@ -5753,7 +5759,7 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-494"
+  - name: "proxy-495"
     type: vless
     server: 193.233.232.56
     port: 443
@@ -5765,7 +5771,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-c6l.pages.dev
-  - name: "proxy-495"
+  - name: "proxy-496"
     type: vless
     server: 51.91.249.93
     port: 443
@@ -5777,7 +5783,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-496"
+  - name: "proxy-497"
     type: vless
     server: ciallo-egb.pages.dev
     port: 443
@@ -5788,7 +5794,7 @@ proxies:
     ws-opts:
       headers:
         Host: CiaLLO-egb.PAGeS.dEV
-  - name: "proxy-497"
+  - name: "proxy-498"
     type: vless
     server: 172.67.171.253
     port: 443
@@ -5800,7 +5806,7 @@ proxies:
     ws-opts:
       headers:
         Host: gardconfig12.bnam38637.workers.dev
-  - name: "proxy-498"
+  - name: "proxy-499"
     type: vless
     server: 104.20.63.52
     port: 80
@@ -5811,18 +5817,6 @@ proxies:
     ws-opts:
       headers:
         Host: vip.yaml7.ggff.net
-  - name: "proxy-499"
-    type: vless
-    server: 104.18.2.150
-    port: 443
-    uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
-    udp: true
-    network: ws
-    tls: true
-    servername: daluan.eu.org
-    ws-opts:
-      headers:
-        Host: daluan.eu.org
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
