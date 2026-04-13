@@ -1458,6 +1458,16 @@ proxies:
         Host: DOFF.mehrsazi.ir
   - name: "proxy-121"
     type: vless
+    server: 185.93.105.107
+    port: 443
+    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-122"
+    type: vless
     server: 152.233.28.198
     port: 8443
     uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -1465,7 +1475,7 @@ proxies:
     network: tcp
     tls: true
     servername: uk1.fromblancwithlove.com
-  - name: "proxy-122"
+  - name: "proxy-123"
     type: vless
     server: 172.64.155.209
     port: 443
@@ -1478,7 +1488,7 @@ proxies:
       path: /vless
       headers:
         Host: g.sandesh.qzz.io
-  - name: "proxy-123"
+  - name: "proxy-124"
     type: vless
     server: 103.106.228.126
     port: 2053
@@ -1491,14 +1501,6 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-124"
-    type: vless
-    server: 217.25.92.83
-    port: 4443
-    uuid: 5969352d-fdff-44b5-9783-cf4bca6dd59f
-    udp: true
-    network: tcp
-    tls: false
   - name: "proxy-125"
     type: vless
     server: kinode24.boevik-tut.org
@@ -1674,20 +1676,20 @@ proxies:
         Host: s95358.cdn.ngenix.net
   - name: "proxy-143"
     type: vless
-    server: 129.153.91.86
-    port: 3701
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    server: 8.35.211.189
+    port: 2053
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
     network: ws
     tls: true
-    servername: edt2.btxst.eu.cc
+    servername: aier.eu.cc
     ws-opts:
       headers:
-        Host: edt2.btxst.eu.cc
+        Host: aier.eu.cc
   - name: "proxy-144"
     type: vless
-    server: 8.39.125.21
-    port: 8443
+    server: 8.39.125.90
+    port: 443
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
     network: ws
@@ -1698,7 +1700,7 @@ proxies:
         Host: aier.eu.cc
   - name: "proxy-145"
     type: vless
-    server: 8.35.211.10
+    server: 8.39.125.17
     port: 8443
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
@@ -1710,20 +1712,20 @@ proxies:
         Host: aier.eu.cc
   - name: "proxy-146"
     type: vless
-    server: 51.91.251.43
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 38.180.100.80
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     udp: true
     network: ws
     tls: true
-    servername: sni.111000.v6.navy
+    servername: 2-ayr.pages.dev
     ws-opts:
       headers:
-        Host: sni.111000.v6.navy
+        Host: 2-ayr.pages.dev
   - name: "proxy-147"
     type: vless
-    server: 8.39.125.96
-    port: 2083
+    server: 8.35.211.4
+    port: 2096
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
     network: ws
@@ -1734,39 +1736,32 @@ proxies:
         Host: aier.eu.cc
   - name: "proxy-148"
     type: vless
-    server: cdn.veilvpn.fans
-    port: 443
-    uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+    server: 51.91.100.128
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-    network: httpupgrade
+    network: ws
     tls: true
-    servername: cdn.veilvpn.fans
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
   - name: "proxy-149"
     type: vless
-    server: 51.91.253.174
-    port: 8443
+    server: 132.145.232.171
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
     tls: true
-    servername: sni.111000.v6.navy
+    servername: sni.111000.indevs.in
     ws-opts:
       headers:
-        Host: sni.111000.v6.navy
+        Host: sni.111000.indevs.in
   - name: "proxy-150"
     type: vless
-    server: 109.120.178.187
-    port: 9250
-    uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
-    udp: true
-    network: grpc
-    tls: false
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-151"
-    type: vless
-    server: 51.91.249.22
-    port: 8443
+    server: 54.37.51.238
+    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
@@ -1775,20 +1770,34 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
+  - name: "proxy-151"
+    type: vless
+    server: 8.39.125.4
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
   - name: "proxy-152"
     type: vless
-    server: usbad.osaip.net
-    port: 443
-    uuid: 4e535ea6-18d2-4083-8459-3dc6fcdada2b
+    server: 104.18.2.108
+    port: 8443
+    uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
     udp: true
-    network: grpc
-    tls: false
-    grpc-opts:
-      grpc-service-name: violet
+    network: ws
+    tls: true
+    servername: daluan.eu.org
+    ws-opts:
+      headers:
+        Host: daluan.eu.org
   - name: "proxy-153"
     type: vless
-    server: 57.128.183.6
-    port: 443
+    server: 57.128.176.87
+    port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
@@ -1799,413 +1808,17 @@ proxies:
         Host: sni.111000.v6.navy
   - name: "proxy-154"
     type: vless
-    server: 8.39.125.204
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    server: 167.253.153.228
+    port: 443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
     udp: true
     network: ws
     tls: true
-    servername: aier.eu.cc
+    servername: 2026.hhhhh.eu.org
     ws-opts:
       headers:
-        Host: aier.eu.cc
+        Host: 2026.hhhhh.eu.org
   - name: "proxy-155"
-    type: vless
-    server: 193.233.199.177
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-7gj.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-7gj.pages.dev
-  - name: "proxy-156"
-    type: vless
-    server: ciallo-egb.pages.dev
-    port: 2096
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-    udp: true
-    network: ws
-    tls: true
-    ws-opts:
-      headers:
-        Host: CIALlO-EgB.pAGES.dEV
-  - name: "proxy-157"
-    type: vless
-    server: nl.cdnjst.org
-    port: 443
-    uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
-    udp: true
-    network: grpc
-    tls: true
-    servername: nl.cdnjst.org
-    grpc-opts:
-      grpc-service-name: downloads
-  - name: "proxy-158"
-    type: vless
-    server: 45.144.232.74
-    port: 587
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-159"
-    type: vless
-    server: 92.118.205.66
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 1-cw6.pages.dev
-    ws-opts:
-      headers:
-        Host: 1-cw6.pages.dev
-  - name: "proxy-160"
-    type: vless
-    server: 8.35.211.53
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-161"
-    type: vless
-    server: 57.129.137.199
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-162"
-    type: vless
-    server: 8.39.125.49
-    port: 2053
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-163"
-    type: vless
-    server: 138.124.123.236
-    port: 9250
-    uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-164"
-    type: vless
-    server: 8.39.125.137
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-165"
-    type: vless
-    server: 51.91.102.26
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-166"
-    type: vless
-    server: 51.91.252.61
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-167"
-    type: vless
-    server: 193.233.232.232
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-9sp.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-9sp.pages.dev
-  - name: "proxy-168"
-    type: vless
-    server: 104.18.34.21
-    port: 8443
-    uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
-    udp: true
-    network: ws
-    tls: true
-    servername: socks5.revil-time3.workers.dev
-    ws-opts:
-      headers:
-        Host: socks5.revil-time3.workers.dev
-  - name: "proxy-169"
-    type: vless
-    server: 8.35.211.124
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-170"
-    type: vless
-    server: 188.130.207.92
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-171"
-    type: vless
-    server: 57.128.176.82
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-172"
-    type: vless
-    server: 185.16.110.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.jpmj.dev
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-  - name: "proxy-173"
-    type: vless
-    server: 51.210.151.165
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-174"
-    type: vless
-    server: 94.131.101.135
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-175"
-    type: vless
-    server: 8.35.211.89
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-176"
-    type: vless
-    server: node215.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-177"
-    type: vless
-    server: 193.108.112.212
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-9sp.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-9sp.pages.dev
-  - name: "proxy-178"
-    type: vless
-    server: 8.35.211.55
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-179"
-    type: vless
-    server: 57.129.137.206
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-180"
-    type: vless
-    server: 94.130.132.180
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-181"
-    type: vless
-    server: 18.143.76.130
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-7ts.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-7ts.pages.dev
-  - name: "proxy-182"
-    type: vless
-    server: 8.35.211.206
-    port: 8443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-183"
-    type: vless
-    server: 2a03:6f00:a::8c9e
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    servername: ru205.mechvpn.online
-    flow: xtls-rprx-vision
-  - name: "proxy-184"
-    type: vless
-    server: ru4.whoshere.site
-    port: 443
-    uuid: 00c5261b-1ec2-4cac-b795-7324facd4dd2
-    udp: true
-    network: tcp
-    tls: true
-    servername: ru4.whoshere.site
-    flow: xtls-rprx-vision
-  - name: "proxy-185"
-    type: vless
-    server: 193.124.188.208
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-186"
-    type: vless
-    server: 8.35.211.240
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-187"
-    type: vless
-    server: 100.22.77.114
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-7fc.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-7fc.pages.dev
-  - name: "proxy-188"
-    type: vless
-    server: 8.35.211.43
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-189"
     type: vless
     server: 188.239.9.91
     port: 443
@@ -2213,343 +1826,23 @@ proxies:
     udp: true
     network: ws
     tls: true
-    servername: 3-93f.pages.dev
+    servername: 3-a2s.pages.dev
     ws-opts:
       headers:
-        Host: 3-93f.pages.dev
-  - name: "proxy-190"
+        Host: 3-a2s.pages.dev
+  - name: "proxy-156"
     type: vless
-    server: 64.238.203.14
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-191"
-    type: vless
-    server: 8.39.125.241
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-192"
-    type: vless
-    server: 172.66.47.45
-    port: 80
-    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: vip.yaml7.ggff.net
-  - name: "proxy-193"
-    type: vless
-    server: 104.24.55.23
+    server: 172.67.204.84
     port: 443
-    uuid: d435363f-b221-428b-94d2-8d0db0113b60
+    uuid: 169221de-6408-4143-9e66-6f77de385e94
     udp: true
     network: ws
     tls: true
-    servername: fancy-disk-fbb6.tmpesterouglas.workers.dev
+    servername: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
     ws-opts:
       headers:
-        Host: fancy-disk-fbb6.tmpesterouglas.workers.dev
-  - name: "proxy-194"
-    type: vless
-    server: 213.210.4.131
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-2h8.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-2h8.pages.dev
-  - name: "proxy-195"
-    type: vless
-    server: 212.34.144.154
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-196"
-    type: vless
-    server: 8.39.125.138
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-197"
-    type: vless
-    server: 8.39.125.37
-    port: 2053
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-198"
-    type: vless
-    server: 18.245.54.3
-    port: 443
-    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-    udp: true
-    network: ws
-    tls: true
-    servername: d2241b25w3zftf.cloudfront.net
-    ws-opts:
-      headers:
-        Host: d2241b25w3zftf.cloudfront.net
-  - name: "proxy-199"
-    type: vless
-    server: 38.180.11.15
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-85q.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-85q.pages.dev
-  - name: "proxy-200"
-    type: vless
-    server: 125.227.233.197
-    port: 2083
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 1-axj.pages.dev
-    ws-opts:
-      headers:
-        Host: 1-axj.pages.dev
-  - name: "proxy-201"
-    type: vless
-    server: 188.114.98.134
-    port: 443
-    uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
-    udp: true
-    network: ws
-    tls: true
-    servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
-    ws-opts:
-      headers:
-        Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-  - name: "proxy-202"
-    type: vless
-    server: 8.39.125.151
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-203"
-    type: vless
-    server: 135.84.73.42
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-204"
-    type: vless
-    server: 8.39.125.55
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-205"
-    type: vless
-    server: 8.39.125.212
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-206"
-    type: vless
-    server: 135.84.64.222
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.dynv6.net
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-  - name: "proxy-207"
-    type: vless
-    server: 8.39.125.211
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-208"
-    type: vless
-    server: 8.39.125.126
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-209"
-    type: vless
-    server: 139.84.235.99
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-deu.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-deu.pages.dev
-  - name: "proxy-210"
-    type: vless
-    server: 77.221.143.154
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.dynv6.net
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-  - name: "proxy-211"
-    type: vless
-    server: 8.39.125.161
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-212"
-    type: vless
-    server: 77.105.142.168
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-213"
-    type: vless
-    server: 51.91.249.9
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-214"
-    type: vless
-    server: 51.38.227.72
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-215"
-    type: vless
-    server: 217.60.252.232
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-216"
-    type: vless
-    server: 45.148.31.0
-    port: 15855
-    uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-  - name: "proxy-217"
-    type: vless
-    server: 57.129.137.217
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-218"
+        Host: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
+  - name: "proxy-157"
     type: vless
     server: 8.39.125.247
     port: 2053
@@ -2561,666 +1854,18 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-219"
+  - name: "proxy-158"
     type: vless
-    server: 8.35.211.23
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-220"
-    type: vless
-    server: 98.98.142.251
+    server: ru23.mechvpn.online
     port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-c6p.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-c6p.pages.dev
-  - name: "proxy-221"
-    type: vless
-    server: 38.180.100.80
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-ayr.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-ayr.pages.dev
-  - name: "proxy-222"
-    type: vless
-    server: 185.189.58.195
-    port: 443
-    uuid: 0071b0bb-ee62-479d-aa4d-aac0069e9886
-    udp: true
-    network: ws
-    tls: true
-    servername: 185.189.58.195
-    ws-opts:
-      headers:
-        Host: 185.189.58.195
-  - name: "proxy-223"
-    type: vless
-    server: 8.39.125.190
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-224"
-    type: vless
-    server: 8.35.211.85
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-225"
-    type: vless
-    server: 8.39.125.66
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-226"
-    type: vless
-    server: 45.153.246.204
-    port: 44082
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-227"
-    type: vless
-    server: 51.75.16.73
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-228"
-    type: vless
-    server: 124.156.202.172
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-2ll.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-2ll.pages.dev
-  - name: "proxy-229"
-    type: vless
-    server: 8.35.211.85
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-230"
-    type: vless
-    server: 126.220.82.161
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-1ng.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-1ng.pages.dev
-  - name: "proxy-231"
-    type: vless
-    server: 62.133.62.104
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-232"
-    type: vless
-    server: 89.23.106.39
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-233"
-    type: vless
-    server: 31.192.237.186
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-234"
-    type: vless
-    server: 193.233.232.9
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-eox.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-eox.pages.dev
-  - name: "proxy-235"
-    type: vless
-    server: 107.172.87.154
-    port: 4433
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-236"
-    type: vless
-    server: 139.84.232.188
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-93f.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-93f.pages.dev
-  - name: "proxy-237"
-    type: vless
-    server: 8.39.125.215
-    port: 2083
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-238"
-    type: vless
-    server: 8.39.125.179
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-239"
-    type: vless
-    server: 188.114.99.243
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-240"
-    type: vless
-    server: 51.75.28.76
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-241"
-    type: vless
-    server: 193.233.198.113
-    port: 8443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-abf.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-abf.pages.dev
-  - name: "proxy-242"
-    type: vless
-    server: 222.167.202.36
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-243"
-    type: vless
-    server: 45.83.21.13
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-8gy.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-8gy.pages.dev
-  - name: "proxy-244"
-    type: vless
-    server: 31.58.152.45
-    port: 3443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-245"
-    type: vless
-    server: 91.186.219.135
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-246"
-    type: vless
-    server: 222.167.202.10
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-247"
-    type: vless
-    server: 8.39.125.236
-    port: 8443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-248"
-    type: vless
-    server: 167.253.153.163
-    port: 443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-249"
-    type: vless
-    server: 8.35.211.224
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-250"
-    type: vless
-    server: 132.145.29.208
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 1-dfd.pages.dev
-    ws-opts:
-      headers:
-        Host: 1-dfd.pages.dev
-  - name: "proxy-251"
-    type: vless
-    server: 57.129.137.207
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-252"
-    type: vless
-    server: 141.193.213.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.jpmj.dev
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-  - name: "proxy-253"
-    type: vless
-    server: 8.35.211.65
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-254"
-    type: vless
-    server: 8.35.211.44
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-255"
-    type: vless
-    server: 57.128.182.234
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-256"
-    type: vless
-    server: 222.167.202.23
-    port: 7443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-257"
-    type: vless
-    server: 51.91.100.159
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-258"
-    type: vless
-    server: 212.183.88.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.jpmj.dev
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-  - name: "proxy-259"
-    type: vless
-    server: 167.253.153.28
-    port: 443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-260"
-    type: vless
-    server: 146.235.209.40
-    port: 58869
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-261"
-    type: vless
-    server: 8.35.211.198
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-262"
-    type: vless
-    server: 185.93.105.107
-    port: 443
-    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
     udp: true
     network: tcp
     tls: true
-    servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-263"
+  - name: "proxy-159"
     type: vless
-    server: 167.253.153.182
-    port: 443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-264"
-    type: vless
-    server: nuclear.us.kg
-    port: 443
-    uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-    udp: true
-    network: ws
-    tls: true
-    servername: nuclear.us.kg
-    ws-opts:
-      headers:
-        Host: nuclear.us.kg
-  - name: "proxy-265"
-    type: vless
-    server: 122.10.119.252
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 1-axj.pages.dev
-    ws-opts:
-      headers:
-        Host: 1-axj.pages.dev
-  - name: "proxy-266"
-    type: vless
-    server: 188.226.161.57
-    port: 443
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    udp: true
-    network: ws
-    tls: true
-    servername: gavorbhj.chinam.indevs.in
-    ws-opts:
-      headers:
-        Host: gavorbhj.chinam.indevs.in
-  - name: "proxy-267"
-    type: vless
-    server: 188.114.97.3
-    port: 443
-    uuid: d082b5e0-2435-4599-b935-d2c2b70beb67
-    udp: true
-    network: ws
-    tls: true
-    servername: purple-mrvpn294x.mrvpnandamir294.workers.dev
-    ws-opts:
-      headers:
-        Host: purple-mrvpn294x.mrvpnandamir294.workers.dev
-  - name: "proxy-268"
-    type: vless
-    server: 8.39.125.85
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-269"
-    type: vless
-    server: 8.35.211.55
-    port: 2087
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-270"
-    type: vless
-    server: 192.81.223.48
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-271"
-    type: vless
-    server: 172.67.72.158
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-272"
-    type: vless
-    server: 8.39.125.155
-    port: 443
-    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
-    udp: true
-    network: ws
-    tls: true
-    servername: edt2.btxst.eu.cc
-    ws-opts:
-      headers:
-        Host: edt2.btxst.eu.cc
-  - name: "proxy-273"
-    type: vless
-    server: 104.19.35.216
-    port: 80
-    uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: amirvpn.amirhm00100.workers.dev
-  - name: "proxy-274"
-    type: vless
-    server: 8.35.211.111
+    server: 8.39.125.136
     port: 2096
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
@@ -3230,9 +1875,57 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-275"
+  - name: "proxy-160"
     type: vless
-    server: 8.39.125.14
+    server: 154.16.183.190
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-161"
+    type: vless
+    server: 8.39.125.37
+    port: 2053
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-162"
+    type: vless
+    server: 62.84.183.222
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-163"
+    type: vless
+    server: 138.124.3.201
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-164"
+    type: vless
+    server: 8.35.211.236
     port: 8443
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
@@ -3242,7 +1935,40 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-276"
+  - name: "proxy-165"
+    type: vless
+    server: 79.137.174.103
+    port: 443
+    uuid: 54cc54b2-77ad-4541-b7b6-7ac2053b60d4
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru-portal.meetvideo.ru
+  - name: "proxy-166"
+    type: vless
+    server: 57.128.181.18
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-167"
+    type: vless
+    server: 8.35.211.169
+    port: 2087
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-168"
     type: vless
     server: 188.114.96.7
     port: 443
@@ -3254,10 +1980,54 @@ proxies:
     ws-opts:
       headers:
         Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
-  - name: "proxy-277"
+  - name: "proxy-169"
     type: vless
-    server: 213.35.100.31
-    port: 47112
+    server: 185.36.140.105
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-abf.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-abf.pages.dev
+  - name: "proxy-170"
+    type: vless
+    server: 8.35.211.186
+    port: 8443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-171"
+    type: vless
+    server: 2a03:6f00:a::b5b6
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru166.mechvpn.online
+    flow: xtls-rprx-vision
+  - name: "proxy-172"
+    type: vless
+    server: 2a03:6f01:1:2::ac2b
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru198.mechvpn.online
+    flow: xtls-rprx-vision
+  - name: "proxy-173"
+    type: vless
+    server: 146.56.99.255
+    port: 56789
     uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
     udp: true
     network: ws
@@ -3266,81 +2036,22 @@ proxies:
     ws-opts:
       headers:
         Host: edt2.btxst.eu.cc
-  - name: "proxy-278"
+  - name: "proxy-174"
     type: vless
-    server: 162.159.45.207
-    port: 80
-    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: vip.yaml7.ggff.net
-  - name: "proxy-279"
-    type: vless
-    server: 129.150.46.113
+    server: 128.127.180.105
     port: 443
     uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
     udp: true
     network: ws
     tls: true
-    servername: 1-brc.pages.dev
+    servername: 3-2h8.pages.dev
     ws-opts:
       headers:
-        Host: 1-brc.pages.dev
-  - name: "proxy-280"
+        Host: 3-2h8.pages.dev
+  - name: "proxy-175"
     type: vless
-    server: 212.192.214.215
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 3-7gj.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-7gj.pages.dev
-  - name: "proxy-281"
-    type: vless
-    server: 8.39.125.219
-    port: 2053
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-282"
-    type: vless
-    server: 51.77.140.38
+    server: 57.129.63.37
     port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-283"
-    type: vless
-    server: 167.253.153.58
-    port: 443
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-284"
-    type: vless
-    server: 51.91.254.78
-    port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
@@ -3349,93 +2060,21 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-285"
+  - name: "proxy-176"
     type: vless
-    server: news.zoom.us
-    port: 8443
-    uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+    server: 104.18.3.26
+    port: 2083
+    uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
     udp: true
     network: ws
     tls: true
-    servername: darknet-free.alexid.org
+    servername: daluan.eu.org
     ws-opts:
       headers:
-        Host: darknet-free.alexid.org
-  - name: "proxy-286"
+        Host: daluan.eu.org
+  - name: "proxy-177"
     type: vless
-    server: 8.39.125.77
-    port: 443
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-287"
-    type: vless
-    server: 185.238.228.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.jpmj.dev
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-  - name: "proxy-288"
-    type: vless
-    server: dongjing3.zqjsqapi.com
-    port: 443
-    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-    udp: true
-    network: ws
-    tls: true
-    servername: dongjing3.zqjsqapi.com
-    ws-opts:
-      headers:
-        Host: dongjing3.zqjsqapi.com
-  - name: "proxy-289"
-    type: vless
-    server: 57.129.63.133
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.dynv6.net
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-  - name: "proxy-290"
-    type: vless
-    server: 138.2.95.61
-    port: 1111
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-291"
-    type: vless
-    server: 104.21.88.28
-    port: 443
-    uuid: 1f034338-33a3-40f7-8e82-e4042e8410af
-    udp: true
-    network: ws
-    tls: true
-    servername: gardconfig12.bnam38637.workers.dev
-    ws-opts:
-      headers:
-        Host: gardconfig12.bnam38637.workers.dev
-  - name: "proxy-292"
-    type: vless
-    server: 8.39.125.240
+    server: 8.35.211.139
     port: 2087
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
@@ -3445,10 +2084,10 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-293"
+  - name: "proxy-178"
     type: vless
-    server: 8.35.211.198
-    port: 2083
+    server: 8.39.125.176
+    port: 2053
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
     network: ws
@@ -3457,34 +2096,10 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-294"
+  - name: "proxy-179"
     type: vless
-    server: 51.75.23.173
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-295"
-    type: vless
-    server: 57.129.63.154
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.dynv6.net
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-  - name: "proxy-296"
-    type: vless
-    server: 167.253.153.253
-    port: 443
+    server: 222.167.202.60
+    port: 7443
     uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
     udp: true
     network: ws
@@ -3493,18 +2108,79 @@ proxies:
     ws-opts:
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-297"
+  - name: "proxy-180"
     type: vless
-    server: 104.21.224.5
-    port: 80
-    uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
+    server: 104.16.250.22
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
-    tls: false
+    tls: true
+    servername: sni.111000.indevs.in
     ws-opts:
       headers:
-        Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-  - name: "proxy-298"
+        Host: sni.111000.indevs.in
+  - name: "proxy-181"
+    type: vless
+    server: 13.192.113.15
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7bf.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7bf.pages.dev
+  - name: "proxy-182"
+    type: vless
+    server: 210.156.180.102
+    port: 16090
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-183"
+    type: vless
+    server: 57.129.47.42
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-184"
+    type: vless
+    server: 57.128.183.90
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-185"
+    type: vless
+    server: 172.93.221.34
+    port: 11876
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-186"
     type: vless
     server: 8.35.211.212
     port: 2053
@@ -3516,9 +2192,947 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
-  - name: "proxy-299"
+  - name: "proxy-187"
     type: vless
-    server: 8.35.211.222
+    server: 45.88.67.37
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-188"
+    type: vless
+    server: 31.58.152.45
+    port: 3443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-189"
+    type: vless
+    server: 8.35.211.31
+    port: 8443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-190"
+    type: vless
+    server: 51.210.151.193
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-191"
+    type: vless
+    server: 75.102.51.220
+    port: 443
+    uuid: be2d41c0-50d5-49f8-d309-f6fd923063f7
+    udp: true
+    network: ws
+    tls: true
+    servername: ustc.dysenv2ray.top
+    ws-opts:
+      headers:
+        Host: ustc.dysenv2ray.top
+  - name: "proxy-192"
+    type: vless
+    server: 104.19.59.172
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-193"
+    type: vless
+    server: 51.91.249.154
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-194"
+    type: vless
+    server: 8.39.125.112
+    port: 8443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-195"
+    type: vless
+    server: 8.35.211.22
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-196"
+    type: vless
+    server: 8.39.125.179
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-197"
+    type: vless
+    server: 8.35.211.198
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-198"
+    type: vless
+    server: 8.39.125.62
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-199"
+    type: vless
+    server: 87.251.69.48
+    port: 8443
+    uuid: e95e5d5b-93ee-4d42-b203-2ffae0d146ba
+    udp: true
+    network: tcp
+    tls: true
+    servername: at16.fastlanehosting.ru
+  - name: "proxy-200"
+    type: vless
+    server: 92.118.205.66
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-jk1.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-jk1.pages.dev
+  - name: "proxy-201"
+    type: vless
+    server: 104.17.19.26
+    port: 80
+    uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: 29.alij47649.workers.dev
+  - name: "proxy-202"
+    type: vless
+    server: ru198.mechvpn.online
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru198.mechvpn.online
+    flow: xtls-rprx-vision
+  - name: "proxy-203"
+    type: vless
+    server: 172.64.35.55
+    port: 443
+    uuid: f5faa4fd-298c-43a4-9e8a-102537cfae71
+    udp: true
+    network: ws
+    tls: true
+    servername: white-dew-0792.tmp99998.workers.dev
+    ws-opts:
+      headers:
+        Host: white-dew-0792.tmp99998.workers.dev
+  - name: "proxy-204"
+    type: vless
+    server: 8.39.125.166
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-205"
+    type: vless
+    server: 8.35.211.240
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-206"
+    type: vless
+    server: 51.91.101.216
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-207"
+    type: vless
+    server: 8.35.211.134
+    port: 8443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-208"
+    type: vless
+    server: cdn.7zz.cn
+    port: 443
+    uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+    udp: true
+    network: ws
+    tls: true
+    servername: vltj.qzz.io
+    ws-opts:
+      headers:
+        Host: vltj.qzz.io
+  - name: "proxy-209"
+    type: vless
+    server: 131.186.24.124
+    port: 587
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-210"
+    type: vless
+    server: 8.35.211.218
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-211"
+    type: vless
+    server: 8.35.211.65
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-212"
+    type: vless
+    server: 159.100.9.64
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-213"
+    type: vless
+    server: 178.62.67.149
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7bf.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7bf.pages.dev
+  - name: "proxy-214"
+    type: vless
+    server: 92.118.205.177
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-brc.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-brc.pages.dev
+  - name: "proxy-215"
+    type: vless
+    server: 62.60.186.24
+    port: 9250
+    uuid: 7abc4045-39aa-44db-bfd2-a57462ccb4a8
+    udp: true
+    network: grpc
+    tls: false
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-216"
+    type: vless
+    server: 45.8.113.65
+    port: 39863
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-217"
+    type: vless
+    server: 172.67.134.91
+    port: 443
+    uuid: e62d084a-b9de-4486-a776-a54d200f89c1
+    udp: true
+    network: ws
+    tls: true
+    servername: square-sea-36d2.sendconfig.workers.dev
+    ws-opts:
+      headers:
+        Host: square-sea-36d2.sendconfig.workers.dev
+  - name: "proxy-218"
+    type: vless
+    server: cdn.veilvpn.fans
+    port: 443
+    uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+    udp: true
+    network: httpupgrade
+    tls: true
+    servername: cdn.veilvpn.fans
+  - name: "proxy-219"
+    type: vless
+    server: 167.253.153.162
+    port: 443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-220"
+    type: vless
+    server: 104.239.87.213
+    port: 2053
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 177-e06.pages.dev
+    ws-opts:
+      headers:
+        Host: 177-e06.pages.dev
+  - name: "proxy-221"
+    type: vless
+    server: 51.210.151.165
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-222"
+    type: vless
+    server: 8.35.211.85
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-223"
+    type: vless
+    server: 8.39.125.138
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-224"
+    type: vless
+    server: 139.84.232.188
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-gjo.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-gjo.pages.dev
+  - name: "proxy-225"
+    type: vless
+    server: 2.27.47.216
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-226"
+    type: vless
+    server: 8.223.63.150
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-227"
+    type: vless
+    server: 51.91.102.163
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-228"
+    type: vless
+    server: 193.233.199.177
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7gj.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7gj.pages.dev
+  - name: "proxy-229"
+    type: vless
+    server: 8.35.211.90
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-230"
+    type: vless
+    server: 8.39.125.66
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-231"
+    type: vless
+    server: 104.19.173.68
+    port: 443
+    uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
+    udp: true
+    network: ws
+    tls: true
+    servername: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+    ws-opts:
+      headers:
+        Host: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+  - name: "proxy-232"
+    type: vless
+    server: 104.20.63.52
+    port: 80
+    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vip.yaml7.ggff.net
+  - name: "proxy-233"
+    type: vless
+    server: 8.35.211.55
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-234"
+    type: vless
+    server: 8.39.125.212
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-235"
+    type: vless
+    server: 8.39.125.120
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-236"
+    type: vless
+    server: 2a0f:1140:140:23c::2
+    port: 443
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    udp: true
+    network: tcp
+    tls: true
+    servername: node111.mechvpn.online
+    flow: xtls-rprx-vision
+  - name: "proxy-237"
+    type: vless
+    server: 8.39.125.82
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-238"
+    type: vless
+    server: 8.39.125.242
+    port: 8443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-239"
+    type: vless
+    server: 188.114.97.3
+    port: 443
+    uuid: 1f034338-33a3-40f7-8e82-e4042e8410af
+    udp: true
+    network: ws
+    tls: true
+    servername: gardconfig12.bnam38637.workers.dev
+    ws-opts:
+      headers:
+        Host: gardconfig12.bnam38637.workers.dev
+  - name: "proxy-240"
+    type: vless
+    server: 193.111.30.215
+    port: 15052
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-241"
+    type: vless
+    server: 192.81.223.48
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-242"
+    type: vless
+    server: 18.143.76.130
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7ts.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7ts.pages.dev
+  - name: "proxy-243"
+    type: vless
+    server: 188.114.96.3
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-244"
+    type: vless
+    server: 8.39.125.241
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-245"
+    type: vless
+    server: dongjing3.zqjsqapi.com
+    port: 443
+    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+    udp: true
+    network: ws
+    tls: true
+    servername: dongjing3.zqjsqapi.com
+    ws-opts:
+      headers:
+        Host: dongjing3.zqjsqapi.com
+  - name: "proxy-246"
+    type: vless
+    server: 8.39.125.151
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-247"
+    type: vless
+    server: 122.10.119.252
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-axj.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-axj.pages.dev
+  - name: "proxy-248"
+    type: vless
+    server: 178.128.192.26
+    port: 2087
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-249"
+    type: vless
+    server: 104.19.51.118
+    port: 80
+    uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: 29.alij47649.workers.dev
+  - name: "proxy-250"
+    type: vless
+    server: 185.238.228.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-251"
+    type: vless
+    server: 185.16.110.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-252"
+    type: vless
+    server: 212.192.214.215
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7gj.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7gj.pages.dev
+  - name: "proxy-253"
+    type: vless
+    server: 129.153.91.86
+    port: 3701
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-254"
+    type: vless
+    server: 13.113.26.46
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-jk1.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-jk1.pages.dev
+  - name: "proxy-255"
+    type: vless
+    server: 91.132.132.233
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7ny.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7ny.pages.dev
+  - name: "proxy-256"
+    type: vless
+    server: 219.76.13.169
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-257"
+    type: vless
+    server: 8.35.211.208
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-258"
+    type: vless
+    server: 104.26.3.125
+    port: 2052
+    uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: icy-wildflower-2590.lihuifeng595.workers.dev
+  - name: "proxy-259"
+    type: vless
+    server: square-sea-36d2.sendconfig.workers.dev
+    port: 443
+    uuid: e62d084a-b9de-4486-a776-a54d200f89c1
+    udp: true
+    network: ws
+    tls: true
+    servername: square-sea-36d2.sendconfig.workers.dev
+    ws-opts:
+      headers:
+        Host: square-sea-36d2.sendconfig.workers.dev
+  - name: "proxy-260"
+    type: vless
+    server: ru-portal.meetvideo.ru
+    port: 443
+    uuid: 54cc54b2-77ad-4541-b7b6-7ac2053b60d4
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru-portal.meetvideo.ru
+  - name: "proxy-261"
+    type: vless
+    server: ru5.whoshere.site
+    port: 443
+    uuid: 00c5261b-1ec2-4cac-b795-7324facd4dd2
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru5.whoshere.site
+    flow: xtls-rprx-vision
+  - name: "proxy-262"
+    type: vless
+    server: 57.129.137.59
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-263"
+    type: vless
+    server: 8.39.125.49
+    port: 2053
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-264"
+    type: vless
+    server: 8.39.125.55
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-265"
+    type: vless
+    server: 57.128.183.248
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-266"
+    type: vless
+    server: 162.159.152.160
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-267"
+    type: vless
+    server: 8.35.211.55
     port: 2087
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
@@ -3528,6 +3142,380 @@ proxies:
     ws-opts:
       headers:
         Host: aier.eu.cc
+  - name: "proxy-268"
+    type: vless
+    server: 167.253.153.253
+    port: 443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-269"
+    type: vless
+    server: 8.35.211.228
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-270"
+    type: vless
+    server: 57.129.47.59
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-271"
+    type: vless
+    server: 8.35.211.136
+    port: 2096
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-272"
+    type: vless
+    server: 167.253.153.182
+    port: 443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-273"
+    type: vless
+    server: 129.150.46.113
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-brc.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-brc.pages.dev
+  - name: "proxy-274"
+    type: vless
+    server: 57.128.181.14
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-275"
+    type: vless
+    server: 125.227.233.197
+    port: 2053
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-2cd.pages.dev
+    ws-opts:
+      headers:
+        Host: 1-2cd.pages.dev
+  - name: "proxy-276"
+    type: vless
+    server: 104.18.34.21
+    port: 8443
+    uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+    udp: true
+    network: ws
+    tls: true
+    servername: socks5.revil-time3.workers.dev
+    ws-opts:
+      headers:
+        Host: socks5.revil-time3.workers.dev
+  - name: "proxy-277"
+    type: vless
+    server: 104.18.14.201
+    port: 2096
+    uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
+    udp: true
+    network: ws
+    tls: true
+    servername: daluan.eu.org
+    ws-opts:
+      headers:
+        Host: daluan.eu.org
+  - name: "proxy-278"
+    type: vless
+    server: 193.124.188.208
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-279"
+    type: vless
+    server: 8.35.211.124
+    port: 2053
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-280"
+    type: vless
+    server: 8.39.125.184
+    port: 2083
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-281"
+    type: vless
+    server: 51.91.255.152
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-282"
+    type: vless
+    server: 185.186.245.40
+    port: 81
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-283"
+    type: vless
+    server: 128.1.190.149
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7v4.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-7v4.pages.dev
+  - name: "proxy-284"
+    type: vless
+    server: 172.67.171.253
+    port: 443
+    uuid: 1f034338-33a3-40f7-8e82-e4042e8410af
+    udp: true
+    network: ws
+    tls: true
+    servername: gardconfig12.bnam38637.workers.dev
+    ws-opts:
+      headers:
+        Host: gardconfig12.bnam38637.workers.dev
+  - name: "proxy-285"
+    type: vless
+    server: 45.82.251.116
+    port: 8880
+    uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+    udp: true
+    network: grpc
+    tls: false
+    grpc-opts:
+  - name: "proxy-286"
+    type: vless
+    server: 172.67.72.158
+    port: 443
+    uuid: 8d2aeab8-ce98-47a6-84ec-d5b45d060b66
+    udp: true
+    network: ws
+    tls: true
+    servername: edt2.btxst.eu.cc
+    ws-opts:
+      headers:
+        Host: edt2.btxst.eu.cc
+  - name: "proxy-287"
+    type: vless
+    server: 104.17.15.87
+    port: 80
+    uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: britain.xydcqd.workers.dev
+  - name: "proxy-288"
+    type: vless
+    server: 45.148.31.0
+    port: 15855
+    uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+  - name: "proxy-289"
+    type: vless
+    server: 167.88.160.144
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-290"
+    type: vless
+    server: 8.39.125.137
+    port: 443
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-291"
+    type: vless
+    server: 8.39.125.205
+    port: 2087
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-292"
+    type: vless
+    server: 45.131.4.192
+    port: 80
+    uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: silent-paper-fa57.fipiyag989.workers.dev
+  - name: "proxy-293"
+    type: vless
+    server: usrna.osaip.net
+    port: 15055
+    uuid: f9f05e58-9e62-487b-b33b-9b88e2a3e92b
+    udp: true
+    network: grpc
+    tls: true
+    grpc-opts:
+      grpc-service-name: violet
+  - name: "proxy-294"
+    type: vless
+    server: 8.39.125.229
+    port: 2053
+    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
+    udp: true
+    network: ws
+    tls: true
+    servername: aier.eu.cc
+    ws-opts:
+      headers:
+        Host: aier.eu.cc
+  - name: "proxy-295"
+    type: vless
+    server: 109.235.242.101
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-vud.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-vud.pages.dev
+  - name: "proxy-296"
+    type: vless
+    server: 125.228.236.138
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-2ll.pages.dev
+    ws-opts:
+      headers:
+        Host: 3-2ll.pages.dev
+  - name: "proxy-297"
+    type: vless
+    server: 141.94.220.210
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-298"
+    type: vless
+    server: 146.59.159.111
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-299"
+    type: vless
+    server: chatgpt.com
+    port: 443
+    uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3
+    udp: true
+    network: ws
+    tls: true
+    servername: s6.oboob.cn
+    ws-opts:
+      headers:
+        Host: s6.oboob.cn
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
