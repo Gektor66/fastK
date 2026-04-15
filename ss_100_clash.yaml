@@ -4,19 +4,19 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-7"
+  - name: "proxy-0"
+    type: ss
+    server: 212.192.215.229
+    port: 8443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bpath%3D3e96ef7d-8637-42c2-ac73-75182196e755%2F%3Fed%5C%3D2560%3Bmux%3D0%3Bhost%3Dmfvpn.fuchen.indevs.in%3Btls
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    udp: true
+  - name: "proxy-8"
     type: ss
     server: 89.169.6.69
     port: 443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dylnhh.us.ci%3Bpath%3D%2F14b02e2a-8930-4afb-8412-ea4a4954ca5b%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    udp: true
-  - name: "proxy-8"
-    type: ss
-    server: 212.192.215.229
-    port: 8443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dmfvpn.fuchen.indevs.in%3Bpath%3D3e96ef7d-8637-42c2-ac73-75182196e755%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
     udp: true
   - name: "proxy-9"
     type: ss
@@ -660,7 +660,7 @@ proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-7"
+      - "proxy-0"
       - "proxy-8"
       - "proxy-9"
       - "proxy-10"
