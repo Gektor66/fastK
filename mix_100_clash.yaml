@@ -1170,47 +1170,67 @@ proxies:
         Host: sni.111000.indevs.in
   - name: "proxy-95"
     type: vless
-    server: 94.131.100.163
-    port: 443
-    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
+    server: 188.114.98.112
+    port: 80
+    uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
     udp: true
     network: ws
-    tls: true
-    servername: api.avito.ru
+    tls: false
     ws-opts:
-      path: /pyzrgqws
+      path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
+      headers:
+        Host: elenaaaaaaaaaa.cloudns.pro.
   - name: "proxy-96"
     type: vless
-    server: 46.101.57.231
-    port: 443
-    uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
+    server: 104.24.0.25
+    port: 2096
+    uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: EMS.Arc-Time.Workers.DEV
     ws-opts:
-      path: /esoznjws
+      path: /a82a7uco7z62
+      headers:
+        Host: ems.arc-time.workers.dev
   - name: "proxy-97"
     type: vless
-    server: 146.19.143.15
-    port: 443
-    uuid: vmalXSpmdGeiZpFCaxxqmx
+    server: 104.20.5.134
+    port: 2052
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     udp: true
-    network: tcp
+    network: ws
     tls: false
-  - name: "proxy-99"
+    ws-opts:
+      path: /assets
+      headers:
+        Host: index.0x14.workers.dev
+  - name: "proxy-98"
     type: vless
-    server: 81.161.98.228
-    port: 1443/
-    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+    server: 77.75.199.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
     tls: true
-    servername: vkvideo.cs7777.vk.ru
+    servername: sni.111000.indevs.in
     ws-opts:
-      path: /websocketpl
+      path: /
       headers:
-        Host: cdn.filterai.ru
+        Host: sni.111000.indevs.in
+  - name: "proxy-99"
+    type: vless
+    server: 172.64.149.54
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1314,6 +1334,7 @@ proxy-groups:
       - "proxy-95"
       - "proxy-96"
       - "proxy-97"
+      - "proxy-98"
       - "proxy-99"
 
 rules:
