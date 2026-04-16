@@ -1177,26 +1177,43 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-97"
     type: vless
-    server: 94.131.100.163
+    server: 172.66.3.201
     port: 443
-    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
+    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
     udp: true
     network: ws
     tls: true
-    servername: api.avito.ru
+    servername: juzi.qea.ccwu.cc
     ws-opts:
-      path: /pyzrgqws
+      path: /
+      headers:
+        Host: juzi.qea.ccwu.cc
   - name: "proxy-98"
     type: vless
-    server: 46.101.57.231
+    server: 162.159.18.105
     port: 443
-    uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
+    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: juzi.qea.ccwu.cc
     ws-opts:
-      path: /esoznjws
+      path: /
+      headers:
+        Host: juzi.qea.ccwu.cc
+  - name: "proxy-99"
+    type: vless
+    server: 98.98.142.251
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7gj.pages.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: 3-7gj.pages.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1301,6 +1318,7 @@ proxy-groups:
       - "proxy-96"
       - "proxy-97"
       - "proxy-98"
+      - "proxy-99"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN

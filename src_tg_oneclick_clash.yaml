@@ -1738,6 +1738,103 @@ proxies:
     tls: true
     servername: germ-dop.anti-vpn.ru
     flow: xtls-rprx-vision
+  - name: "proxy-152"
+    type: vless
+    server: 172.66.3.201
+    port: 443
+    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+    udp: true
+    network: ws
+    tls: true
+    servername: juzi.qea.ccwu.cc
+    ws-opts:
+      path: /
+      headers:
+        Host: juzi.qea.ccwu.cc
+  - name: "proxy-153"
+    type: vless
+    server: 162.159.18.105
+    port: 443
+    uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+    udp: true
+    network: ws
+    tls: true
+    servername: juzi.qea.ccwu.cc
+    ws-opts:
+      path: /
+      headers:
+        Host: juzi.qea.ccwu.cc
+  - name: "proxy-154"
+    type: vless
+    server: 98.98.142.251
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-7gj.pages.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: 3-7gj.pages.dev
+  - name: "proxy-155"
+    type: ss
+    server: series-a1.samanehha.co
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: "proxy-156"
+    type: vless
+    server: 45.15.125.12
+    port: 8443
+    uuid: b9e5c4b7-1e9b-4ca5-82dc-43f3a440484c
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: YF_Vfx9VdDFXKM4bL1RZx6vsUqlSMtT56wPt987Aul8
+      short-id: db49831a996244d8
+  - name: "proxy-157"
+    type: vless
+    server: 222.167.202.3
+    port: 7443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      path: /222.167.202.3:7443
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-158"
+    type: trojan
+    server: jp.111000.cc.cd
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "proxy-159"
+    type: vless
+    server: 212.92.101.195
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-160"
+    type: vless
+    server: 212.92.101.190
+    port: 52006
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: germ-dop.anti-vpn.ru
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1890,6 +1987,15 @@ proxy-groups:
       - "proxy-148"
       - "proxy-149"
       - "proxy-150"
+      - "proxy-152"
+      - "proxy-153"
+      - "proxy-154"
+      - "proxy-155"
+      - "proxy-156"
+      - "proxy-157"
+      - "proxy-158"
+      - "proxy-159"
+      - "proxy-160"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
