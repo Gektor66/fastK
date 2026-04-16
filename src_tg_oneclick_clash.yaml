@@ -1327,6 +1327,135 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
+  - name: "proxy-115"
+    type: trojan
+    server: 82.26.155.121
+    port: 10369
+    password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+    udp: true
+  - name: "proxy-117"
+    type: vless
+    server: 198.105.112.64
+    port: 7443
+    uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+    udp: true
+    network: tcp
+    tls: true
+    servername: chat.deepseek.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+      short-id: d82fb387
+  - name: "proxy-118"
+    type: trojan
+    server: 82.26.155.105
+    port: 10369
+    password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+    udp: true
+  - name: "proxy-119"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    udp: true
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+  - name: "proxy-120"
+    type: ss
+    server: 193.29.139.217
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: 4a2rfixophdjffa8KVA4Aa
+    udp: true
+  - name: "proxy-121"
+    type: vless
+    server: 130.162.220.137
+    port: 443
+    uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.lamer.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
+      short-id: 66ed2fdd
+  - name: "proxy-122"
+    type: vless
+    server: 104.129.167.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-123"
+    type: vless
+    server: 104.239.72.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-124"
+    type: vless
+    server: 45.12.30.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /?telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2=
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-125"
+    type: vless
+    server: 199.34.228.41
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-126"
+    type: vless
+    server: 104.17.74.206
+    port: 2096
+    uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+    udp: true
+    network: ws
+    tls: true
+    servername: index.harmony702.workers.dev
+    ws-opts:
+      path: /axcp1cm75o7digvt
+      headers:
+        Host: index.harmony702.workers.dev
+  - name: "proxy-127"
+    type: vless
+    server: 141.101.121.169
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1442,6 +1571,18 @@ proxy-groups:
       - "proxy-112"
       - "proxy-113"
       - "proxy-114"
+      - "proxy-115"
+      - "proxy-117"
+      - "proxy-118"
+      - "proxy-119"
+      - "proxy-120"
+      - "proxy-121"
+      - "proxy-122"
+      - "proxy-123"
+      - "proxy-124"
+      - "proxy-125"
+      - "proxy-126"
+      - "proxy-127"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
