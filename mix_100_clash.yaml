@@ -1203,13 +1203,13 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-99"
     type: vless
-    server: 193.39.168.152
-    port: 58169
-    uuid: c911018e-3cb0-485f-88d8-d72e2d90506a
+    server: cluster-de-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
-    network: ws
-    tls: false
-    ws-opts:
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
