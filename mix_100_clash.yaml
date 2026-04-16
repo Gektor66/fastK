@@ -1144,7 +1144,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-96"
     type: vless
-    server: 212.193.155.80
+    server: 212.193.152.120
     port: 443
     uuid: e65b6a31-3230-5f17-d3f5-1aab31ea3c47
     udp: true
@@ -1152,12 +1152,11 @@ proxies:
     tls: true
     servername: s24531.cdn.ngenix.net
     ws-opts:
-      path: /
       headers:
         Host: s24531.cdn.ngenix.net
   - name: "proxy-97"
     type: vless
-    server: 46.235.186.177
+    server: 212.193.155.80
     port: 443
     uuid: e65b6a31-3230-5f17-d3f5-1aab31ea3c47
     udp: true
@@ -1170,7 +1169,7 @@ proxies:
         Host: s24531.cdn.ngenix.net
   - name: "proxy-98"
     type: vless
-    server: s24531.cdn.ngenix.net
+    server: 46.235.186.177
     port: 443
     uuid: e65b6a31-3230-5f17-d3f5-1aab31ea3c47
     udp: true
@@ -1183,13 +1182,17 @@ proxies:
         Host: s24531.cdn.ngenix.net
   - name: "proxy-99"
     type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    server: s24531.cdn.ngenix.net
+    port: 443
+    uuid: e65b6a31-3230-5f17-d3f5-1aab31ea3c47
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    flow: xtls-rprx-vision
+    servername: s24531.cdn.ngenix.net
+    ws-opts:
+      path: /
+      headers:
+        Host: s24531.cdn.ngenix.net
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
