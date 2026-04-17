@@ -4,7 +4,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-2"
+  - name: "proxy-1"
     type: vmess
     server: 5.188.190.252
     port: 22324
@@ -17,7 +17,7 @@ proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-2"
+      - "proxy-1"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
