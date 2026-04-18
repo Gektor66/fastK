@@ -986,19 +986,19 @@ proxies:
         Host: sni.111000.v6.navy
   - name: "proxy-79"
     type: vless
-    server: 158.160.124.184
+    server: 158.160.132.244
     port: 443
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
     network: ws
     tls: true
-    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+    servername: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
     ws-opts:
       headers:
-        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+        Host: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
   - name: "proxy-80"
     type: vless
-    server: 158.160.28.195
+    server: 158.160.0.54
     port: 443
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
@@ -1011,7 +1011,7 @@ proxies:
   - name: "proxy-81"
     type: vless
     server: 158.160.28.195
-    port: 8447
+    port: 443
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
     network: ws
@@ -1096,6 +1096,32 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-89"
     type: vless
+    server: 46.235.189.248
+    port: 443
+    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    udp: true
+    network: ws
+    tls: true
+    servername: s35222.cdn.ngenix.net
+    ws-opts:
+      path: /stream/live
+      headers:
+        Host: s35222.cdn.ngenix.net
+  - name: "proxy-90"
+    type: vless
+    server: s35222.cdn.ngenix.net
+    port: 443
+    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    udp: true
+    network: ws
+    tls: true
+    servername: s35222.cdn.ngenix.net
+    ws-opts:
+      path: /stream/live
+      headers:
+        Host: s35222.cdn.ngenix.net
+  - name: "proxy-91"
+    type: vless
     server: cluster-russia-1.firstvideocdn.ru
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
@@ -1103,7 +1129,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-90"
+  - name: "proxy-92"
     type: vless
     server: tegr.firstvideocdn.ru
     port: 52006
@@ -1112,16 +1138,16 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-91"
+  - name: "proxy-93"
     type: vless
-    server: 178.72.181.69
+    server: 178.72.181.71
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-92"
+  - name: "proxy-94"
     type: vless
     server: 158.160.199.118
     port: 3030
@@ -1133,9 +1159,9 @@ proxies:
     ws-opts:
       headers:
         Host: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-93"
+  - name: "proxy-95"
     type: vless
-    server: 38.244.139.145
+    server: 38.244.139.141
     port: 443
     uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
     udp: true
@@ -1143,9 +1169,9 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-94"
+  - name: "proxy-96"
     type: vless
-    server: 172.64.155.209
+    server: 104.18.32.47
     port: 443
     uuid: 1027b850-de79-4a94-b337-eccdac28e141
     udp: true
@@ -1156,7 +1182,7 @@ proxies:
       path: /vless
       headers:
         Host: g.sandesh.qzz.io
-  - name: "proxy-95"
+  - name: "proxy-97"
     type: vless
     server: 103.106.228.126
     port: 2053
@@ -1169,34 +1195,10 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-96"
-    type: vless
-    server: 158.160.74.36
-    port: 443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: ws
-    tls: true
-    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-    ws-opts:
-      headers:
-        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-97"
-    type: vless
-    server: 158.160.0.54
-    port: 443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: ws
-    tls: true
-    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-    ws-opts:
-      headers:
-        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
   - name: "proxy-98"
     type: vless
-    server: 51.250.50.7
-    port: 443
+    server: 158.160.28.195
+    port: 8447
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
     network: ws
@@ -1207,17 +1209,16 @@ proxies:
         Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
   - name: "proxy-99"
     type: vless
-    server: 46.235.189.248
+    server: 158.160.124.184
     port: 443
-    uuid: cb1691ad-49cc-46a9-b734-91c109200c32
+    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
     network: ws
     tls: true
-    servername: s35222.cdn.ngenix.net
+    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
     ws-opts:
-      path: /stream/live
       headers:
-        Host: s35222.cdn.ngenix.net
+        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
