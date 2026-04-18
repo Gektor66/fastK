@@ -220,7 +220,7 @@
       "tag": "proxy-18",
       "server": "51.250.119.228",
       "server_port": 443,
-      "uuid": "6a876f42-e674-4645-961e-eb72b9c10af4",
+      "uuid": "7bc11a33-5dc9-43fe-9da9-9b29285ff894",
       "tls": {
         "enabled": true,
         "server_name": "eh.vk.com"
@@ -253,24 +253,24 @@
     {
       "type": "vless",
       "tag": "proxy-21",
-      "server": "extbalancer.onnstreaming.ru",
-      "server_port": 5443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
-      "tls": {
-        "enabled": true,
-        "server_name": "i.oneme.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-22",
       "server": "158.160.229.121",
       "server_port": 8443,
       "uuid": "597380c7-1b62-434b-89f6-96b9f49514fa",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-22",
+      "server": "51.250.88.124",
+      "server_port": 8445,
+      "uuid": "e104275f-0a20-4e54-af18-820b8f6887ff",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
       },
       "flow": "xtls-rprx-vision"
     },
@@ -299,17 +299,6 @@
     {
       "type": "vless",
       "tag": "proxy-25",
-      "server": "51.250.32.253",
-      "server_port": 4443,
-      "uuid": "662f37d5-6ef2-4fa0-9618-d4f9d9714386",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-26",
       "server": "217.28.225.247",
       "server_port": 4443,
       "uuid": "aca62032-1d7c-41cf-904e-04cb867006f7",
@@ -320,7 +309,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-27",
+      "tag": "proxy-26",
       "server": "84.201.167.48",
       "server_port": 443,
       "uuid": "defcff2a-fcdf-41c2-aeb6-4f6d874c2d98",
@@ -332,7 +321,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-28",
+      "tag": "proxy-27",
       "server": "89.208.222.248",
       "server_port": 5443,
       "uuid": "a233d76b-f4af-4390-8455-e5ed7ac93ef1",
@@ -343,7 +332,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-29",
+      "tag": "proxy-28",
       "server": "217.28.224.4",
       "server_port": 4443,
       "uuid": "262f3883-1eba-4c6b-b8be-dcb8bcd3b425",
@@ -354,13 +343,25 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-30",
+      "tag": "proxy-29",
       "server": "84.201.147.14",
       "server_port": 443,
       "uuid": "defcff2a-fcdf-41c2-aeb6-4f6d874c2d98",
       "tls": {
         "enabled": true,
         "server_name": "5post-gate.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-30",
+      "server": "51.250.84.29",
+      "server_port": 443,
+      "uuid": "786f6f6d-4a1a-4d7b-aa0d-3b955693cb1c",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru"
       },
       "flow": "xtls-rprx-vision"
     },
@@ -390,6 +391,17 @@
     {
       "type": "vless",
       "tag": "proxy-33",
+      "server": "77.92.145.222",
+      "server_port": 443,
+      "uuid": "53821f3c-5b03-456a-89f3-f8379f130752",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-34",
       "server": "161.104.105.101",
       "server_port": 443,
       "uuid": "20bc4672-5b49-407d-a529-67ed6155ea80",
@@ -398,17 +410,6 @@
         "server_name": "ir-3.ozone.ru"
       },
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-34",
-      "server": "77.92.145.222",
-      "server_port": 443,
-      "uuid": "53821f3c-5b03-456a-89f3-f8379f130752",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com"
-      }
     },
     {
       "type": "vless",
@@ -1088,18 +1089,6 @@
     {
       "type": "vless",
       "tag": "proxy-92",
-      "server": "149.33.14.130",
-      "server_port": 8443,
-      "uuid": "75953410-2c55-4345-b36b-f6535b9f4f8c",
-      "tls": {
-        "enabled": true,
-        "server_name": "sun6-21.userapi.com"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-93",
       "server": "fi.clgate.network",
       "server_port": 2041,
       "uuid": "ccc4d100-07ec-4dbd-a054-50216788e15e",
@@ -1110,7 +1099,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-94",
+      "tag": "proxy-93",
       "server": "fi.kuda-idem-nvrsk.ru",
       "server_port": 29904,
       "uuid": "2f3dd19a-950c-48c4-a93e-d8a030177bf1",
@@ -1121,7 +1110,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-95",
+      "tag": "proxy-94",
       "server": "fi-m247-01.com",
       "server_port": 8443,
       "uuid": "2b5c4542-173d-40ef-a8dc-f3e78f0b8562",
@@ -1133,7 +1122,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-96",
+      "tag": "proxy-95",
       "server": "212.233.98.145",
       "server_port": 5443,
       "uuid": "f8b269b8-e1e9-452d-b375-cf1d89913bd1",
@@ -1144,7 +1133,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-97",
+      "tag": "proxy-96",
       "server": "212.233.123.16",
       "server_port": 5443,
       "uuid": "1bf6eddd-982a-4c92-9173-213b62f5541c",
@@ -1155,7 +1144,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-98",
+      "tag": "proxy-97",
       "server": "159.194.213.95",
       "server_port": 52000,
       "uuid": "fd2bfdd2-68eb-49b0-98ad-ed82f901edde",
@@ -1167,13 +1156,25 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-99",
+      "tag": "proxy-98",
       "server": "wh1.ethervpn.pro",
       "server_port": 8444,
       "uuid": "b52c39ab-6985-4399-bd02-9af48b0b3c6c",
       "tls": {
         "enabled": true,
         "server_name": "max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-99",
+      "server": "wh1.ethervpn.pro",
+      "server_port": 47015,
+      "uuid": "b52c39ab-6985-4399-bd02-9af48b0b3c6c",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru"
       },
       "flow": "xtls-rprx-vision"
     }
