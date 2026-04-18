@@ -1165,18 +1165,6 @@ proxies:
         Host: 3-2h8.pages.dev
   - name: "proxy-93"
     type: vless
-    server: 158.160.0.54
-    port: 443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: ws
-    tls: true
-    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-    ws-opts:
-      headers:
-        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-94"
-    type: vless
     server: 158.160.28.195
     port: 8447
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
@@ -1187,7 +1175,7 @@ proxies:
     ws-opts:
       headers:
         Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-95"
+  - name: "proxy-94"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -1198,7 +1186,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-96"
+  - name: "proxy-95"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1209,7 +1197,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-97"
+  - name: "proxy-96"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1222,7 +1210,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
     server: 141.98.169.96
     port: 443
@@ -1233,7 +1221,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /iixmriws
-  - name: "proxy-99"
+  - name: "proxy-98"
     type: vless
     server: dee1.shubnechkin.online
     port: 443
@@ -1242,6 +1230,15 @@ proxies:
     network: tcp
     tls: true
     servername: vk.com
+    flow: xtls-rprx-vision
+  - name: "proxy-99"
+    type: vless
+    server: cluster-de-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
     flow: xtls-rprx-vision
 
 proxy-groups:
