@@ -1308,18 +1308,6 @@ proxies:
         Host: sni.111000.v6.navy
   - name: "proxy-108"
     type: vless
-    server: 158.160.132.244
-    port: 443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: ws
-    tls: true
-    servername: fin.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-    ws-opts:
-      headers:
-        Host: fin.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-109"
-    type: vless
     server: 158.160.199.118
     port: 3030
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
@@ -1330,9 +1318,21 @@ proxies:
     ws-opts:
       headers:
         Host: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-110"
+  - name: "proxy-109"
     type: vless
     server: 158.160.0.54
+    port: 443
+    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
+    udp: true
+    network: ws
+    tls: true
+    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+    ws-opts:
+      headers:
+        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+  - name: "proxy-110"
+    type: vless
+    server: 158.160.124.184
     port: 443
     uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
@@ -1448,16 +1448,77 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-120"
     type: vless
-    server: 80.249.131.172
+    server: cluster-de-1.firstvideocdn.ru
     port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
   - name: "proxy-121"
     type: vless
-    server: 38.244.139.147
+    server: cluster-de-2.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-122"
+    type: vless
+    server: cluster-europe-2.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-0fa0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-123"
+    type: vless
+    server: cluster-russia-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-124"
+    type: vless
+    server: 193.233.198.113
+    port: 8443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 1-axj.pages.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: 1-axj.pages.dev
+  - name: "proxy-125"
+    type: vless
+    server: 82.202.249.151
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-126"
+    type: vless
+    server: 158.160.132.244
+    port: 443
+    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
+    udp: true
+    network: ws
+    tls: true
+    servername: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+    ws-opts:
+      headers:
+        Host: ger.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
+  - name: "proxy-127"
+    type: vless
+    server: 185.93.105.113
     port: 443
     uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
     udp: true
@@ -1465,7 +1526,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-122"
+  - name: "proxy-128"
     type: vless
     server: 172.64.155.209
     port: 443
@@ -1478,7 +1539,7 @@ proxies:
       path: /vless
       headers:
         Host: g.sandesh.qzz.io
-  - name: "proxy-123"
+  - name: "proxy-129"
     type: vless
     server: 103.106.228.126
     port: 2053
@@ -1491,59 +1552,7 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-124"
-    type: vless
-    server: 158.160.124.184
-    port: 443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: ws
-    tls: true
-    servername: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-    ws-opts:
-      headers:
-        Host: neder.chsvjaa9ha7gag7aa9jwh7wb7ww.ru
-  - name: "proxy-125"
-    type: vless
-    server: cluster-de-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-126"
-    type: vless
-    server: cluster-de-2.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-127"
-    type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-128"
-    type: vless
-    server: 193.233.198.113
-    port: 8443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 1-brc.pages.dev
-    ws-opts:
-      path: /
-      headers:
-        Host: 1-brc.pages.dev
-  - name: "proxy-129"
+  - name: "proxy-130"
     type: vless
     server: kinode24.boevik-tut.org
     port: 443
@@ -1552,7 +1561,7 @@ proxies:
     network: tcp
     tls: true
     servername: kinode24.boevik-tut.org
-  - name: "proxy-130"
+  - name: "proxy-131"
     type: vless
     server: kinode18.boevik-tut.org
     port: 443
@@ -1561,7 +1570,7 @@ proxies:
     network: tcp
     tls: true
     servername: kinode18.boevik-tut.org
-  - name: "proxy-131"
+  - name: "proxy-132"
     type: vless
     server: 185.218.204.186
     port: 2034
@@ -1572,7 +1581,7 @@ proxies:
     servername: de4.x3vpn.ru
     ws-opts:
       path: /
-  - name: "proxy-132"
+  - name: "proxy-133"
     type: vless
     server: secdn13.dramatorg.net
     port: 443
@@ -1581,7 +1590,7 @@ proxies:
     network: tcp
     tls: true
     servername: secdn13.dramatorg.net
-  - name: "proxy-133"
+  - name: "proxy-134"
     type: vless
     server: kinonl5.boevik-tut.org
     port: 443
@@ -1590,14 +1599,14 @@ proxies:
     network: tcp
     tls: true
     servername: kinonl5.boevik-tut.org
-  - name: "proxy-134"
+  - name: "proxy-135"
     type: vless
     server: 185.221.214.140
     port: 58888
     uuid: 4fb684c9-977f-4a7c-82a5-1f70fc141510
     udp: true
     network: tcp
-  - name: "proxy-135"
+  - name: "proxy-136"
     type: vless
     server: 212.92.101.163
     port: 443
@@ -1607,7 +1616,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-136"
+  - name: "proxy-137"
     type: vless
     server: 5.182.5.140
     port: 443
@@ -1617,7 +1626,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-137"
+  - name: "proxy-138"
     type: vless
     server: 217.18.63.21
     port: 443
@@ -1627,7 +1636,7 @@ proxies:
     tls: true
     servername: plmain.list-fg.co.uk
     flow: xtls-rprx-vision
-  - name: "proxy-138"
+  - name: "proxy-139"
     type: vless
     server: fi-bridge.sbrf-cdn342.ru
     port: 443
@@ -1637,7 +1646,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-139"
+  - name: "proxy-140"
     type: vless
     server: 217.16.30.129
     port: 4443
@@ -1646,7 +1655,7 @@ proxies:
     network: tcp
     tls: true
     servername: 217.16.30.129
-  - name: "proxy-140"
+  - name: "proxy-141"
     type: vless
     server: ru2.mambo-jambo.ru
     port: 49169
@@ -1655,7 +1664,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-141"
+  - name: "proxy-142"
     type: vless
     server: 89.208.85.162
     port: 6444
@@ -1665,7 +1674,7 @@ proxies:
     tls: true
     servername: de-one.cloudload.org
     flow: xtls-rprx-vision
-  - name: "proxy-142"
+  - name: "proxy-143"
     type: vless
     server: tt.mambo-jambo.ru
     port: 49856
@@ -1674,7 +1683,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-143"
+  - name: "proxy-144"
     type: vless
     server: tt.mambo-jambo.ru
     port: 49322
@@ -1683,7 +1692,7 @@ proxies:
     network: ws
     tls: false
     ws-opts:
-  - name: "proxy-144"
+  - name: "proxy-145"
     type: vless
     server: nl-bridge.sbrf-cdn342.ru
     port: 443
@@ -1693,7 +1702,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-145"
+  - name: "proxy-146"
     type: vless
     server: swe-bridge.sbrf-cdn342.ru
     port: 443
@@ -1703,7 +1712,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-146"
+  - name: "proxy-147"
     type: vless
     server: s95358.cdn.ngenix.net
     port: 443
@@ -1716,7 +1725,7 @@ proxies:
       path: /
       headers:
         Host: s95358.cdn.ngenix.net
-  - name: "proxy-147"
+  - name: "proxy-148"
     type: vless
     server: 156.243.83.138
     port: 2096
@@ -1728,7 +1737,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-148"
+  - name: "proxy-149"
     type: vless
     server: 193.233.199.177
     port: 443
@@ -1740,7 +1749,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-7gj.pages.dev
-  - name: "proxy-149"
+  - name: "proxy-150"
     type: vless
     server: 185.93.105.118
     port: 443
@@ -1750,7 +1759,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-150"
+  - name: "proxy-151"
     type: vless
     server: 65.52.160.128
     port: 8443
@@ -1762,7 +1771,7 @@ proxies:
     ws-opts:
       headers:
         Host: edtunnel-eiz.pages.dev
-  - name: "proxy-151"
+  - name: "proxy-152"
     type: vless
     server: 212.192.214.215
     port: 443
@@ -1774,7 +1783,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-93f.pages.dev
-  - name: "proxy-152"
+  - name: "proxy-153"
     type: vless
     server: vpn.ring-team.ru
     port: 19474
@@ -1783,7 +1792,7 @@ proxies:
     network: tcp
     tls: true
     servername: vpn.ring-team.ru
-  - name: "proxy-153"
+  - name: "proxy-154"
     type: vless
     server: 155.248.177.246
     port: 50443
@@ -1795,7 +1804,7 @@ proxies:
     ws-opts:
       headers:
         Host: edtunnel-eiz.pages.dev
-  - name: "proxy-154"
+  - name: "proxy-155"
     type: vless
     server: 95.164.11.48
     port: 443
@@ -1807,7 +1816,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-155"
+  - name: "proxy-156"
     type: vless
     server: 104.18.2.150
     port: 443
@@ -1819,7 +1828,7 @@ proxies:
     ws-opts:
       headers:
         Host: daluan.eu.org
-  - name: "proxy-156"
+  - name: "proxy-157"
     type: vless
     server: 64.186.240.9
     port: 8443
@@ -1831,7 +1840,7 @@ proxies:
     ws-opts:
       headers:
         Host: sn1.skylee5.cloudns.ch
-  - name: "proxy-157"
+  - name: "proxy-158"
     type: vless
     server: 104.18.3.108
     port: 8443
@@ -1843,7 +1852,7 @@ proxies:
     ws-opts:
       headers:
         Host: daluan.eu.org
-  - name: "proxy-158"
+  - name: "proxy-159"
     type: vless
     server: 212.193.155.80
     port: 443
@@ -1855,15 +1864,6 @@ proxies:
     ws-opts:
       headers:
         Host: s24531.cdn.ngenix.net
-  - name: "proxy-159"
-    type: vless
-    server: cluster-europe-2.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-0fa0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
   - name: "proxy-160"
     type: vless
     server: 199.34.228.41
@@ -3468,25 +3468,6 @@ proxies:
         Host: ewgruiehoe.pages.dev
   - name: "proxy-296"
     type: vless
-    server: 82.202.197.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-297"
-    type: vless
-    server: 38.244.139.141
-    port: 443
-    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-298"
-    type: vless
     server: 57.129.63.133
     port: 8443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -3497,7 +3478,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-299"
+  - name: "proxy-297"
     type: vless
     server: 94.156.115.52
     port: 443
@@ -3508,6 +3489,30 @@ proxies:
     servername: 94.156.115.52
     grpc-opts:
       grpc-service-name: bTMl3D6ClwP1M1RpHoe
+  - name: "proxy-298"
+    type: vless
+    server: 192.200.160.253
+    port: 2053
+    uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+    udp: true
+    network: ws
+    tls: true
+    servername: qyi.fqjd663.ggff.net
+    ws-opts:
+      headers:
+        Host: qyi.fqjd663.ggff.net
+  - name: "proxy-299"
+    type: vless
+    server: 91.99.9.125
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
