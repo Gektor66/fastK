@@ -1162,18 +1162,6 @@ proxies:
         Host: sni.111000.indevs.in
   - name: "proxy-95"
     type: vless
-    server: 84.201.175.18
-    port: 443
-    uuid: 0ea7702d-24cb-4598-a60b-2640479e8465
-    udp: true
-    network: ws
-    tls: true
-    servername: cdn.burncommunity.ru
-    ws-opts:
-      headers:
-        Host: cdn.burncommunity.ru
-  - name: "proxy-96"
-    type: vless
     server: 94.131.100.163
     port: 443
     uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
@@ -1183,7 +1171,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-97"
+  - name: "proxy-96"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1194,7 +1182,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1207,7 +1195,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-99"
+  - name: "proxy-98"
     type: vless
     server: 141.98.169.96
     port: 443
@@ -1218,6 +1206,16 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /iixmriws
+  - name: "proxy-99"
+    type: vless
+    server: dee1.shubnechkin.online
+    port: 443
+    uuid: 7a1f4deb-0ea9-427e-bc9d-9297a08afa12
+    udp: true
+    network: tcp
+    tls: true
+    servername: vk.com
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
