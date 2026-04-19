@@ -1063,15 +1063,6 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-86"
     type: vless
-    server: cluster-de-2.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-87"
-    type: vless
     server: 212.193.155.80
     port: 443
     uuid: cb1691ad-49cc-46a9-b734-91c109200c32
@@ -1083,7 +1074,7 @@ proxies:
       path: /stream/live
       headers:
         Host: s35222.cdn.ngenix.net
-  - name: "proxy-88"
+  - name: "proxy-87"
     type: vless
     server: 46.235.189.248
     port: 443
@@ -1096,9 +1087,59 @@ proxies:
       path: /stream/live
       headers:
         Host: s35222.cdn.ngenix.net
+  - name: "proxy-88"
+    type: vless
+    server: tegr.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
   - name: "proxy-89"
     type: vless
-    server: s35222.cdn.ngenix.net
+    server: 82.202.249.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-90"
+    type: vless
+    server: 178.72.181.81
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-91"
+    type: vless
+    server: 185.93.105.107
+    port: 443
+    uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-92"
+    type: vless
+    server: 103.106.228.126
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /?Telegram🇨🇳+@WangCai2=
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-93"
+    type: vless
+    server: 46.235.186.177
     port: 443
     uuid: cb1691ad-49cc-46a9-b734-91c109200c32
     udp: true
@@ -1109,117 +1150,60 @@ proxies:
       path: /stream/live
       headers:
         Host: s35222.cdn.ngenix.net
-  - name: "proxy-90"
-    type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-91"
-    type: vless
-    server: cluster-russia-3.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-92"
-    type: vless
-    server: tegr.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-93"
-    type: vless
-    server: 104.17.128.1
-    port: 2096
-    uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-    udp: true
-    network: ws
-    tls: true
-    servername: azadnet-1ml.pages.dev
-    ws-opts:
-      headers:
-        Host: azadnet-1ml.pages.dev
   - name: "proxy-94"
     type: vless
-    server: 219.76.13.177
+    server: kinode24.boevik-tut.org
     port: 443
-    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    uuid: 7d714031-76a9-4500-a132-27dd3307b16e
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: sn1.skylee5.cloudns.ch
-    ws-opts:
-      headers:
-        Host: sn1.skylee5.cloudns.ch
+    servername: kinode24.boevik-tut.org
   - name: "proxy-95"
     type: vless
-    server: 8.219.154.217
-    port: 8443
-    uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+    server: kinode18.boevik-tut.org
+    port: 443
+    uuid: 7d714031-76a9-4500-a132-27dd3307b16e
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: sn1.skylee5.cloudns.ch
-    ws-opts:
-      headers:
-        Host: sn1.skylee5.cloudns.ch
+    servername: kinode18.boevik-tut.org
   - name: "proxy-96"
     type: vless
-    server: 91.132.132.233
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    server: 185.218.204.186
+    port: 2034
+    uuid: 6f623839-1e6f-36ea-aa5b-5a8d9aa16fcd
     udp: true
     network: ws
     tls: true
-    servername: 3-85q.pages.dev
+    servername: de4.x3vpn.ru
     ws-opts:
-      headers:
-        Host: 3-85q.pages.dev
+      path: /
   - name: "proxy-97"
     type: vless
-    server: www.ftc.net
-    port: 2053
-    uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+    server: secdn13.dramatorg.net
+    port: 443
+    uuid: e6c05419-9338-44fc-926d-918c55bacf44
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: qyi.fqjd663.ggff.net
-    ws-opts:
-      headers:
-        Host: qyi.fqjd663.ggff.net
+    servername: secdn13.dramatorg.net
   - name: "proxy-98"
     type: vless
-    server: 185.135.86.217
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: kinonl5.boevik-tut.org
+    port: 443
+    uuid: 7d714031-76a9-4500-a132-27dd3307b16e
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
+    servername: kinonl5.boevik-tut.org
   - name: "proxy-99"
     type: vless
-    server: 135.84.64.111
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 185.221.214.140
+    port: 58888
+    uuid: 4fb684c9-977f-4a7c-82a5-1f70fc141510
     udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
+    network: tcp
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
