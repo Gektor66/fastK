@@ -1157,38 +1157,37 @@ proxies:
         Host: sni.111000.indevs.in
   - name: "proxy-97"
     type: vless
-    server: 84.201.175.18
-    port: 443
-    uuid: 0ea7702d-24cb-4598-a60b-2640479e8465
+    server: 150.251.138.132
+    port: 54443
+    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: cdn.burncommunity.ru
-    ws-opts:
-      headers:
-        Host: cdn.burncommunity.ru
+    servername: ya.ru
   - name: "proxy-98"
     type: vless
-    server: 94.131.100.163
-    port: 443
-    uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
+    server: 172.64.146.163
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
     tls: true
-    servername: api.avito.ru
+    servername: sni.111000.indevs.in
     ws-opts:
-      path: /pyzrgqws
+      headers:
+        Host: sni.111000.indevs.in
   - name: "proxy-99"
     type: vless
-    server: 46.101.57.231
-    port: 443
-    uuid: 037e395f-f79d-4d61-bb92-dafcc27e53ba
+    server: 176.96.136.176
+    port: 6593
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: sni.111000.indevs.in
     ws-opts:
-      path: /esoznjws
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
