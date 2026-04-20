@@ -319,6 +319,13 @@ proxies:
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     udp: true
+  - name: "proxy-52"
+    type: ss
+    server: 111.250.13.165
+    port: 50099?
+    cipher: chacha20-ietf-poly1305
+    password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -369,6 +376,7 @@ proxy-groups:
       - "proxy-49"
       - "proxy-50"
       - "proxy-51"
+      - "proxy-52"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
