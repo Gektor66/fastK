@@ -5307,6 +5307,24 @@ proxies:
         Host: edtunnel-eiz.pages.dev
   - name: "proxy-450"
     type: vless
+    server: 80.93.187.2
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-451"
+    type: vless
+    server: 178.72.181.83
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-452"
+    type: vless
     server: 92.53.191.138
     port: 2096
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -5317,7 +5335,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-451"
+  - name: "proxy-453"
     type: vless
     server: 45.131.5.238
     port: 2096
@@ -5329,7 +5347,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-452"
+  - name: "proxy-454"
     type: vless
     server: 104.239.72.238
     port: 2096
@@ -5341,7 +5359,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-453"
+  - name: "proxy-455"
     type: vless
     server: 178.72.162.148
     port: 52006
@@ -5350,7 +5368,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-454"
+  - name: "proxy-456"
     type: vless
     server: 178.72.162.152
     port: 52006
@@ -5359,16 +5377,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-455"
-    type: vless
-    server: 178.72.162.102
-    port: 52006
-    uuid: 75807638-6f19-2328-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-456"
+  - name: "proxy-457"
     type: vless
     server: 212.92.101.192
     port: 52006
@@ -5376,16 +5385,6 @@ proxies:
     udp: true
     network: tcp
     tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-457"
-    type: vless
-    server: 5.182.5.119
-    port: 52006
-    uuid: 75807638-6f19-2328-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5.182.5.119
     flow: xtls-rprx-vision
   - name: "proxy-458"
     type: vless
@@ -5398,7 +5397,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-459"
     type: vless
-    server: 45.92.177.214
+    server: 212.41.30.206
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -5407,7 +5406,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-460"
     type: vless
-    server: 178.72.132.32
+    server: 45.92.177.214
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -5416,23 +5415,60 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-461"
     type: vless
-    server: 212.41.30.206
+    server: 178.72.162.150
     port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    uuid: 75807638-6f19-0a28-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
   - name: "proxy-462"
     type: vless
-    server: 178.72.162.150
+    server: 178.72.162.153
+    port: 52006
+    uuid: 75807638-6f19-0a28-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-463"
+    type: vless
+    server: 178.72.162.155
+    port: 52006
+    uuid: 75807638-6f19-0a28-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-464"
+    type: vless
+    server: 178.72.162.156
+    port: 52006
+    uuid: 75807638-6f19-0a28-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-465"
+    type: vless
+    server: 178.72.181.97
+    port: 52006
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-de-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-466"
+    type: vless
+    server: 178.72.181.42
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-463"
+  - name: "proxy-467"
     type: vless
     server: cluster-other-1.firstvideocdn.ru
     port: 52006
@@ -5442,20 +5478,7 @@ proxies:
     tls: true
     servername: cluster-other-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-464"
-    type: vless
-    server: 109.120.157.29
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.latonyamadeline.ndjp.net
-    ws-opts:
-      path: /?ed=2560&https://t.me/WangCai2🇨🇳
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-465"
+  - name: "proxy-468"
     type: vless
     server: de.sbrf-cdn342.ru
     port: 443
@@ -5465,7 +5488,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-466"
+  - name: "proxy-469"
     type: vless
     server: it-bridge.sbrf-cdn342.ru
     port: 443
@@ -5475,7 +5498,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-467"
+  - name: "proxy-470"
     type: vless
     server: ev.zoom.us
     port: 8443
@@ -5488,7 +5511,7 @@ proxies:
       path: /
       headers:
         Host: darknet-free.alexid.org
-  - name: "proxy-468"
+  - name: "proxy-471"
     type: vless
     server: news.zoom.us
     port: 8443
@@ -5501,7 +5524,7 @@ proxies:
       path: /
       headers:
         Host: darknet-free.alexid.org
-  - name: "proxy-469"
+  - name: "proxy-472"
     type: vless
     server: nl-tx.sbrf-cdn342.ru
     port: 443
@@ -5511,7 +5534,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-470"
+  - name: "proxy-473"
     type: vless
     server: 8.35.211.199
     port: 2087
@@ -5524,7 +5547,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-471"
+  - name: "proxy-474"
     type: vless
     server: 8.35.211.218
     port: 2083
@@ -5537,7 +5560,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-472"
+  - name: "proxy-475"
     type: vless
     server: 8.35.211.226
     port: 2087
@@ -5550,7 +5573,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-473"
+  - name: "proxy-476"
     type: vless
     server: 8.35.211.23
     port: 2083
@@ -5563,7 +5586,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-474"
+  - name: "proxy-477"
     type: vless
     server: 8.35.211.252
     port: 2083
@@ -5576,7 +5599,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-475"
+  - name: "proxy-478"
     type: vless
     server: 8.35.211.31
     port: 8443
@@ -5589,7 +5612,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-476"
+  - name: "proxy-479"
     type: vless
     server: us-bridge.sbrf-cdn342.ru
     port: 443
@@ -5599,7 +5622,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-477"
+  - name: "proxy-480"
     type: vless
     server: 167.253.153.163
     port: 443
@@ -5612,7 +5635,7 @@ proxies:
       path: /167.253.153.163:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-478"
+  - name: "proxy-481"
     type: vless
     server: 167.253.153.162
     port: 443
@@ -5625,7 +5648,7 @@ proxies:
       path: /167.253.153.162:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-479"
+  - name: "proxy-482"
     type: vless
     server: 167.253.153.228
     port: 443
@@ -5638,7 +5661,7 @@ proxies:
       path: /167.253.153.228:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-480"
+  - name: "proxy-483"
     type: vless
     server: 167.253.153.182
     port: 443
@@ -5651,7 +5674,7 @@ proxies:
       path: /167.253.153.182:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-481"
+  - name: "proxy-484"
     type: vless
     server: 167.253.153.253
     port: 443
@@ -5664,7 +5687,7 @@ proxies:
       path: /167.253.153.253:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-482"
+  - name: "proxy-485"
     type: vless
     server: 167.253.153.32
     port: 443
@@ -5677,7 +5700,7 @@ proxies:
       path: /167.253.153.32:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-483"
+  - name: "proxy-486"
     type: vless
     server: 167.253.153.44
     port: 443
@@ -5690,7 +5713,7 @@ proxies:
       path: /167.253.153.44:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-484"
+  - name: "proxy-487"
     type: vless
     server: 167.253.153.73
     port: 443
@@ -5703,7 +5726,7 @@ proxies:
       path: /167.253.153.73:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-485"
+  - name: "proxy-488"
     type: vless
     server: 167.253.153.76
     port: 443
@@ -5716,7 +5739,7 @@ proxies:
       path: /167.253.153.76:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-486"
+  - name: "proxy-489"
     type: vless
     server: 193.111.30.215
     port: 15052
@@ -5729,7 +5752,7 @@ proxies:
       path: /193.111.30.215:15052
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-487"
+  - name: "proxy-490"
     type: vless
     server: 23.151.104.39
     port: 443
@@ -5742,7 +5765,7 @@ proxies:
       path: /23.151.104.39:443
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-488"
+  - name: "proxy-491"
     type: vless
     server: 210.156.180.102
     port: 16090
@@ -5755,7 +5778,7 @@ proxies:
       path: /210.156.180.102:16090
       headers:
         Host: 2026.hhhhh.eu.org
-  - name: "proxy-489"
+  - name: "proxy-492"
     type: vless
     server: 104.194.73.83
     port: 8443
@@ -5768,7 +5791,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.danfeng.rr.kg
-  - name: "proxy-490"
+  - name: "proxy-493"
     type: vless
     server: 64.81.25.70
     port: 443
@@ -5781,7 +5804,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: gavorbhj.chinam.indevs.in
-  - name: "proxy-491"
+  - name: "proxy-494"
     type: vless
     server: 43.165.195.160
     port: 443
@@ -5794,7 +5817,7 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: gavorbhj.chinam.indevs.in
-  - name: "proxy-492"
+  - name: "proxy-495"
     type: vless
     server: 155.117.155.253
     port: 37572
@@ -5807,7 +5830,7 @@ proxies:
       path: /danfeng
       headers:
         Host: snippet.danfeng.rr.kg
-  - name: "proxy-493"
+  - name: "proxy-496"
     type: vless
     server: 8.35.211.102
     port: 2087
@@ -5820,7 +5843,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-494"
+  - name: "proxy-497"
     type: vless
     server: 8.35.211.105
     port: 2087
@@ -5833,7 +5856,7 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-495"
+  - name: "proxy-498"
     type: vless
     server: 8.35.211.106
     port: 2083
@@ -5846,48 +5869,9 @@ proxies:
       path: /
       headers:
         Host: aier.eu.cc
-  - name: "proxy-496"
-    type: vless
-    server: 8.35.211.108
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      path: /
-      headers:
-        Host: aier.eu.cc
-  - name: "proxy-497"
-    type: vless
-    server: 45.8.113.65
-    port: 39863
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    udp: true
-    network: ws
-    tls: true
-    servername: 2026.hhhhh.eu.org
-    ws-opts:
-      path: /45.8.113.65:39863
-      headers:
-        Host: 2026.hhhhh.eu.org
-  - name: "proxy-498"
-    type: vless
-    server: 8.35.211.10
-    port: 2096
-    uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
-    udp: true
-    network: ws
-    tls: true
-    servername: aier.eu.cc
-    ws-opts:
-      path: /
-      headers:
-        Host: aier.eu.cc
   - name: "proxy-499"
     type: vless
-    server: 8.35.211.111
+    server: 8.35.211.108
     port: 2096
     uuid: 6461860a-d367-4d47-8e82-7d8e1047a152
     udp: true
