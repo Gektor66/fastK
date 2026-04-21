@@ -1670,6 +1670,170 @@ proxies:
     port: 443
     password: 1234567890
     udp: true
+  - name: "proxy-147"
+    type: vless
+    server: 109.122.198.115
+    port: 443
+    uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.cloudflare.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
+      short-id: 6ba85179e30d4fc2
+  - name: "proxy-148"
+    type: vless
+    server: 45.146.201.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-149"
+    type: vless
+    server: 198.71.189.51
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-150"
+    type: vless
+    server: 154.194.12.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-151"
+    type: vless
+    server: 45.80.108.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-152"
+    type: vless
+    server: 198.12.145.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-153"
+    type: vless
+    server: 45.131.211.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-154"
+    type: vless
+    server: 104.17.185.207
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      path: /?proxyip=ip.111000.de5.net:443
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-155"
+    type: trojan
+    server: 57.129.47.18
+    port: 8443
+    password: 1234567890
+    udp: true
+  - name: "proxy-156"
+    type: vless
+    server: 89.116.180.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-157"
+    type: vless
+    server: 185.207.199.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-158"
+    type: vless
+    server: 8.6.112.0
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-159"
+    type: trojan
+    server: 163.5.63.129
+    port: 443
+    password: 1234567890
+    udp: true
+  - name: "proxy-160"
+    type: vless
+    server: 160.153.1.216
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-161"
+    type: trojan
+    server: 194.5.62.79
+    port: 443
+    password: 1234567890
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1822,6 +1986,21 @@ proxy-groups:
       - "proxy-144"
       - "proxy-145"
       - "proxy-146"
+      - "proxy-147"
+      - "proxy-148"
+      - "proxy-149"
+      - "proxy-150"
+      - "proxy-151"
+      - "proxy-152"
+      - "proxy-153"
+      - "proxy-154"
+      - "proxy-155"
+      - "proxy-156"
+      - "proxy-157"
+      - "proxy-158"
+      - "proxy-159"
+      - "proxy-160"
+      - "proxy-161"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
