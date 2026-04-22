@@ -899,7 +899,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-75"
     type: vless
-    server: 178.72.181.92
+    server: 178.72.181.94
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -909,7 +909,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-76"
     type: vless
-    server: 178.72.181.94
+    server: 178.72.181.95
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -928,17 +928,16 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-78"
     type: vless
-    server: 178.72.181.83
+    server: cluster-de-2.firstvideocdn.ru
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-79"
     type: vless
-    server: 178.72.181.95
+    server: 178.72.181.83
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -948,7 +947,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-80"
     type: vless
-    server: 178.72.181.97
+    server: 178.72.181.92
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -958,12 +957,13 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-81"
     type: vless
-    server: cluster-de-2.firstvideocdn.ru
+    server: 178.72.181.97
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-82"
     type: vless
@@ -1085,23 +1085,14 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-94"
     type: vless
-    server: 178.72.181.69
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-95"
-    type: vless
-    server: 178.72.181.84
+    server: 178.72.181.81
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-96"
+  - name: "proxy-95"
     type: vless
     server: 152.233.28.198
     port: 8443
@@ -1110,6 +1101,19 @@ proxies:
     network: tcp
     tls: true
     servername: uk1.fromblancwithlove.com
+  - name: "proxy-96"
+    type: vless
+    server: 172.64.155.209
+    port: 443
+    uuid: 1027b850-de79-4a94-b337-eccdac28e141
+    udp: true
+    network: ws
+    tls: true
+    servername: g.sandesh.qzz.io
+    ws-opts:
+      path: /vless
+      headers:
+        Host: g.sandesh.qzz.io
   - name: "proxy-97"
     type: vless
     server: 103.106.228.126
