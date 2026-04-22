@@ -949,7 +949,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-80"
     type: vless
-    server: 178.72.181.95
+    server: 95.213.143.225
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1001,7 +1001,7 @@ proxies:
     tls: false
   - name: "proxy-85"
     type: vless
-    server: 178.72.181.81
+    server: 178.72.181.89
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1011,17 +1011,17 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-86"
     type: vless
-    server: 178.72.181.83
+    server: cluster-de-2.firstvideocdn.ru
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-de-1.firstvideocdn.ru
+    servername: cluster-de-2.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-87"
     type: vless
-    server: 178.72.181.89
+    server: 178.72.181.81
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1031,7 +1031,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-88"
     type: vless
-    server: 178.72.181.92
+    server: 178.72.181.83
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1041,7 +1041,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-89"
     type: vless
-    server: 178.72.181.97
+    server: 178.72.181.92
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1051,16 +1051,17 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-90"
     type: vless
-    server: cluster-de-1.firstvideocdn.ru
+    server: 178.72.181.94
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-91"
     type: vless
-    server: 178.72.181.94
+    server: 178.72.181.95
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
@@ -1070,15 +1071,24 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-92"
     type: vless
-    server: cluster-de-2.firstvideocdn.ru
+    server: 178.72.181.97
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-de-2.firstvideocdn.ru
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-93"
+    type: vless
+    server: cluster-de-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-94"
     type: vless
     server: 5.188.158.225
     port: 52006
@@ -1088,7 +1098,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-94"
+  - name: "proxy-95"
     type: vless
     server: 80.249.131.172
     port: 52006
@@ -1098,7 +1108,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-95"
+  - name: "proxy-96"
     type: vless
     server: 80.93.187.2
     port: 52006
@@ -1108,7 +1118,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-96"
+  - name: "proxy-97"
     type: vless
     server: 91.206.14.229
     port: 52006
@@ -1118,7 +1128,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-97"
+  - name: "proxy-98"
     type: vless
     server: cluster-russia-1.firstvideocdn.ru
     port: 52006
@@ -1127,24 +1137,15 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-98"
+  - name: "proxy-99"
     type: vless
-    server: tegr.firstvideocdn.ru
+    server: cluster-russia-3.firstvideocdn.ru
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-99"
-    type: vless
-    server: kinode24.boevik-tut.org
-    port: 443
-    uuid: 7d714031-76a9-4500-a132-27dd3307b16e
-    udp: true
-    network: tcp
-    tls: true
-    servername: kinode24.boevik-tut.org
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
