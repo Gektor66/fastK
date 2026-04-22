@@ -5,214 +5,6 @@ log-level: info
 
 proxies:
   - name: "proxy-0"
-    type: ss
-    server: 46.101.196.138
-    port: 23243
-    cipher: chacha20-ietf-poly1305
-    password: Q7cjiVD0oKNE2o9sUnZKQg
-    udp: true
-  - name: "proxy-1"
-    type: ss
-    server: 149.102.132.186
-    port: 80
-    cipher: aes-256-gcm
-    password: YhzqOeJsfuZ9rkkc
-    udp: true
-  - name: "proxy-2"
-    type: ss
-    server: 8.209.74.72
-    port: 20001
-    cipher: chacha20-ietf-poly1305
-    password: PWpjPo3tqhPN4yRZ
-    udp: true
-  - name: "proxy-3"
-    type: vless
-    server: 195.181.173.199
-    port: 8443
-    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-    udp: true
-    network: tcp
-    tls: true
-    servername: ams1.fromblancwithlove.com
-  - name: "proxy-4"
-    type: ss
-    server: 193.29.139.157
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-    udp: true
-  - name: "proxy-5"
-    type: ss
-    server: 138.68.153.223
-    port: 46576
-    cipher: chacha20-ietf-poly1305
-    password: idMvoewrSyLLvEvP03k9zR
-    udp: true
-  - name: "proxy-6"
-    type: vless
-    server: 104.18.13.229
-    port: 8880
-    uuid: 78c5b6bd-1cb6-463c-bcba-9f17ef70c85b
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: square-frost-8d11.9660004.workers.dev
-  - name: "proxy-7"
-    type: vless
-    server: 45.128.76.191
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-8"
-    type: vless
-    server: 104.18.12.149
-    port: 80
-    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      headers:
-        Host: vip.yaml7.ggff.net
-  - name: "proxy-9"
-    type: vless
-    server: 188.244.122.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-10"
-    type: vless
-    server: 194.59.5.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-11"
-    type: vless
-    server: 45.194.11.191
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-12"
-    type: vless
-    server: 104.18.4.130
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-13"
-    type: vless
-    server: 185.158.133.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-14"
-    type: vless
-    server: 172.64.152.23
-    port: 8443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.dynv6.net
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-  - name: "proxy-15"
-    type: vless
-    server: 150.251.138.132
-    port: 54443
-    uuid: c5992ba6-8ecb-4a2f-b95f-548bf2793949
-    udp: true
-    network: tcp
-    tls: true
-    servername: ya.ru
-  - name: "proxy-16"
-    type: vless
-    server: 104.234.239.238
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.jpmj.dev
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-  - name: "proxy-17"
-    type: vless
-    server: 199.34.228.160
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-18"
-    type: vless
-    server: 217.163.76.46
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.navy
-    ws-opts:
-      headers:
-        Host: sni.111000.v6.navy
-  - name: "proxy-19"
-    type: vless
-    server: 185.193.31.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      path: /?telegram🇨🇳+@wangcai2=
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-20"
     type: vless
     server: 45.15.129.188
     port: 443
@@ -224,7 +16,7 @@ proxies:
     reality-opts:
       public-key: nPqVTzYN01hXkSjYrdI6wvdexYLvl0O4E72ncZ1RzFQ
       short-id: e5b9e22d
-  - name: "proxy-21"
+  - name: "proxy-1"
     type: vless
     server: 45.131.5.138
     port: 2096
@@ -236,7 +28,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-22"
+  - name: "proxy-2"
     type: vless
     server: 45.40.147.238
     port: 2096
@@ -248,7 +40,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-23"
+  - name: "proxy-3"
     type: vless
     server: new-de.vcfco.ir
     port: 7500
@@ -261,7 +53,7 @@ proxies:
     reality-opts:
       public-key: 8a3blVdAACDlvRA5zrdNxHLZ9boU5QkwGMkf0WwyZVI
       short-id: 77a3a1c829040294
-  - name: "proxy-24"
+  - name: "proxy-4"
     type: vless
     server: 205.233.181.138
     port: 2096
@@ -273,19 +65,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-25"
+  - name: "proxy-5"
     type: trojan
     server: 144.31.118.170
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-26"
+  - name: "proxy-6"
     type: trojan
     server: 82.26.155.237
     port: 10369
     password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
     udp: true
-  - name: "proxy-27"
+  - name: "proxy-7"
     type: vless
     server: 135.84.73.9
     port: 443
@@ -297,7 +89,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-28"
+  - name: "proxy-8"
     type: vless
     server: fra1.frostbot.ru
     port: 6443
@@ -310,19 +102,19 @@ proxies:
     reality-opts:
       public-key: x-VSf_bBIC1iELDvaoM4SKMTK2YAAnUlVkhAWBbvpSc
       short-id: b9605803fb4b
-  - name: "proxy-29"
+  - name: "proxy-9"
     type: trojan
     server: 104.248.245.101
     port: 2053
     password: 1234567890
     udp: true
-  - name: "proxy-30"
+  - name: "proxy-10"
     type: trojan
     server: 134.122.84.25
     port: 2096
     password: 1234567890
     udp: true
-  - name: "proxy-31"
+  - name: "proxy-11"
     type: vless
     server: 178.17.57.112
     port: 443
@@ -336,7 +128,7 @@ proxies:
       short-id: 6d1e4c8f
     grpc-opts:
       grpc-service-name: google.pubsub.v1.Subscriber
-  - name: "proxy-32"
+  - name: "proxy-12"
     type: vless
     server: 45.131.6.138
     port: 2096
@@ -348,13 +140,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-33"
+  - name: "proxy-13"
     type: trojan
     server: 57.129.47.47
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-34"
+  - name: "proxy-14"
     type: vless
     server: 193.227.99.138
     port: 2096
@@ -366,7 +158,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-35"
+  - name: "proxy-15"
     type: vless
     server: 104.17.72.206
     port: 80
@@ -377,7 +169,7 @@ proxies:
     ws-opts:
       headers:
         Host: v2.v2configlab.workers.dev
-  - name: "proxy-36"
+  - name: "proxy-16"
     type: vless
     server: 167.68.11.138
     port: 2096
@@ -389,19 +181,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-37"
+  - name: "proxy-17"
     type: trojan
     server: 77.91.76.110
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-38"
+  - name: "proxy-18"
     type: trojan
     server: 57.129.63.158
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-39"
+  - name: "proxy-19"
     type: vless
     server: 193.202.10.138
     port: 443
@@ -415,7 +207,7 @@ proxies:
       short-id: 1a7f3b9e2c40
     grpc-opts:
       grpc-service-name: google.pubsub.v1.Subscriber
-  - name: "proxy-40"
+  - name: "proxy-20"
     type: vless
     server: 181.214.1.238
     port: 2096
@@ -427,7 +219,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-41"
+  - name: "proxy-21"
     type: vless
     server: 213.182.199.138
     port: 2096
@@ -439,7 +231,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-42"
+  - name: "proxy-22"
     type: vless
     server: 104.18.13.149
     port: 8443
@@ -452,13 +244,13 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-43"
+  - name: "proxy-23"
     type: trojan
     server: 209.38.194.141
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-44"
+  - name: "proxy-24"
     type: vless
     server: 135.84.73.245
     port: 443
@@ -470,7 +262,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-45"
+  - name: "proxy-25"
     type: vless
     server: nl6.frostmotiveseed.net
     port: 8443
@@ -480,13 +272,13 @@ proxies:
     tls: true
     servername: nl6.frostmotiveseed.net
     flow: xtls-rprx-vision
-  - name: "proxy-46"
+  - name: "proxy-26"
     type: trojan
     server: 134.209.252.112
     port: 2053
     password: 1234567890
     udp: true
-  - name: "proxy-47"
+  - name: "proxy-27"
     type: vless
     server: 104.18.13.149
     port: 443
@@ -498,7 +290,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-48"
+  - name: "proxy-28"
     type: vless
     server: 198.202.211.1
     port: 2053
@@ -510,13 +302,13 @@ proxies:
     ws-opts:
       headers:
         Host: qyi.fqjd663.ggff.net
-  - name: "proxy-49"
+  - name: "proxy-29"
     type: trojan
     server: 94.159.104.23
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-50"
+  - name: "proxy-30"
     type: vless
     server: 109.122.198.115
     port: 443
@@ -529,7 +321,7 @@ proxies:
     reality-opts:
       public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
       short-id: 6ba85179e30d4fc2
-  - name: "proxy-51"
+  - name: "proxy-31"
     type: vless
     server: 45.146.201.238
     port: 2096
@@ -541,7 +333,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-52"
+  - name: "proxy-32"
     type: vless
     server: 198.71.189.51
     port: 443
@@ -553,7 +345,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-53"
+  - name: "proxy-33"
     type: vless
     server: 154.194.12.138
     port: 2096
@@ -565,7 +357,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-54"
+  - name: "proxy-34"
     type: vless
     server: 45.80.108.191
     port: 2096
@@ -577,7 +369,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-55"
+  - name: "proxy-35"
     type: vless
     server: 198.12.145.138
     port: 2096
@@ -589,7 +381,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-56"
+  - name: "proxy-36"
     type: vless
     server: 45.131.211.138
     port: 2096
@@ -601,7 +393,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-57"
+  - name: "proxy-37"
     type: vless
     server: 104.17.185.207
     port: 443
@@ -614,13 +406,13 @@ proxies:
       path: /?proxyip=ip.111000.de5.net:443
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-58"
+  - name: "proxy-38"
     type: trojan
     server: 57.129.47.18
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-59"
+  - name: "proxy-39"
     type: vless
     server: 89.116.180.138
     port: 2096
@@ -632,7 +424,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-60"
+  - name: "proxy-40"
     type: vless
     server: 185.207.199.138
     port: 2096
@@ -644,7 +436,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-61"
+  - name: "proxy-41"
     type: vless
     server: 8.6.112.0
     port: 443
@@ -656,13 +448,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-62"
+  - name: "proxy-42"
     type: trojan
     server: 163.5.63.129
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-63"
+  - name: "proxy-43"
     type: vless
     server: 160.153.1.216
     port: 443
@@ -674,13 +466,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-64"
+  - name: "proxy-44"
     type: trojan
     server: 194.5.62.79
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-65"
+  - name: "proxy-45"
     type: vless
     server: 216.24.57.4
     port: 443
@@ -692,7 +484,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-66"
+  - name: "proxy-46"
     type: vless
     server: 45.131.7.138
     port: 2096
@@ -704,7 +496,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-67"
+  - name: "proxy-47"
     type: vless
     server: 104.18.13.149
     port: 2053
@@ -717,7 +509,7 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-68"
+  - name: "proxy-48"
     type: vless
     server: 8.6.112.6
     port: 8443
@@ -729,13 +521,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-69"
+  - name: "proxy-49"
     type: trojan
     server: 172.64.146.129
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "proxy-70"
+  - name: "proxy-50"
     type: vless
     server: 86.38.214.43
     port: 443
@@ -748,13 +540,13 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.cc.cd
-  - name: "proxy-71"
+  - name: "proxy-51"
     type: trojan
     server: 162.159.153.2
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "proxy-72"
+  - name: "proxy-52"
     type: vless
     server: 89.116.250.138
     port: 2096
@@ -766,7 +558,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-73"
+  - name: "proxy-53"
     type: vless
     server: 162.159.36.5
     port: 443
@@ -779,13 +571,13 @@ proxies:
       path: /?proxyip=ip.111000.de5.net%3A443
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-74"
+  - name: "proxy-54"
     type: trojan
     server: 209.38.207.244
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-75"
+  - name: "proxy-55"
     type: vless
     server: 141.11.203.238
     port: 2096
@@ -797,7 +589,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-76"
+  - name: "proxy-56"
     type: vless
     server: 162.159.152.2
     port: 443
@@ -809,19 +601,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-77"
+  - name: "proxy-57"
     type: trojan
     server: 135.125.191.180
     port: 2053
     password: 1234567890
     udp: true
-  - name: "proxy-78"
+  - name: "proxy-58"
     type: trojan
     server: 64.188.70.233
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-79"
+  - name: "proxy-59"
     type: vless
     server: 156.243.83.238
     port: 2096
@@ -833,7 +625,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-80"
+  - name: "proxy-60"
     type: vless
     server: 72.167.25.43
     port: 443
@@ -845,7 +637,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.cc.cd
-  - name: "proxy-81"
+  - name: "proxy-61"
     type: vless
     server: 154.206.12.138
     port: 2096
@@ -858,7 +650,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-82"
+  - name: "proxy-62"
     type: vless
     server: 45.85.119.238
     port: 2096
@@ -870,7 +662,20 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-83"
+  - name: "proxy-63"
+    type: vless
+    server: 45.128.76.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-64"
     type: vless
     server: 114.129.43.41
     port: 443
@@ -882,7 +687,7 @@ proxies:
     ws-opts:
       headers:
         Host: edtunnel-eiz.pages.dev
-  - name: "proxy-84"
+  - name: "proxy-65"
     type: vless
     server: 87.120.92.150
     port: 8443
@@ -894,13 +699,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-85"
+  - name: "proxy-66"
     type: trojan
     server: 80.91.79.149
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-86"
+  - name: "proxy-67"
     type: vless
     server: 167.68.42.191
     port: 2096
@@ -912,7 +717,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-87"
+  - name: "proxy-68"
     type: vless
     server: 167.68.42.238
     port: 2096
@@ -924,13 +729,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-88"
+  - name: "proxy-69"
     type: trojan
     server: 162.19.243.185
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-89"
+  - name: "proxy-70"
     type: vless
     server: 166.62.109.238
     port: 2096
@@ -942,7 +747,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-90"
+  - name: "proxy-71"
     type: vless
     server: 156.255.123.138
     port: 2096
@@ -954,7 +759,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-91"
+  - name: "proxy-72"
     type: vless
     server: 184.174.80.238
     port: 443
@@ -966,7 +771,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-92"
+  - name: "proxy-73"
     type: vless
     server: 104.18.12.149
     port: 2053
@@ -978,7 +783,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-93"
+  - name: "proxy-74"
     type: vless
     server: 199.34.228.191
     port: 443
@@ -990,7 +795,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-94"
+  - name: "proxy-75"
     type: vless
     server: 160.153.1.139
     port: 443
@@ -1002,13 +807,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-95"
+  - name: "proxy-76"
     type: trojan
     server: 134.209.224.221
     port: 2087
     password: 1234567890
     udp: true
-  - name: "proxy-96"
+  - name: "proxy-77"
     type: vless
     server: 45.40.154.191
     port: 2096
@@ -1020,13 +825,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-97"
+  - name: "proxy-78"
     type: trojan
     server: 104.194.158.125
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-98"
+  - name: "proxy-79"
     type: vless
     server: 14.102.229.138
     port: 2096
@@ -1039,13 +844,13 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-99"
+  - name: "proxy-80"
     type: trojan
     server: 165.22.20.89
     port: 443
     password: 1234567890
     udp: true
-  - name: "proxy-100"
+  - name: "proxy-81"
     type: vless
     server: 45.8.211.191
     port: 2096
@@ -1057,13 +862,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-101"
+  - name: "proxy-82"
     type: trojan
     server: 104.248.132.134
     port: 2053
     password: 1234567890
     udp: true
-  - name: "proxy-102"
+  - name: "proxy-83"
     type: vless
     server: 104.18.42.98
     port: 2096
@@ -1075,19 +880,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-103"
+  - name: "proxy-84"
     type: trojan
     server: 51.38.113.88
     port: 8443
     password: 1234567890
     udp: true
-  - name: "proxy-104"
+  - name: "proxy-85"
     type: trojan
     server: 134.209.224.221
     port: 2096
     password: 1234567890
     udp: true
-  - name: "proxy-105"
+  - name: "proxy-86"
     type: vless
     server: 172.64.147.104
     port: 443
@@ -1099,7 +904,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-2h8.pages.dev
-  - name: "proxy-106"
+  - name: "proxy-87"
     type: vless
     server: 192.0.54.238
     port: 2096
@@ -1111,6 +916,185 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
+  - name: "proxy-88"
+    type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    udp: true
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+  - name: "proxy-89"
+    type: vless
+    server: 217.163.76.46
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-90"
+    type: vless
+    server: 104.18.13.229
+    port: 8880
+    uuid: 78c5b6bd-1cb6-463c-bcba-9f17ef70c85b
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: square-frost-8d11.9660004.workers.dev
+  - name: "proxy-91"
+    type: vless
+    server: 45.92.1.37
+    port: 30047
+    uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+  - name: "proxy-92"
+    type: vless
+    server: 45.136.126.32
+    port: 4443
+    uuid: 491772a0-12bd-47e2-afe9-5d5be5d47401
+    udp: true
+    network: tcp
+    tls: true
+    servername: google.com
+    reality-opts:
+      public-key: HYMZ6sGaRCC0PPGCzyWeJgpaNO2vP1IM71gkiJIJ6zQ
+      short-id: e313
+  - name: "proxy-93"
+    type: vless
+    server: 82.21.153.27
+    port: 443
+    uuid: 7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.google.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA
+      short-id: aabbccdd
+  - name: "proxy-94"
+    type: vless
+    server: 104.21.227.134
+    port: 80
+    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vip.yaml7.ggff.net
+  - name: "proxy-95"
+    type: vless
+    server: 185.156.19.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-96"
+    type: vless
+    server: 185.162.231.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-97"
+    type: vless
+    server: 141.193.213.11
+    port: 443
+    uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+    udp: true
+    network: ws
+    tls: true
+    servername: qyi.fqjd663.ggff.net
+    ws-opts:
+      headers:
+        Host: qyi.fqjd663.ggff.net
+  - name: "proxy-98"
+    type: vless
+    server: 135.84.73.122
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-99"
+    type: vless
+    server: 77.232.140.43
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.cc.cd
+    ws-opts:
+      headers:
+        Host: sni.111000.cc.cd
+  - name: "proxy-100"
+    type: vless
+    server: 94.247.142.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-101"
+    type: vless
+    server: 25.25.25.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-102"
+    type: trojan
+    server: 104.18.12.149
+    port: 8443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "proxy-103"
+    type: vless
+    server: 104.19.135.124
+    port: 443
+    uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+    udp: true
+    network: ws
+    tls: true
+    servername: hio-awx.pages.dev
+    ws-opts:
+      headers:
+        Host: hio-awx.pages.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1220,9 +1204,6 @@ proxy-groups:
       - "proxy-101"
       - "proxy-102"
       - "proxy-103"
-      - "proxy-104"
-      - "proxy-105"
-      - "proxy-106"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
