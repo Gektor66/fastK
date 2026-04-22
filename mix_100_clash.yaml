@@ -1104,17 +1104,16 @@ proxies:
       path: /iixmriws
   - name: "proxy-92"
     type: vless
-    server: 5.178.87.140
+    server: 82.202.249.3
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-93"
     type: vless
-    server: 82.202.249.3
+    server: 5.178.87.140
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
@@ -1154,25 +1153,6 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-97"
     type: vless
-    server: 82.202.249.151
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-98"
-    type: vless
-    server: 178.72.181.26
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-99"
-    type: vless
     server: 104.18.32.47
     port: 443
     uuid: 1027b850-de79-4a94-b337-eccdac28e141
@@ -1184,6 +1164,32 @@ proxies:
       path: /vless
       headers:
         Host: g.sandesh.qzz.io
+  - name: "proxy-98"
+    type: vless
+    server: 172.64.155.209
+    port: 443
+    uuid: 1027b850-de79-4a94-b337-eccdac28e141
+    udp: true
+    network: ws
+    tls: true
+    servername: g.sandesh.qzz.io
+    ws-opts:
+      path: /vless
+      headers:
+        Host: g.sandesh.qzz.io
+  - name: "proxy-99"
+    type: vless
+    server: 103.106.228.126
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /?Telegram🇨🇳+@WangCai2=
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
