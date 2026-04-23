@@ -403,6 +403,34 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
+  - name: "proxy-64"
+    type: ss
+    server: ncmrcg000139ss7.cybervena.com
+    port: 50099?
+    cipher: chacha20-ietf-poly1305
+    password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+    udp: true
+  - name: "proxy-65"
+    type: ss
+    server: 107.172.250.161
+    port: 59556?
+    cipher: chacha20-ietf-poly1305
+    password: QTmLViU4VEmuwbOxUw4IXd
+    udp: true
+  - name: "proxy-66"
+    type: ss
+    server: 13.250.23.55
+    port: 80?
+    cipher: aes-256-gcm
+    password: dada1203
+    udp: true
+  - name: "proxy-67"
+    type: ss
+    server: 195.58.49.220
+    port: 10990?
+    cipher: aes-256-gcm
+    password: 9f3d1a6d31468599
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -465,6 +493,10 @@ proxy-groups:
       - "proxy-61"
       - "proxy-62"
       - "proxy-63"
+      - "proxy-64"
+      - "proxy-65"
+      - "proxy-66"
+      - "proxy-67"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
