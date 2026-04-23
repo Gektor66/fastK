@@ -1096,6 +1096,124 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
+  - name: "proxy-100"
+    type: vless
+    server: 47.254.156.196
+    port: 443
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.starwars.com
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  - name: "proxy-101"
+    type: vless
+    server: 194.154.30.150
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.latonyamadeline.ndjp.net
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+  - name: "proxy-103"
+    type: vless
+    server: 64.226.77.72
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.latonyamadeline.ndjp.net
+    ws-opts:
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+  - name: "proxy-104"
+    type: vless
+    server: 8.34.146.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-105"
+    type: vless
+    server: 8.6.112.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-106"
+    type: trojan
+    server: 134.209.252.120
+    port: 8443
+    password: 1234567890
+    udp: true
+  - name: "proxy-107"
+    type: trojan
+    server: 104.248.136.46
+    port: 2087
+    password: 1234567890
+    udp: true
+  - name: "proxy-108"
+    type: vless
+    server: 217.163.76.254
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-109"
+    type: trojan
+    server: 82.26.155.105
+    port: 10369
+    password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+    udp: true
+  - name: "proxy-110"
+    type: vless
+    server: 185.162.230.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-111"
+    type: vless
+    server: 154.206.12.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1201,6 +1319,17 @@ proxy-groups:
       - "proxy-97"
       - "proxy-98"
       - "proxy-99"
+      - "proxy-100"
+      - "proxy-101"
+      - "proxy-103"
+      - "proxy-104"
+      - "proxy-105"
+      - "proxy-106"
+      - "proxy-107"
+      - "proxy-108"
+      - "proxy-109"
+      - "proxy-110"
+      - "proxy-111"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
