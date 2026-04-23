@@ -1093,6 +1093,14 @@ proxies:
       path: /iixmriws
   - name: "proxy-89"
     type: vless
+    server: 93.183.95.25
+    port: 443
+    uuid: NjoBuegkJ7wm6ak9DfAiyL
+    udp: true
+    network: tcp
+    tls: false
+  - name: "proxy-90"
+    type: vless
     server: 94.26.249.194
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
@@ -1100,15 +1108,6 @@ proxies:
     network: tcp
     tls: true
     servername: cluster-russia-3.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-90"
-    type: vless
-    server: 178.72.181.41
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
     flow: xtls-rprx-vision
   - name: "proxy-91"
     type: vless
@@ -1162,15 +1161,6 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-96"
     type: vless
-    server: 78.24.181.130
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-97"
-    type: vless
     server: 95.213.143.225
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
@@ -1179,7 +1169,7 @@ proxies:
     tls: true
     servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
     server: 178.72.162.184
     port: 52006
@@ -1189,6 +1179,19 @@ proxies:
     tls: true
     servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
+  - name: "proxy-98"
+    type: vless
+    server: 104.18.32.47
+    port: 443
+    uuid: 1027b850-de79-4a94-b337-eccdac28e141
+    udp: true
+    network: ws
+    tls: true
+    servername: g.sandesh.qzz.io
+    ws-opts:
+      path: /vless
+      headers:
+        Host: g.sandesh.qzz.io
   - name: "proxy-99"
     type: vless
     server: 172.64.155.209
