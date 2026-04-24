@@ -1321,6 +1321,156 @@ proxies:
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
+  - name: "proxy-125"
+    type: vless
+    server: 172.64.154.211
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-126"
+    type: vless
+    server: 45.120.179.89
+    port: 8443
+    uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+    udp: true
+    network: tcp
+    tls: true
+    servername: tradingview.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
+  - name: "proxy-127"
+    type: vless
+    server: 194.107.126.20
+    port: 44406
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.latonyamadeline.ndjp.net
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+  - name: "proxy-128"
+    type: vless
+    server: 190.93.244.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-129"
+    type: trojan
+    server: 116.202.14.249
+    port: 8443
+    password: 1234567890
+    udp: true
+  - name: "proxy-130"
+    type: vless
+    server: 172.64.149.54
+    port: 443
+    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+    udp: true
+    network: ws
+    tls: true
+    servername: 2026.hhhhh.eu.org
+    ws-opts:
+      headers:
+        Host: 2026.hhhhh.eu.org
+  - name: "proxy-131"
+    type: vless
+    server: 205.233.181.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-132"
+    type: vless
+    server: 8.39.125.178
+    port: 443
+    uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+    udp: true
+    network: ws
+    tls: true
+    servername: tristandeng.cc.cd
+    ws-opts:
+      path: /
+      headers:
+        Host: tristandeng.cc.cd
+  - name: "proxy-133"
+    type: vless
+    server: 45.15.129.182
+    port: 443
+    uuid: d05f9ffb-a4ba-4f1c-af24-8e4c54609cb4
+    udp: true
+    network: tcp
+    tls: true
+    servername: google.com
+    reality-opts:
+      public-key: Zu-tz_iwfUJh-hIHXDB3E3whvKXYOFNUPTmZYU0ffXo
+      short-id: 03a24827
+  - name: "proxy-134"
+    type: vless
+    server: 57.129.47.72
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-135"
+    type: vless
+    server: 8.35.211.68
+    port: 2087
+    uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+    udp: true
+    network: ws
+    tls: true
+    servername: tristandeng.cc.cd
+    ws-opts:
+      path: /
+      headers:
+        Host: tristandeng.cc.cd
+  - name: "proxy-136"
+    type: trojan
+    server: 158.180.49.11
+    port: 2053
+    password: 1234567890
+    udp: true
+  - name: "proxy-137"
+    type: vless
+    server: 92.53.191.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1451,6 +1601,19 @@ proxy-groups:
       - "proxy-122"
       - "proxy-123"
       - "proxy-124"
+      - "proxy-125"
+      - "proxy-126"
+      - "proxy-127"
+      - "proxy-128"
+      - "proxy-129"
+      - "proxy-130"
+      - "proxy-131"
+      - "proxy-132"
+      - "proxy-133"
+      - "proxy-134"
+      - "proxy-135"
+      - "proxy-136"
+      - "proxy-137"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
