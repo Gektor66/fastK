@@ -1463,6 +1463,99 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.cc.cd
+  - name: "proxy-139"
+    type: vless
+    server: 141.101.121.169
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-140"
+    type: trojan
+    server: 167.99.244.254
+    port: 443
+    password: 1234567890
+    udp: true
+  - name: "proxy-141"
+    type: trojan
+    server: 162.159.152.2
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "proxy-142"
+    type: vless
+    server: 91.193.58.217
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.rocks
+    ws-opts:
+      path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
+      headers:
+        Host: sni.111000.v6.rocks
+  - name: "proxy-143"
+    type: vless
+    server: 216.205.52.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-144"
+    type: vless
+    server: 185.18.250.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-145"
+    type: trojan
+    server: 46.224.48.82
+    port: 443
+    password: 1234567890
+    udp: true
+  - name: "proxy-146"
+    type: trojan
+    server: 46.101.239.26
+    port: 443
+    password: 1234567890
+    udp: true
+  - name: "proxy-147"
+    type: trojan
+    server: 104.17.101.139
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "proxy-148"
+    type: vless
+    server: 104.18.13.149
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1607,6 +1700,16 @@ proxy-groups:
       - "proxy-136"
       - "proxy-137"
       - "proxy-138"
+      - "proxy-139"
+      - "proxy-140"
+      - "proxy-141"
+      - "proxy-142"
+      - "proxy-143"
+      - "proxy-144"
+      - "proxy-145"
+      - "proxy-146"
+      - "proxy-147"
+      - "proxy-148"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
