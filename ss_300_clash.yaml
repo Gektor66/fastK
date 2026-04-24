@@ -662,6 +662,13 @@ proxies:
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     udp: true
+  - name: "proxy-101"
+    type: ss
+    server: basic-ru-0.undef.network
+    port: 51572?
+    cipher: chacha20-ietf-poly1305
+    password: UflnXd8drRI5UWLCMjCAnX8Rk
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -761,6 +768,7 @@ proxy-groups:
       - "proxy-98"
       - "proxy-99"
       - "proxy-100"
+      - "proxy-101"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
