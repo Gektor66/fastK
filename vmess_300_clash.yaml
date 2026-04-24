@@ -20,14 +20,6 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-2"
-    type: vmess
-    server: 5.188.190.252
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 1
-    cipher: auto
-    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -35,7 +27,6 @@ proxy-groups:
     proxies:
       - "proxy-0"
       - "proxy-1"
-      - "proxy-2"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
