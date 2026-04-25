@@ -1158,6 +1158,150 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
+  - name: "proxy-112"
+    type: vless
+    server: 91.238.123.66
+    port: 443
+    uuid: 09a429d9-6ffa-43f3-8b3a-c634dbdda94d
+    udp: true
+    network: tcp
+    tls: true
+    servername: google.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+      short-id: db04ce8bdb8900f1
+  - name: "proxy-113"
+    type: vless
+    server: srv162.towersflowerss.com
+    port: 443
+    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+    udp: true
+    network: tcp
+    tls: false
+  - name: "proxy-114"
+    type: vless
+    server: 195.85.59.69
+    port: 2095
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxingnmsl.cnm-fangbinxing--nmsl.workers.dev
+  - name: "proxy-115"
+    type: vless
+    server: 45.146.201.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-116"
+    type: vless
+    server: 45.131.209.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-117"
+    type: vless
+    server: 85.137.52.230
+    port: 8443
+    uuid: 0c8a9f50-51b3-43b5-b1fb-09fc3131a800
+    udp: true
+    network: tcp
+    tls: true
+    servername: gwapp-nl01.freenets.store
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA
+  - name: "proxy-118"
+    type: vless
+    server: 8.6.112.71
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-119"
+    type: vless
+    server: 154.206.12.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-120"
+    type: vless
+    server: 216.205.52.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-121"
+    type: vless
+    server: 92.53.188.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-122"
+    type: vless
+    server: 160.153.1.127
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-123"
+    type: vless
+    server: 14.102.229.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1275,6 +1419,18 @@ proxy-groups:
       - "proxy-109"
       - "proxy-110"
       - "proxy-111"
+      - "proxy-112"
+      - "proxy-113"
+      - "proxy-114"
+      - "proxy-115"
+      - "proxy-116"
+      - "proxy-117"
+      - "proxy-118"
+      - "proxy-119"
+      - "proxy-120"
+      - "proxy-121"
+      - "proxy-122"
+      - "proxy-123"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
