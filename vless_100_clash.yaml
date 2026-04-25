@@ -1163,6 +1163,19 @@ proxies:
       path: /esoznjws
   - name: "proxy-93"
     type: vless
+    server: 81.161.98.228
+    port: 1443/
+    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+    udp: true
+    network: ws
+    tls: true
+    servername: vkvideo.cs7777.vk.ru
+    ws-opts:
+      path: /websocketpl
+      headers:
+        Host: cdn.filterai.ru
+  - name: "proxy-94"
+    type: vless
     server: 141.98.169.96
     port: 443
     uuid: bef46be4-a5f3-4e4c-b6fb-c4d38b3dba50
@@ -1172,7 +1185,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /iixmriws
-  - name: "proxy-94"
+  - name: "proxy-95"
     type: vless
     server: 95.85.237.26
     port: 443
@@ -1182,7 +1195,7 @@ proxies:
     tls: true
     servername: vk.com
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-95"
+  - name: "proxy-96"
     type: vless
     server: 93.183.95.25
     port: 443
@@ -1190,33 +1203,19 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-96"
-    type: vless
-    server: 148.253.210.141
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.latonyamadeline.ndjp.net
-    ws-opts:
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
   - name: "proxy-97"
     type: vless
-    server: 132.145.91.181
-    port: 8443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    server: 82.202.197.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: 3-93f.pages.dev
-    ws-opts:
-      headers:
-        Host: 3-93f.pages.dev
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
   - name: "proxy-98"
     type: vless
-    server: 5.178.87.140
+    server: 80.249.131.172
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
@@ -1226,16 +1225,14 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-99"
     type: vless
-    server: 74.49.214.43
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 82.202.249.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: sni.111000.cc.cd
-    ws-opts:
-      headers:
-        Host: sni.111000.cc.cd
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
