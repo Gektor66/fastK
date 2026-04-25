@@ -417,6 +417,13 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: AH6gydSa5RBzU98Rma0bG1EVJLfPmt0H
     udp: true
+  - name: "proxy-65"
+    type: ss
+    server: basic-ru-0.undef.network
+    port: 51287?
+    cipher: chacha20-ietf-poly1305
+    password: usOjAQXmyRqcY8aRAFFghnyRR
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -481,6 +488,7 @@ proxy-groups:
       - "proxy-62"
       - "proxy-63"
       - "proxy-64"
+      - "proxy-65"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN

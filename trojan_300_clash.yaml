@@ -1594,6 +1594,18 @@ proxies:
     port: 20002
     password: 1234567890
     udp: true
+  - name: "proxy-265"
+    type: trojan
+    server: 217.144.188.147
+    port: 8443
+    password: 1234567890
+    udp: true
+  - name: "proxy-266"
+    type: trojan
+    server: 220.85.254.226
+    port: 20201
+    password: 1234567890
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1864,6 +1876,8 @@ proxy-groups:
       - "proxy-262"
       - "proxy-263"
       - "proxy-264"
+      - "proxy-265"
+      - "proxy-266"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
