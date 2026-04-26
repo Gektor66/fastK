@@ -995,6 +995,111 @@ proxies:
         Host: sni.111000.indevs.in
   - name: "proxy-80"
     type: vless
+    server: 195.181.173.199
+    port: 8443
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    udp: true
+    network: tcp
+    tls: true
+    servername: ams1.fromblancwithlove.com
+  - name: "proxy-81"
+    type: vless
+    server: 45.8.211.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-82"
+    type: vless
+    server: 8.6.112.6
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-83"
+    type: vless
+    server: 135.84.64.111
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-84"
+    type: vless
+    server: 45.146.201.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-85"
+    type: vless
+    server: 45.12.30.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-86"
+    type: vless
+    server: 45.128.76.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-87"
+    type: vless
+    server: 216.24.57.4
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-88"
+    type: vless
+    server: 88.216.66.238
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.jpmj.dev
+    ws-opts:
+      headers:
+        Host: sni.jpmj.dev
+  - name: "proxy-89"
+    type: vless
     server: 94.131.100.163
     port: 443
     uuid: 19ae54a4-716b-4b08-914f-c9c1556c4380
@@ -1004,7 +1109,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-81"
+  - name: "proxy-90"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1015,7 +1120,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-82"
+  - name: "proxy-91"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1028,7 +1133,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-83"
+  - name: "proxy-92"
     type: vless
     server: 141.98.169.96
     port: 443
@@ -1039,7 +1144,26 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /iixmriws
-  - name: "proxy-84"
+  - name: "proxy-93"
+    type: vless
+    server: 45.15.147.22
+    port: 22443
+    uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
+    udp: true
+    network: tcp
+    tls: true
+    servername: s3.yandex.net
+  - name: "proxy-94"
+    type: vless
+    server: 95.85.237.26
+    port: 443
+    uuid: fc5ffd42-ebad-4466-ba56-c8865680f4f2
+    udp: true
+    network: tcp
+    tls: true
+    servername: vk.com
+    flow: xtls-rprx-vision-udp443
+  - name: "proxy-95"
     type: vless
     server: 198.255.96.14
     port: 443
@@ -1050,55 +1174,7 @@ proxies:
     servername: login.vk.com
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-85"
-    type: vless
-    server: 95.85.237.26
-    port: 443
-    uuid: fc5ffd42-ebad-4466-ba56-c8865680f4f2
-    udp: true
-    network: tcp
-    tls: true
-    servername: vk.com
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-86"
-    type: vless
-    server: 93.183.95.25
-    port: 443
-    uuid: NjoBuegkJ7wm6ak9DfAiyL
-    udp: true
-    network: tcp
-    tls: false
-  - name: "proxy-87"
-    type: vless
-    server: 178.72.181.132
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-88"
-    type: vless
-    server: 178.72.181.80
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-2.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-89"
-    type: vless
-    server: 178.72.181.87
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-2.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-90"
+  - name: "proxy-96"
     type: vless
     server: 178.72.181.98
     port: 52006
@@ -1108,7 +1184,7 @@ proxies:
     tls: true
     servername: cluster-de-2.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-91"
+  - name: "proxy-97"
     type: vless
     server: 5.188.159.69
     port: 52006
@@ -1118,7 +1194,7 @@ proxies:
     tls: true
     servername: cluster-de-2.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-92"
+  - name: "proxy-98"
     type: vless
     server: cluster-de-1.firstvideocdn.ru
     port: 52006
@@ -1127,60 +1203,16 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-93"
+  - name: "proxy-99"
     type: vless
-    server: cluster-de-2.firstvideocdn.ru
+    server: 178.72.181.132
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-94"
-    type: vless
-    server: 212.41.28.109
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
-    tls: false
-  - name: "proxy-95"
-    type: vless
-    server: 5.188.156.138
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
-    tls: false
-  - name: "proxy-96"
-    type: vless
-    server: 87.228.124.196
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
-    tls: false
-  - name: "proxy-97"
-    type: vless
-    server: ru3.frostmotiveseed.net
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
-  - name: "proxy-98"
-    type: vless
-    server: ru7.frostmotiveseed.net
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
-  - name: "proxy-99"
-    type: vless
-    server: ru8.frostmotiveseed.net
-    port: 4443
-    uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
-    udp: true
-    network: tcp
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
