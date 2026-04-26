@@ -6,6 +6,14 @@ log-level: info
 proxies:
   - name: "proxy-1"
     type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-2"
+    type: vmess
     server: usaapp1.jisuyun.top
     port: 2053
     uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
@@ -14,7 +22,7 @@ proxies:
     udp: true
     tls: true
     servername: usaapp1.jisuyun.top
-  - name: "proxy-2"
+  - name: "proxy-3"
     type: vmess
     server: 66.163.117.58
     port: 22324
@@ -22,7 +30,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-3"
+  - name: "proxy-4"
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -30,7 +38,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-4"
+  - name: "proxy-5"
     type: vmess
     server: 47.244.120.197
     port: 44867
@@ -38,7 +46,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-5"
+  - name: "proxy-6"
     type: vmess
     server: 94.232.247.165
     port: 45653
@@ -46,7 +54,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-6"
+  - name: "proxy-7"
     type: vmess
     server: 165.140.216.141
     port: 443
@@ -54,7 +62,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-7"
+  - name: "proxy-8"
     type: vmess
     server: 104.21.53.12
     port: 443
@@ -64,7 +72,7 @@ proxies:
     udp: true
     tls: true
     servername: ophelia.mom
-  - name: "proxy-8"
+  - name: "proxy-9"
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -72,7 +80,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-9"
+  - name: "proxy-10"
     type: vmess
     server: kr01.a0a.xyz
     port: 19568
@@ -80,7 +88,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-10"
+  - name: "proxy-11"
     type: vmess
     server: jp01.a0a.xyz
     port: 80
@@ -88,7 +96,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-11"
+  - name: "proxy-12"
     type: vmess
     server: 10.a400.top
     port: 44742
@@ -98,7 +106,7 @@ proxies:
     udp: true
     tls: true
     servername: 10.a400.top
-  - name: "proxy-12"
+  - name: "proxy-13"
     type: vmess
     server: 47.90.244.153
     port: 8443
@@ -106,7 +114,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-13"
+  - name: "proxy-14"
     type: vmess
     server: ae135.cowjump.site
     port: 443
@@ -116,7 +124,7 @@ proxies:
     udp: true
     tls: true
     servername: ae135.cowjump.site
-  - name: "proxy-14"
+  - name: "proxy-15"
     type: vmess
     server: 82.198.246.9
     port: 180
@@ -143,6 +151,7 @@ proxy-groups:
       - "proxy-12"
       - "proxy-13"
       - "proxy-14"
+      - "proxy-15"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
