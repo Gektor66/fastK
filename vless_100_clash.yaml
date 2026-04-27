@@ -1194,15 +1194,16 @@ proxies:
         Host: joss.jak.biz.id
   - name: "proxy-99"
     type: vless
-    server: filegrid.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    server: 45.80.110.253
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
+    network: ws
+    tls: false
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/HK
+      headers:
+        Host: joss.jak.biz.id
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
