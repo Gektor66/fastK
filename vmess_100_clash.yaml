@@ -4,6 +4,14 @@ mode: rule
 log-level: info
 
 proxies:
+  - name: "proxy-0"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
   - name: "proxy-1"
     type: vmess
     server: us-v2ray.ipracevpn.com
@@ -44,6 +52,7 @@ proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
+      - "proxy-0"
       - "proxy-1"
       - "proxy-2"
       - "proxy-3"
