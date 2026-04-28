@@ -6,19 +6,6 @@ log-level: info
 proxies:
   - name: "proxy-0"
     type: vless
-    server: 77.239.108.36
-    port: 443
-    uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-    udp: true
-    network: tcp
-    tls: true
-    servername: gateway.icloud.com
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
-      short-id: c6118398
-  - name: "proxy-1"
-    type: vless
     server: 130.12.242.182
     port: 443
     uuid: da83025c-6edd-4f3b-979d-1cb0cf59f4d0
@@ -30,7 +17,7 @@ proxies:
     reality-opts:
       public-key: hiwB3SDzaT_l-hVWRdhuRBQ3AxbNcJePgSqEwECkIzo
       short-id: 58fe4f834d5554a6
-  - name: "proxy-2"
+  - name: "proxy-1"
     type: vless
     server: 150.241.70.2
     port: 5443
@@ -42,7 +29,7 @@ proxies:
     reality-opts:
       public-key: pkoDwsD2w2qdS9J9YXsV4QH-e7QtjspW2mejpB67dhY
       short-id: 68ac7d27030a06
-  - name: "proxy-3"
+  - name: "proxy-2"
     type: vless
     server: 64.188.67.222
     port: 443
@@ -55,7 +42,7 @@ proxies:
     reality-opts:
       public-key: 7-Jm57ecz0CLHigw6miMzEGJjqubw9Iirgn5sLD0gTE
       short-id: 9f2c6b1d
-  - name: "proxy-4"
+  - name: "proxy-3"
     type: vless
     server: gwapp-nl01.freenets.store
     port: 8443
@@ -67,7 +54,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA
-  - name: "proxy-5"
+  - name: "proxy-4"
     type: vless
     server: 151.242.147.88
     port: 2083
@@ -81,7 +68,7 @@ proxies:
       short-id: 6da16b1335651b38
     grpc-opts:
       grpc-service-name: UpdateService
-  - name: "proxy-6"
+  - name: "proxy-5"
     type: vless
     server: 205.237.107.192
     port: 443
@@ -93,33 +80,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: yAIZa8Fp4M4KR2WgH4fObtHF-JMTCxDNKNib5yIZVmU
-  - name: "proxy-7"
-    type: vless
-    server: 5.188.141.205
-    port: 443
-    uuid: 762f0e03-f1f0-42b2-be3f-28c6febf970b
-    udp: true
-    network: tcp
-    tls: true
-    servername: ads.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: Sd5IFKCPgJl5tIG4EZNZwedxqN5zwakmyS1pZiiVoCk
-      short-id: 3e62cdebd3937231
-  - name: "proxy-8"
-    type: vless
-    server: 51.250.111.194
-    port: 7443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 7ibca15-im9GR65wrb0N-ij1qdUftpcxTwNxHn9HPUw
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-9"
+  - name: "proxy-6"
     type: vless
     server: 89.208.230.199
     port: 8443
@@ -132,164 +93,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-10"
-    type: vless
-    server: 89.208.229.209
-    port: 993
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: tcp
-    tls: true
-    servername: yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
-      short-id: ad7dab462a323acb
-  - name: "proxy-11"
-    type: vless
-    server: 89.169.182.125
-    port: 443
-    uuid: 9939d06b-3494-45f3-8957-1caf733d3e77
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 08SoF4Sf_-XTsjp4l21mxcd0j-f1bc5PwMuw8nJBXhA
-      short-id: 4be499a5479b37ab
-  - name: "proxy-12"
-    type: vless
-    server: 158.160.37.217
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-3-2.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: uk92pbvDM3dRNZqaTHUE-x06fZxubSyUA997NkB5tyk
-      short-id: 5a517ed4bfcd4a54
-  - name: "proxy-13"
-    type: vless
-    server: 158.160.39.135
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-3-3.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: m5iF8IAFKw52ODQqdBE4fycHj5bAm6zTmnG3P7Mn2G8
-      short-id: d8d3d1d87555e842
-  - name: "proxy-14"
-    type: vless
-    server: 178.154.215.113
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-4-1.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw
-      short-id: 30e93292b543f308
-  - name: "proxy-15"
-    type: vless
-    server: 51.250.21.54
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-6-2.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo
-      short-id: 64038de1ca7aad86
-  - name: "proxy-16"
-    type: vless
-    server: 51.250.24.230
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-6-3.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4
-      short-id: bf0c3248f61fe277
-  - name: "proxy-17"
-    type: vless
-    server: 51.250.37.141
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-6-5.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: c8Sx7-8OcvtHEbVU59r-9DQrNdSI91GbMaHR-du4BxA
-      short-id: b7b3ff64ca530808
-  - name: "proxy-18"
-    type: vless
-    server: 51.250.39.162
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-6-1.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8
-      short-id: 468d8ab371f8f563
-  - name: "proxy-19"
-    type: vless
-    server: 51.250.90.34
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-6-4.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: UZcUXcDWwIkPoLsqflKMGiFx50MERRpum96y-y5Dv1Q
-      short-id: ffd676bc2a2657ef
-  - name: "proxy-20"
-    type: vless
-    server: 84.201.162.61
-    port: 443
-    uuid: d837c461-f0af-4c34-aa32-474275470aa7
-    udp: true
-    network: tcp
-    tls: true
-    servername: wl-5-1.legendary.ac
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: TksrKvkKxOc7Z4tPRq3IgerELr-8vKkQJLKG8Ovd4xw
-      short-id: b333935faadae035
-  - name: "proxy-21"
-    type: vless
-    server: 46.243.232.186
-    port: 443
-    uuid: 20abb3b5-ac85-4bcc-aaf0-cb4ece70fb83
-    udp: true
-    network: grpc
-    tls: true
-    servername: ads.x5.ru
-    reality-opts:
-      public-key: OoPqWo20Aq1LsqmZCnGxcvLHun7S1d6F4Bx6PbxpOVE
-      short-id: 5FA44664f6a566d3
-    grpc-opts:
-      grpc-service-name: vless-grpc
-  - name: "proxy-22"
+  - name: "proxy-7"
     type: vless
     server: 5.188.140.245
     port: 993
@@ -302,7 +106,7 @@ proxies:
     reality-opts:
       public-key: thz2uZE7rsLT609yRqqHsw9slQmCohEpFqRaoCoKLCs
       short-id: ad7dab462a323a
-  - name: "proxy-23"
+  - name: "proxy-8"
     type: vless
     server: 158.160.235.223
     port: 993
@@ -315,33 +119,7 @@ proxies:
     reality-opts:
       public-key: thz2uZE7rsLT609yRqqHsw9slQmCohEpFqRaoCoKLCs
       short-id: ad7dab462a323a
-  - name: "proxy-24"
-    type: vless
-    server: 78.159.246.239
-    port: 443
-    uuid: 4731fdda-512e-4768-b586-c377db665224
-    udp: true
-    network: tcp
-    tls: true
-    servername: x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: VEQ1aFtLMHgfLcZ2yIugry8JzVXPE5ZXz72L10RUXVs
-      short-id: f4e2b8971d5c3a9f
-  - name: "proxy-25"
-    type: vless
-    server: 51.250.105.174
-    port: 443
-    uuid: 4ed47a9f-d138-467f-89e2-0b84b7f7d6ae
-    udp: true
-    network: grpc
-    tls: true
-    servername: ads.x5.ru
-    reality-opts:
-      public-key: DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8
-      short-id: bd3cda1117aa
-    grpc-opts:
-  - name: "proxy-26"
+  - name: "proxy-9"
     type: vless
     server: 109.120.188.50
     port: 993
@@ -354,7 +132,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-27"
+  - name: "proxy-10"
     type: vless
     server: 217.16.19.13
     port: 993
@@ -367,7 +145,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-28"
+  - name: "proxy-11"
     type: vless
     server: 5.188.140.166
     port: 993
@@ -380,7 +158,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-29"
+  - name: "proxy-12"
     type: vless
     server: 5.188.143.70
     port: 993
@@ -393,7 +171,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-30"
+  - name: "proxy-13"
     type: vless
     server: 158.160.51.188
     port: 6445
@@ -407,111 +185,7 @@ proxies:
       short-id: bad5722c72a0
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-31"
-    type: vless
-    server: 51.250.111.194
-    port: 443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: ads.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: y9hgkaFKFTgKL5PHsksGNKuSrd7jBysJ6rBHktu2k1o
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-32"
-    type: vless
-    server: 51.250.7.125
-    port: 443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: ads.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: hxpWlr-5EgNUPr__9gnoDdF9spsl4W4sfNKv_NJM_FY
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-33"
-    type: vless
-    server: 51.250.7.125
-    port: 5443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 7ibca15-im9GR65wrb0N-ij1qdUftpcxTwNxHn9HPUw
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-34"
-    type: vless
-    server: 158.160.120.24.nike77prime.ru
-    port: 443
-    uuid: eba7d29f-a6b9-4c34-8285-77385e243456
-    udp: true
-    network: tcp
-    tls: true
-    servername: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: WYroN5_KU_6GrkBVATev8W3pd_uZitHiDC2-7A8lqjY
-      short-id: 1e59f047
-  - name: "proxy-35"
-    type: vless
-    server: 158.160.120.24
-    port: 443
-    uuid: eba7d29f-a6b9-4c34-8285-77385e243456
-    udp: true
-    network: tcp
-    tls: true
-    servername: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: WYroN5_KU_6GrkBVATev8W3pd_uZitHiDC2-7A8lqjY
-      short-id: 1e59f047
-  - name: "proxy-36"
-    type: vless
-    server: 158.160.38.209.nike77prime.ru
-    port: 443
-    uuid: eba7d29f-a6b9-4c34-8285-77385e243456
-    udp: true
-    network: tcp
-    tls: true
-    servername: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: WYroN5_KU_6GrkBVATev8W3pd_uZitHiDC2-7A8lqjY
-      short-id: 1e59f047
-  - name: "proxy-37"
-    type: vless
-    server: 158.160.38.209
-    port: 443
-    uuid: eba7d29f-a6b9-4c34-8285-77385e243456
-    udp: true
-    network: tcp
-    tls: true
-    servername: api-maps.yandex.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: WYroN5_KU_6GrkBVATev8W3pd_uZitHiDC2-7A8lqjY
-      short-id: 1e59f047
-  - name: "proxy-38"
-    type: vless
-    server: 89.169.135.49
-    port: 443
-    uuid: 1a0ee0a8-6343-46b3-9b3f-5be7be0cc8cb
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: LRiDmRBj2SXYs16ijZuM_--928r4AG49RgTAex_XZWM
-      short-id: 01922a1a26df2cf0
-  - name: "proxy-39"
+  - name: "proxy-14"
     type: vless
     server: 51.250.23.243
     port: 443
@@ -523,345 +197,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: XSyv5Fi_gW72GREh-PyGjfNfN4_Zyuuq6A-klKEU2Hc
-  - name: "proxy-40"
-    type: vless
-    server: 51.250.0.33
-    port: 443
-    uuid: 4ed47a9f-d138-467f-89e2-0b84b7f7d6ae
-    udp: true
-    network: grpc
-    tls: true
-    servername: ads.x5.ru
-    reality-opts:
-      public-key: AvSwsAIp3t2sTvNDZwTPkbcanvu9wtvLyZ6FCzIM-Rk
-      short-id: 7ada97abaa
-    grpc-opts:
-  - name: "proxy-41"
-    type: vless
-    server: 158.160.160.33
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-42"
-    type: vless
-    server: 158.160.170.80
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-43"
-    type: vless
-    server: 158.160.233.46
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-44"
-    type: vless
-    server: 158.160.250.186
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-45"
-    type: vless
-    server: 158.160.251.31
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-46"
-    type: vless
-    server: 158.160.254.27
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-47"
-    type: vless
-    server: 84.201.143.223
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-48"
-    type: vless
-    server: 158.160.220.7
-    port: 443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: YKDxvQImldrUfVaJM_Hr49gpEqrDE66j7Psw4vOZuyI
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-49"
-    type: vless
-    server: 158.160.220.7
-    port: 4443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: ads.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: YKDxvQImldrUfVaJM_Hr49gpEqrDE66j7Psw4vOZuyI
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-50"
-    type: vless
-    server: 158.160.220.7
-    port: 6443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: ads.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: EagleFOEX2C-aS-78Ivg8U6tCxOJ7X1IovccktpXNzI
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-51"
-    type: vless
-    server: 158.160.220.7
-    port: 8443
-    uuid: b65ecce8-dbb0-4870-ba2e-b919098fee79
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: YKDxvQImldrUfVaJM_Hr49gpEqrDE66j7Psw4vOZuyI
-      short-id: 6ba85179e30d4fc2
-  - name: "proxy-52"
-    type: vless
-    server: bs.itg.top
-    port: 443/
-    uuid: 6adb17bf-6017-48af-bea7-bfe89764b9b6
-    udp: true
-    network: tcp
-    tls: true
-    servername: zoo.vprok.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 5oEgHwhHz33h2bfRkFu0HBHf6GWWIskal9lBIZegszI
-      short-id: 111834811317100d
-  - name: "proxy-53"
-    type: vless
-    server: 158.160.159.180
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-54"
-    type: vless
-    server: 158.160.168.132
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-55"
-    type: vless
-    server: 158.160.224.84
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-56"
-    type: vless
-    server: 158.160.231.91
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-57"
-    type: vless
-    server: 158.160.240.20
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-58"
-    type: vless
-    server: 158.160.241.112
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-59"
-    type: vless
-    server: 158.160.245.33
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-60"
-    type: vless
-    server: 158.160.245.72
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-61"
-    type: vless
-    server: 158.160.252.157
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-62"
-    type: vless
-    server: 84.201.137.212
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-63"
-    type: vless
-    server: 84.201.154.239
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-64"
-    type: vless
-    server: 84.201.161.48
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-65"
-    type: vless
-    server: 84.201.163.248
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: id.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
-      short-id: 111111
-  - name: "proxy-66"
+  - name: "proxy-15"
     type: vless
     server: 46.243.232.102
     port: 5443
@@ -873,19 +209,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-67"
-    type: vless
-    server: 46.243.233.232
-    port: 5443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-68"
+  - name: "proxy-16"
     type: vless
     server: cdn.herumhas.shop
     port: 5443
@@ -897,7 +221,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-69"
+  - name: "proxy-17"
     type: vless
     server: cnh.herumhas.shop
     port: 5443
@@ -909,20 +233,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-70"
-    type: vless
-    server: 37.18.15.174
-    port: 443
-    uuid: 4731fdda-512e-4768-b586-c377db665224
-    udp: true
-    network: tcp
-    tls: true
-    servername: x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: b9uDzZP2udvoExtbm7nwraBaAbg0QowtY-ALDNZ__xg
-      short-id: f4e2b8971d5c3a9f
-  - name: "proxy-71"
+  - name: "proxy-18"
     type: vless
     server: 212.233.72.147
     port: 443
@@ -935,7 +246,32 @@ proxies:
     reality-opts:
       public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
       short-id: 3c6fc84d
-  - name: "proxy-72"
+  - name: "proxy-19"
+    type: vless
+    server: ru.bundo.su
+    port: 443
+    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
+    udp: true
+    network: tcp
+    tls: true
+    servername: stats.vk-portal.net
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
+      short-id: 3c6fc84d
+  - name: "proxy-20"
+    type: vless
+    server: 217.16.21.116
+    port: 5443
+    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
+  - name: "proxy-21"
     type: vless
     server: 217.herumhas.shop
     port: 5443
@@ -947,19 +283,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-73"
-    type: vless
-    server: 5.188.140.160
-    port: 5443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-74"
+  - name: "proxy-22"
     type: vless
     server: 87.239.104.218
     port: 5443
@@ -971,19 +295,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-75"
-    type: vless
-    server: 89.208.230.241
-    port: 5443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-76"
+  - name: "proxy-23"
     type: vless
     server: gdg.herumhas.shop
     port: 5443
@@ -995,19 +307,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-77"
-    type: vless
-    server: omg.herumhas.shop
-    port: 5443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
-    udp: true
-    network: tcp
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-78"
+  - name: "proxy-24"
     type: vless
     server: pro.herumhas.shop
     port: 5443
@@ -1019,46 +319,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-79"
-    type: vless
-    server: 89.169.131.213
-    port: 443
-    uuid: 1ad02168-e517-450b-9613-67f82ebb6239
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: nERxknsOFZqBENqyQSrqB0aimON9HJyzkgONd7i4bCY
-      short-id: 590e5efe14ee0ba0
-  - name: "proxy-80"
-    type: vless
-    server: 158.160.119.19
-    port: 443
-    uuid: 4731fdda-512e-4768-b586-c377db665224
-    udp: true
-    network: tcp
-    tls: true
-    servername: x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: b9uDzZP2udvoExtbm7nwraBaAbg0QowtY-ALDNZ__xg
-      short-id: f4e2b8971d5c3a9f
-  - name: "proxy-81"
-    type: vless
-    server: 84.201.129.113
-    port: 443
-    uuid: 4731fdda-512e-4768-b586-c377db665224
-    udp: true
-    network: tcp
-    tls: true
-    servername: x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: b9uDzZP2udvoExtbm7nwraBaAbg0QowtY-ALDNZ__xg
-      short-id: f4e2b8971d5c3a9f
-  - name: "proxy-82"
+  - name: "proxy-25"
     type: vless
     server: 89.169.191.107
     port: 443
@@ -1071,7 +332,7 @@ proxies:
     reality-opts:
       public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
       short-id: 3c6fc84d
-  - name: "proxy-83"
+  - name: "proxy-26"
     type: vless
     server: ru2.bundo.su
     port: 443
@@ -1084,7 +345,7 @@ proxies:
     reality-opts:
       public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
       short-id: 3c6fc84d
-  - name: "proxy-84"
+  - name: "proxy-27"
     type: vless
     server: 51.250.76.122
     port: 5443
@@ -1096,7 +357,7 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
-  - name: "proxy-85"
+  - name: "proxy-28"
     type: vless
     server: 109.120.191.171
     port: 993
@@ -1109,7 +370,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-86"
+  - name: "proxy-29"
     type: vless
     server: 109.120.191.5
     port: 993
@@ -1122,7 +383,20 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-87"
+  - name: "proxy-30"
+    type: vless
+    server: 89.208.229.209
+    port: 993
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+      short-id: ad7dab462a323acb
+  - name: "proxy-31"
     type: vless
     server: 89.208.231.52
     port: 993
@@ -1135,7 +409,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-88"
+  - name: "proxy-32"
     type: vless
     server: 89.208.231.81
     port: 993
@@ -1148,7 +422,7 @@ proxies:
     reality-opts:
       public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
       short-id: ad7dab462a323acb
-  - name: "proxy-89"
+  - name: "proxy-33"
     type: vless
     server: 158.160.102.236
     port: 443
@@ -1161,7 +435,7 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "proxy-90"
+  - name: "proxy-34"
     type: vless
     server: 158.160.33.146
     port: 443
@@ -1174,7 +448,7 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "proxy-91"
+  - name: "proxy-35"
     type: vless
     server: 84.201.159.228
     port: 443
@@ -1187,72 +461,7 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "proxy-92"
-    type: vless
-    server: 158.160.145.14
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-93"
-    type: vless
-    server: 158.160.218.153
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-94"
-    type: vless
-    server: 158.160.248.232
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-95"
-    type: vless
-    server: 158.160.248.32
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-96"
-    type: vless
-    server: 84.201.151.181
-    port: 443
-    uuid: 27a1d133-ca8e-4aea-abbc-92283f578716
-    udp: true
-    network: tcp
-    tls: true
-    servername: 5post-gate.x5.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE
-      short-id: 111111
-  - name: "proxy-97"
+  - name: "proxy-36"
     type: vless
     server: 158.160.101.240
     port: 443
@@ -1265,7 +474,7 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "proxy-98"
+  - name: "proxy-37"
     type: vless
     server: 158.160.114.71
     port: 443
@@ -1278,7 +487,7 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "proxy-99"
+  - name: "proxy-38"
     type: vless
     server: 158.160.46.104
     port: 443
@@ -1286,11 +495,792 @@ proxies:
     udp: true
     network: tcp
     tls: true
-    servername: api-maps.yandex.ru
+    servername: web.max.ru
     flow: xtls-rprx-vision
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
+  - name: "proxy-39"
+    type: vless
+    server: 51.250.67.51
+    port: 443
+    uuid: 409bdb0f-5aae-4e93-a8dd-60adc47d5fd3
+    udp: true
+    network: tcp
+    tls: true
+    servername: web.max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
+  - name: "proxy-40"
+    type: vless
+    server: 51.250.9.177
+    port: 443
+    uuid: 409bdb0f-5aae-4e93-a8dd-60adc47d5fd3
+    udp: true
+    network: tcp
+    tls: true
+    servername: ads.x5.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
+  - name: "proxy-41"
+    type: vless
+    server: 84.201.131.34
+    port: 443
+    uuid: 409bdb0f-5aae-4e93-a8dd-60adc47d5fd3
+    udp: true
+    network: tcp
+    tls: true
+    servername: smartcaptcha.yandexcloud.net
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
+  - name: "proxy-42"
+    type: vless
+    server: 84.201.132.110
+    port: 443
+    uuid: 409bdb0f-5aae-4e93-a8dd-60adc47d5fd3
+    udp: true
+    network: tcp
+    tls: true
+    servername: smartcaptcha.yandexcloud.net
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
+  - name: "proxy-43"
+    type: vless
+    server: 84.201.173.227
+    port: 443
+    uuid: 409bdb0f-5aae-4e93-a8dd-60adc47d5fd3
+    udp: true
+    network: tcp
+    tls: true
+    servername: web.max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
+  - name: "proxy-44"
+    type: vless
+    server: 51.250.90.82
+    port: 5443
+    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
+  - name: "proxy-45"
+    type: vless
+    server: 87.236.146.32
+    port: 443
+    uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.vk.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+      short-id: 6ba85179e30d4fc2
+  - name: "proxy-46"
+    type: vless
+    server: 161.104.105.101
+    port: 443
+    uuid: 20bc4672-5b49-407d-a529-67ed6155ea80
+    udp: true
+    network: tcp
+    tls: true
+    servername: ir-3.ozone.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+      short-id: 2cfb5a0ae8ab0cb0
+  - name: "proxy-47"
+    type: vless
+    server: 51.250.41.20
+    port: 443
+    uuid: 22fc4701-8c86-4d4f-a858-8f5921d83977
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Wo4XW_RPWDMoOvLYVpm3xaELpl6m8-pDQKR6fIg91VQ
+      short-id: a6a75cbb895d3446
+  - name: "proxy-48"
+    type: vless
+    server: 176.120.67.77
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    udp: true
+    network: tcp
+    tls: true
+    servername: ozon.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+      short-id: f1071c148a5aefc4
+  - name: "proxy-49"
+    type: vless
+    server: 89.169.162.214
+    port: 443
+    uuid: 86c8a690-9602-4d40-bbf7-156720de104f
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+  - name: "proxy-50"
+    type: vless
+    server: 176.120.67.95
+    port: 8443
+    uuid: d0dea598-9047-4567-a934-84c2797c0978
+    udp: true
+    network: tcp
+    tls: true
+    servername: ozon.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+      short-id: f1071c148a5aefc4
+  - name: "proxy-51"
+    type: vless
+    server: us.nitroo-tech.ru
+    port: 443
+    uuid: f31f5fe0-0a42-436a-be94-437330801388
+    udp: true
+    network: tcp
+    tls: true
+    servername: mirror.yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
+      short-id: 7e44612b079459
+  - name: "proxy-52"
+    type: vless
+    server: 91.84.107.75
+    port: 8443
+    uuid: 1ef15939-7ec4-427f-9d47-eed9ced4c96f
+    udp: true
+    network: tcp
+    tls: true
+    servername: sun6-22.userapi.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
+      short-id: 808e2d36726ee97e
+  - name: "proxy-53"
+    type: vless
+    server: 185.162.11.223
+    port: 443
+    uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
+    udp: true
+    network: tcp
+    tls: true
+    servername: sun6-21.userapi.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+      short-id: edbc04c389
+  - name: "proxy-54"
+    type: vless
+    server: 217.16.27.217
+    port: 443/
+    uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+    udp: true
+    network: tcp
+    tls: true
+    servername: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+      short-id: a76ea384b29a4f79
+  - name: "proxy-55"
+    type: vless
+    server: 87.242.103.184
+    port: 443/
+    uuid: f5a8e5fb-baa8-48cb-a62a-930c97c29eb2
+    udp: true
+    network: grpc
+    tls: true
+    servername: ya.ru
+    reality-opts:
+      public-key: 98aKRSTSW_8Fpd8e63HOuqLhnlGvZrTD5EBPTMy0tBc
+      short-id: 7dcd0c337708
+    grpc-opts:
+  - name: "proxy-56"
+    type: vless
+    server: 83.166.255.72
+    port: 443/
+    uuid: 03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
+    grpc-opts:
+  - name: "proxy-57"
+    type: vless
+    server: 45.141.234.196
+    port: 51472/
+    uuid: 0c49f1d8-3d34-473b-bebf-9d9a4811db62
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: hvFQArY-PeMdz4jfKEGZ9HgIJvZbR5Bd9F0GgNLemQI
+      short-id: ab4398ec00fc775d
+  - name: "proxy-58"
+    type: vless
+    server: 77.83.245.171
+    port: 43816/
+    uuid: a893f940-8725-4b3e-8b77-caa1380e95dc
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: 2mpSbwY9np514lX_koLsYqF23ybAkdjZ_qNIA5qw7jU
+      short-id: 2aa4fcbeaed2ad23
+  - name: "proxy-59"
+    type: vless
+    server: 87.251.77.211
+    port: 8443/
+    uuid: d159a65d-51db-4b73-88bc-b665c10ee151
+    udp: true
+    network: tcp
+    tls: true
+    servername: ya.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: PycIxLERS3Kg4Kh7TQuiD1Kf9pNySxp5jMKEaIb_PjU
+      short-id: f740030928
+  - name: "proxy-60"
+    type: vless
+    server: 130.193.59.133
+    port: 51101/
+    uuid: bbc3bb80-032b-4c15-9bbd-ac6cba0e76a0
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: f32140952ba18e18
+  - name: "proxy-61"
+    type: vless
+    server: 185.86.147.96
+    port: 5443/
+    uuid: 4706e106-9637-46fb-9536-1dacd57889fe
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: UZZZh7NCnRvU1y7D45FgrZFwIDVIrdLm8TVjx6IudGQ
+      short-id: a1b2c3d4e5f60789
+  - name: "proxy-62"
+    type: vless
+    server: 130.193.59.133
+    port: 8443/
+    uuid: 6e67163a-95e2-422b-b966-774920649662
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: f32140952ba18e18
+  - name: "proxy-63"
+    type: vless
+    server: 51.250.75.178
+    port: 4443/
+    uuid: 5f221a89-3f17-48ad-9bab-ad7722df7df9
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: EQszgdCF6wZeEc0GmXLZcj6dNedc-PF9WUu5MXsP8Uk
+      short-id: 4e2dc2056ed45d12
+  - name: "proxy-64"
+    type: vless
+    server: 37.139.42.234
+    port: 4443/
+    uuid: 9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: -kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI
+      short-id: 6670
+  - name: "proxy-65"
+    type: vless
+    server: 146.185.240.23
+    port: 8443/
+    uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: c6ef72e4635d15a5
+  - name: "proxy-66"
+    type: vless
+    server: 144.31.24.84
+    port: 443/
+    uuid: 1d6705da-0790-49bf-bf47-b166d2e945cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: st.okcdn.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
+      short-id: 39a1eb3ec417cd66
+  - name: "proxy-67"
+    type: vless
+    server: 51.250.4.119
+    port: 443/
+    uuid: b2019c04-5b7c-4be4-a65c-ca5ea90bf8fd
+    udp: true
+    network: tcp
+    tls: true
+    servername: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+      short-id: 4a3ad88ff867a295
+  - name: "proxy-68"
+    type: vless
+    server: 158.160.223.36
+    port: 8443/
+    uuid: fb0bc4f7-2771-4223-8ffd-705469a039b7
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 04bf0403f96e5b4b
+  - name: "proxy-69"
+    type: vless
+    server: 79.137.175.44
+    port: 443/
+    uuid: d35900ef-0dbc-4e38-bab3-d6169b180c96
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 28047c78b3f5ee2c
+  - name: "proxy-70"
+    type: vless
+    server: 79.137.175.56
+    port: 8443/
+    uuid: 46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: "proxy-71"
+    type: vless
+    server: 176.123.164.110
+    port: 8443/
+    uuid: 46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47
+    udp: true
+    network: tcp
+    tls: true
+    servername: rbc.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: "proxy-72"
+    type: vless
+    server: 79.137.175.44
+    port: 8443/
+    uuid: 8ae49b54-7eba-435b-b410-514bffe7bd17
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "proxy-73"
+    type: vless
+    server: 158.160.105.121
+    port: 8443/
+    uuid: af643a20-b21e-43f6-ac7f-7a358577c46f
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: "proxy-74"
+    type: vless
+    server: 84.252.143.25
+    port: 443/
+    uuid: 8ae49b54-7eba-435b-b410-514bffe7bd17
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "proxy-75"
+    type: vless
+    server: 158.160.223.36
+    port: 443/
+    uuid: 8ae49b54-7eba-435b-b410-514bffe7bd17
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "proxy-76"
+    type: vless
+    server: 87.239.106.153
+    port: 8443/
+    uuid: d35900ef-0dbc-4e38-bab3-d6169b180c96
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "proxy-77"
+    type: vless
+    server: 93.94.51.11
+    port: 53320/
+    uuid: c1e66fa3-951b-436c-a95a-b2abbaecb195
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: xrzsSwm-PkWv-DgyaFCVd_QELA6YFBtvaDOlQCd7Sj8
+      short-id: e4656850eaed4e86
+  - name: "proxy-78"
+    type: vless
+    server: 81.19.141.190
+    port: 51529/
+    uuid: ad2879c1-7f77-4a4c-ba50-c24dd5ceffa4
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: 9smFk5QZXifHGrtwDwhbROsLBh179bExNWABnvUCvSw
+      short-id: b77a294515ecc200
+  - name: "proxy-79"
+    type: vless
+    server: 158.160.105.121
+    port: 51102/
+    uuid: 46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+  - name: "proxy-80"
+    type: vless
+    server: 178.154.253.80
+    port: 8443/
+    uuid: 182a355e-8ffc-4735-84b6-afbd83c98ff2
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: f4b4a6365558ea2e
+  - name: "proxy-81"
+    type: vless
+    server: 90.156.150.134
+    port: 8443/
+    uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: "proxy-82"
+    type: vless
+    server: 87.239.106.153
+    port: 443/
+    uuid: d35900ef-0dbc-4e38-bab3-d6169b180c96
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+  - name: "proxy-83"
+    type: vless
+    server: 89.169.162.214
+    port: 8443/
+    uuid: 0dde7988-1d5b-416f-8184-668b1a36bc48
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+  - name: "proxy-84"
+    type: vless
+    server: 37.139.34.145
+    port: 8443/
+    uuid: fb0bc4f7-2771-4223-8ffd-705469a039b7
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 04bf0403f96e5b4b
+  - name: "proxy-85"
+    type: vless
+    server: 109.172.55.157
+    port: 19547/
+    uuid: f9cdb2e1-939c-4470-b322-14b7313dec48
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: -zsPOGrZY1Dlb6eypa5V_OPaLBpT66FX3cSo0mNX8SI
+      short-id: 47ee5c592c1672cf
+  - name: "proxy-86"
+    type: vless
+    server: 109.172.55.232
+    port: 13760/
+    uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
+      short-id: 58a8787420b6a153
+  - name: "proxy-87"
+    type: vless
+    server: 62.106.66.56
+    port: 443/
+    uuid: e3744e4a-55e5-4057-b7e2-eb8549c96a16
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ZqNF3CGI5QqAm5huC9sByjwxYd-6l5Pxc9-njmqqdl0
+      short-id: d4d39c5f8688dfe2
+  - name: "proxy-88"
+    type: vless
+    server: 158.160.188.11
+    port: 443/
+    uuid: 6c69a2c8-9d9e-41d9-83f5-83a8264cd00d
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: iobA_bK3A-Mj4IF65agM5VbKQdbI1FDtq4WaOPkRwU4
+      short-id: 1bbbfaf553e63d8c
+  - name: "proxy-89"
+    type: vless
+    server: 51.250.46.121
+    port: 5443/
+    uuid: 001c68ea-7186-4d3e-863b-7b513e73e7a0
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Po6vtOwHYjzS-ibY01_2yrvhpw7jhOBDFesZKMcxUi8
+      short-id: 8cd9d7c88b8fd22c
+  - name: "proxy-90"
+    type: vless
+    server: 45.86.70.95
+    port: 8443
+    uuid: 1e45a266-9a04-47af-b703-e53a67373cc9
+    udp: true
+    network: raw
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zQ3SBKNWRtAsrnU-Y2XiSEHodF_sgZ3UsKNfmIwRbjI
+      short-id: 9ff26c38f9b488
+  - name: "proxy-91"
+    type: vless
+    server: 151.236.114.162
+    port: 6443
+    uuid: 95796d3c-955c-435f-8222-481862515236
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    reality-opts:
+      public-key: pGFgy_rrpU51v3IFm-dYHOJskMDJO0kCAkIIHJdUSF8
+      short-id: f3e8b2b1
+  - name: "proxy-92"
+    type: vless
+    server: 77.92.145.222
+    port: 443
+    uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+    udp: true
+    network: tcp
+    tls: true
+    servername: www.vk.com
+    reality-opts:
+      public-key: sSD0sNHv6R3VC1zy_etv-mOTLAurVq3xid4xWne3TxI
+      short-id: 4730242d
+  - name: "proxy-93"
+    type: vless
+    server: 77.83.245.191
+    port: 62391
+    uuid: 8aaa4ed2-0fca-48b7-bca6-5f692e278d5d
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: 28C36ojKr0JugqCel9_zMI5YRzx2B2VG2TfziOhc_Qo
+      short-id: b57dc6123dbccf12
+  - name: "proxy-94"
+    type: vless
+    server: 37.139.34.145
+    port: 443
+    uuid: 72fb3bd4-75dd-488a-9af7-c391321ecfcc
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 04bf0403f96e5b4b
+  - name: "proxy-95"
+    type: vless
+    server: 51.250.21.149
+    port: 443
+    uuid: 0a5d2538-48d7-4390-ade6-4e6ba3e80f2f
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 20jD9ck2iGaLYNfsBL4LsU-G6L0gKCqSkkFfVIlNahw
+      short-id: ac7069ed7a9b4619
+  - name: "proxy-96"
+    type: vless
+    server: 94.156.181.59
+    port: 443
+    uuid: 10d57bcd-9d4c-4eba-aec2-7d6ccada0ae3
+    udp: true
+    network: tcp
+    tls: true
+    servername: rutube.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: hGWT9NEhLEENTKhDQqxeXSopWnAcbrFM0-4Xg0Gb_X8
+      short-id: 43d0526d32d7a3b0
+  - name: "proxy-97"
+    type: vless
+    server: 158.160.32.64
+    port: 443
+    uuid: 1511896a-9ca2-4a74-b256-5b2cde0c44f0
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+      short-id: a9c4f17e3b62d8
+  - name: "proxy-98"
+    type: vless
+    server: 51.250.13.3
+    port: 443
+    uuid: 1511896a-9ca2-4a74-b256-5b2cde0c44f0
+    udp: true
+    network: tcp
+    tls: true
+    servername: api-maps.yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: UEKLXjQmUAh_6hhHqB4fmCo68a15hC18hgRCWbzr3UE
+      short-id: 27e53bbcab7593d7
+  - name: "proxy-99"
+    type: vless
+    server: 51.250.83.22
+    port: 443
+    uuid: 1511896a-9ca2-4a74-b256-5b2cde0c44f0
+    udp: true
+    network: tcp
+    tls: true
+    servername: m.vk.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+      short-id: a9c4f17e3b62d8
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
