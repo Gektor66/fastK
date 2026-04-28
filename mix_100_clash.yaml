@@ -1192,37 +1192,31 @@ proxies:
         Host: sni.latonyamadeline.ndjp.net
   - name: "proxy-97"
     type: vless
-    server: 89.208.231.52
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    server: 95.164.3.121
+    port: 20089
+    uuid: a6535c3d-32fe-4151-8082-ba21d8328fa9
     udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
+    network: tcp
+    tls: false
   - name: "proxy-98"
     type: vless
-    server: 89.208.231.81
+    server: 172.232.208.147
     port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    uuid: d7f67e94-aa9e-4454-b1cf-ce522a0d2728
     udp: true
-    network: grpc
-    tls: true
-    servername: fileroute.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
+    network: tcp
+    tls: false
   - name: "proxy-99"
     type: vless
-    server: api-no-cache.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    server: 104.17.25.173
+    port: 80
+    uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
     udp: true
-    network: grpc
-    tls: true
-    servername: api-no-cache.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vip.yaml7.ggff.net
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
