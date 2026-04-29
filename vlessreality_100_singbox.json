@@ -74,9 +74,21 @@
     {
       "type": "vless",
       "tag": "proxy-6",
+      "server": "158.160.46.104",
+      "server_port": 443,
+      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-7",
       "server": "51.250.111.194",
       "server_port": 7443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
       "tls": {
         "enabled": true,
         "server_name": "max.ru"
@@ -85,25 +97,13 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-7",
-      "server": "109.120.191.171",
-      "server_port": 993,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "proxy-8",
       "server": "51.250.94.95",
       "server_port": 443,
-      "uuid": "403e361f-8a2f-4518-9ef2-cd71088a6a46",
+      "uuid": "46caad69-1ae4-4f61-b6c5-9f4bbf4ba358",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru"
+        "server_name": "5post-gate.x5.ru"
       },
       "flow": "xtls-rprx-vision"
     },
@@ -112,7 +112,7 @@
       "tag": "proxy-9",
       "server": "90.156.219.164",
       "server_port": 443,
-      "uuid": "cac75485-ab69-42e0-8b18-c5633a57d400",
+      "uuid": "c96e21f9-9810-4fd7-a381-bcee671ade85",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru"
@@ -124,10 +124,10 @@
       "tag": "proxy-10",
       "server": "90.156.219.234",
       "server_port": 443,
-      "uuid": "cac75485-ab69-42e0-8b18-c5633a57d400",
+      "uuid": "c96e21f9-9810-4fd7-a381-bcee671ade85",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru"
+        "server_name": "m.vk.com"
       },
       "flow": "xtls-rprx-vision"
     },
@@ -146,30 +146,6 @@
     {
       "type": "vless",
       "tag": "proxy-12",
-      "server": "5.188.140.245",
-      "server_port": 993,
-      "uuid": "8822e9a7-9b61-4b5e-9efd-a483c7322b00",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-13",
-      "server": "51.250.9.177",
-      "server_port": 443,
-      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-14",
       "server": "51.250.111.197",
       "server_port": 443,
       "uuid": "b6af5776-fede-4765-b86c-806e827e9a07",
@@ -181,19 +157,55 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-15",
-      "server": "109.120.188.50",
-      "server_port": 993,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "tag": "proxy-13",
+      "server": "78.159.246.239",
+      "server_port": 443,
+      "uuid": "35f9ea1e-f8d9-40d7-8f8e-3cbc0d9e4dbc",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru"
+        "server_name": "x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-14",
+      "server": "158.160.114.71",
+      "server_port": 443,
+      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-15",
+      "server": "51.250.9.177",
+      "server_port": 443,
+      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
       },
       "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
       "tag": "proxy-16",
+      "server": "84.201.132.110",
+      "server_port": 443,
+      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-17",
       "server": "5.188.140.166",
       "server_port": 993,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -205,7 +217,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-17",
+      "tag": "proxy-18",
       "server": "5.188.143.70",
       "server_port": 993,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -217,22 +229,10 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-18",
-      "server": "158.160.32.64",
-      "server_port": 443,
-      "uuid": "cac75485-ab69-42e0-8b18-c5633a57d400",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "proxy-19",
-      "server": "51.250.111.194",
+      "server": "84.201.159.228",
       "server_port": 443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
+      "uuid": "2420af47-2316-482e-bb0f-b164df4b2334",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru"
@@ -242,9 +242,21 @@
     {
       "type": "vless",
       "tag": "proxy-20",
-      "server": "51.250.7.125",
+      "server": "51.250.67.51",
       "server_port": 443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
+      "uuid": "409bdb0f-5aae-4e93-a8dd-60adc47d5fd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-21",
+      "server": "158.160.32.64",
+      "server_port": 443,
+      "uuid": "c96e21f9-9810-4fd7-a381-bcee671ade85",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru"
@@ -253,10 +265,34 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-21",
+      "tag": "proxy-22",
+      "server": "51.250.111.194",
+      "server_port": 443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-23",
+      "server": "51.250.7.125",
+      "server_port": 443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-24",
       "server": "51.250.7.125",
       "server_port": 5443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru"
@@ -265,7 +301,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-22",
+      "tag": "proxy-25",
       "server": "217.16.30.228",
       "server_port": 480,
       "uuid": "7acc8a5e-3041-4d3a-aa2a-1f9db91ece63",
@@ -276,330 +312,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-23",
-      "server": "158.160.102.236",
-      "server_port": 443,
-      "uuid": "2420af47-2316-482e-bb0f-b164df4b2334",
-      "tls": {
-        "enabled": true,
-        "server_name": "sso.passport.yandex.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-24",
-      "server": "158.160.251.31",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-25",
-      "server": "84.201.143.223",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
       "tag": "proxy-26",
-      "server": "158.160.220.7",
-      "server_port": 443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-27",
-      "server": "158.160.220.7",
-      "server_port": 4443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-28",
-      "server": "158.160.220.7",
-      "server_port": 6443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-29",
-      "server": "158.160.220.7",
-      "server_port": 8443,
-      "uuid": "60985ad9-0e59-489c-beb0-ca514aa0f19d",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-30",
-      "server": "178.154.215.113",
-      "server_port": 443,
-      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-4-1.legendary.ac"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-31",
-      "server": "51.250.24.230",
-      "server_port": 443,
-      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-3.legendary.ac"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-32",
-      "server": "51.250.37.141",
-      "server_port": 443,
-      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-5.legendary.ac"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-33",
-      "server": "51.250.39.162",
-      "server_port": 443,
-      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-1.legendary.ac"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-34",
-      "server": "84.201.162.61",
-      "server_port": 443,
-      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-5-1.legendary.ac"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-35",
-      "server": "158.160.159.180",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-36",
-      "server": "158.160.168.132",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-37",
-      "server": "158.160.240.20",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-38",
-      "server": "158.160.245.72",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-39",
-      "server": "84.201.137.212",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-40",
-      "server": "84.201.154.239",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-41",
-      "server": "84.201.163.248",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-42",
-      "server": "51.250.77.50",
-      "server_port": 446,
-      "uuid": "3c5faaff-d634-4e32-b8cb-4440bebac6ae",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-43",
-      "server": "89.169.191.107",
-      "server_port": 443,
-      "uuid": "8ef19221-6d5e-4bce-baa1-7c043eae3309",
-      "tls": {
-        "enabled": true,
-        "server_name": "stats.vk-portal.net"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-44",
-      "server": "ru2.bundo.su",
-      "server_port": 443,
-      "uuid": "8ef19221-6d5e-4bce-baa1-7c043eae3309",
-      "tls": {
-        "enabled": true,
-        "server_name": "stats.vk-portal.net"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-45",
-      "server": "51.250.76.122",
-      "server_port": 5443,
-      "uuid": "cbf10015-d51a-4a7c-b13a-3c6091135d93",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-46",
-      "server": "51.250.36.95",
-      "server_port": 443,
-      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir.ozone.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-47",
-      "server": "main1.sndconnection.life",
-      "server_port": 443,
-      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir.ozone.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-48",
-      "server": "russs.sndconnection.life",
-      "server_port": 443,
-      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir.ozone.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-49",
-      "server": "158.160.33.146",
-      "server_port": 443,
-      "uuid": "2420af47-2316-482e-bb0f-b164df4b2334",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-50",
       "server": "158.160.142.40",
       "server_port": 443,
       "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
@@ -611,19 +324,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-51",
-      "server": "158.160.231.81",
-      "server_port": 443,
-      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-52",
+      "tag": "proxy-27",
       "server": "158.160.248.32",
       "server_port": 443,
       "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
@@ -635,8 +336,8 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-53",
-      "server": "158.160.231.91",
+      "tag": "proxy-28",
+      "server": "84.201.143.223",
       "server_port": 443,
       "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
       "tls": {
@@ -647,7 +348,449 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-29",
+      "server": "158.160.220.7",
+      "server_port": 443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-30",
+      "server": "158.160.220.7",
+      "server_port": 4443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-31",
+      "server": "158.160.220.7",
+      "server_port": 6443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-32",
+      "server": "158.160.220.7",
+      "server_port": 8443,
+      "uuid": "02659321-e52c-4aa3-89ee-c5c299161a2c",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-33",
+      "server": "51.250.21.54",
+      "server_port": 443,
+      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-2.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-34",
+      "server": "51.250.24.230",
+      "server_port": 443,
+      "uuid": "e76d0219-1027-43c6-9f12-2f94ef9ed77f",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-3.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-35",
+      "server": "158.160.37.217",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-3-2.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-36",
+      "server": "158.160.39.135",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-3-3.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-37",
+      "server": "178.154.215.113",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-4-1.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-38",
+      "server": "51.250.37.141",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-5.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-39",
+      "server": "51.250.39.162",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-1.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-40",
+      "server": "51.250.90.34",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-4.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-41",
+      "server": "84.201.162.61",
+      "server_port": 443,
+      "uuid": "eb674c73-3e66-4c42-b8a9-dc90eea8f68e",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-5-1.legendary.ac"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-42",
+      "server": "91.219.227.253",
+      "server_port": 7443,
+      "uuid": "e5f2f9ef-4575-4e9e-8ea8-3fc10aef0862",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-43",
+      "server": "158.160.159.180",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-44",
+      "server": "158.160.168.132",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-45",
+      "server": "158.160.224.84",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-46",
+      "server": "158.160.240.20",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-47",
+      "server": "158.160.241.112",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-48",
+      "server": "158.160.245.72",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-49",
+      "server": "84.201.137.212",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-50",
+      "server": "84.201.154.239",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-51",
+      "server": "84.201.161.102",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-52",
+      "server": "84.201.161.48",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-53",
+      "server": "84.201.163.248",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
       "tag": "proxy-54",
+      "server": "158.160.245.33",
+      "server_port": 443,
+      "uuid": "6bc4f63b-6b28-4b59-88a8-448e35e9073c",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-55",
+      "server": "158.160.252.157",
+      "server_port": 443,
+      "uuid": "6bc4f63b-6b28-4b59-88a8-448e35e9073c",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-56",
+      "server": "158.160.119.19",
+      "server_port": 443,
+      "uuid": "35f9ea1e-f8d9-40d7-8f8e-3cbc0d9e4dbc",
+      "tls": {
+        "enabled": true,
+        "server_name": "x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-57",
+      "server": "89.169.191.107",
+      "server_port": 443,
+      "uuid": "8ef19221-6d5e-4bce-baa1-7c043eae3309",
+      "tls": {
+        "enabled": true,
+        "server_name": "stats.vk-portal.net"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-58",
+      "server": "51.250.76.122",
+      "server_port": 5443,
+      "uuid": "cbf10015-d51a-4a7c-b13a-3c6091135d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-59",
+      "server": "51.250.36.95",
+      "server_port": 443,
+      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir.ozone.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-60",
+      "server": "main1.sndconnection.life",
+      "server_port": 443,
+      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir.ozone.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-61",
+      "server": "ruslte.sndconnection.life",
+      "server_port": 443,
+      "uuid": "d9df440e-454b-4a78-9255-57c5eca88279",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir.ozone.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-62",
+      "server": "78.159.246.191",
+      "server_port": 5443,
+      "uuid": "cbf10015-d51a-4a7c-b13a-3c6091135d93",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-63",
+      "server": "51.250.77.50",
+      "server_port": 446,
+      "uuid": "3c5faaff-d634-4e32-b8cb-4440bebac6ae",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-64",
+      "server": "158.160.231.81",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "5post-gate.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-65",
+      "server": "158.160.231.91",
+      "server_port": 443,
+      "uuid": "4323a415-4b63-4a95-b32d-dfba7bb64dc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "id.x5.ru"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-66",
       "server": "51.250.41.20",
       "server_port": 443,
       "uuid": "22fc4701-8c86-4d4f-a858-8f5921d83977",
@@ -659,7 +802,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-55",
+      "tag": "proxy-67",
       "server": "217.16.27.217",
       "server_port": 443,
       "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
@@ -671,7 +814,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-56",
+      "tag": "proxy-68",
       "server": "87.242.103.184",
       "server_port": 443,
       "uuid": "f5a8e5fb-baa8-48cb-a62a-930c97c29eb2",
@@ -682,7 +825,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-57",
+      "tag": "proxy-69",
       "server": "83.166.255.72",
       "server_port": 443,
       "uuid": "03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4",
@@ -693,7 +836,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-58",
+      "tag": "proxy-70",
       "server": "45.141.234.196",
       "server_port": 51472,
       "uuid": "0c49f1d8-3d34-473b-bebf-9d9a4811db62",
@@ -704,7 +847,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-59",
+      "tag": "proxy-71",
       "server": "77.83.245.171",
       "server_port": 43816,
       "uuid": "a893f940-8725-4b3e-8b77-caa1380e95dc",
@@ -715,7 +858,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-60",
+      "tag": "proxy-72",
       "server": "87.251.77.211",
       "server_port": 8443,
       "uuid": "d159a65d-51db-4b73-88bc-b665c10ee151",
@@ -727,7 +870,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-61",
+      "tag": "proxy-73",
       "server": "130.193.59.133",
       "server_port": 51101,
       "uuid": "bbc3bb80-032b-4c15-9bbd-ac6cba0e76a0",
@@ -739,7 +882,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-62",
+      "tag": "proxy-74",
       "server": "185.86.147.96",
       "server_port": 5443,
       "uuid": "4706e106-9637-46fb-9536-1dacd57889fe",
@@ -751,7 +894,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-63",
+      "tag": "proxy-75",
       "server": "130.193.59.133",
       "server_port": 8443,
       "uuid": "6e67163a-95e2-422b-b966-774920649662",
@@ -763,7 +906,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-64",
+      "tag": "proxy-76",
       "server": "51.250.75.178",
       "server_port": 4443,
       "uuid": "5f221a89-3f17-48ad-9bab-ad7722df7df9",
@@ -775,7 +918,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-65",
+      "tag": "proxy-77",
       "server": "37.139.42.234",
       "server_port": 4443,
       "uuid": "9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1",
@@ -786,7 +929,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-66",
+      "tag": "proxy-78",
       "server": "146.185.240.23",
       "server_port": 8443,
       "uuid": "0dde7988-1d5b-416f-8184-668b1a36bc48",
@@ -798,7 +941,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-67",
+      "tag": "proxy-79",
       "server": "144.31.24.84",
       "server_port": 443,
       "uuid": "1d6705da-0790-49bf-bf47-b166d2e945cf",
@@ -810,7 +953,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-68",
+      "tag": "proxy-80",
       "server": "51.250.4.119",
       "server_port": 443,
       "uuid": "b2019c04-5b7c-4be4-a65c-ca5ea90bf8fd",
@@ -822,7 +965,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-69",
+      "tag": "proxy-81",
       "server": "158.160.223.36",
       "server_port": 8443,
       "uuid": "fb0bc4f7-2771-4223-8ffd-705469a039b7",
@@ -834,7 +977,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-70",
+      "tag": "proxy-82",
       "server": "79.137.175.44",
       "server_port": 443,
       "uuid": "d35900ef-0dbc-4e38-bab3-d6169b180c96",
@@ -846,7 +989,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-71",
+      "tag": "proxy-83",
       "server": "79.137.175.56",
       "server_port": 8443,
       "uuid": "46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47",
@@ -858,7 +1001,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-72",
+      "tag": "proxy-84",
       "server": "176.123.164.110",
       "server_port": 8443,
       "uuid": "46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47",
@@ -870,7 +1013,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-73",
+      "tag": "proxy-85",
       "server": "79.137.175.44",
       "server_port": 8443,
       "uuid": "8ae49b54-7eba-435b-b410-514bffe7bd17",
@@ -882,7 +1025,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-74",
+      "tag": "proxy-86",
       "server": "158.160.105.121",
       "server_port": 8443,
       "uuid": "af643a20-b21e-43f6-ac7f-7a358577c46f",
@@ -894,7 +1037,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-75",
+      "tag": "proxy-87",
       "server": "84.252.143.25",
       "server_port": 443,
       "uuid": "8ae49b54-7eba-435b-b410-514bffe7bd17",
@@ -906,7 +1049,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-76",
+      "tag": "proxy-88",
       "server": "158.160.223.36",
       "server_port": 443,
       "uuid": "8ae49b54-7eba-435b-b410-514bffe7bd17",
@@ -918,7 +1061,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-77",
+      "tag": "proxy-89",
       "server": "87.239.106.153",
       "server_port": 8443,
       "uuid": "d35900ef-0dbc-4e38-bab3-d6169b180c96",
@@ -930,7 +1073,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-78",
+      "tag": "proxy-90",
       "server": "93.94.51.11",
       "server_port": 53320,
       "uuid": "c1e66fa3-951b-436c-a95a-b2abbaecb195",
@@ -941,7 +1084,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-79",
+      "tag": "proxy-91",
       "server": "81.19.141.190",
       "server_port": 51529,
       "uuid": "ad2879c1-7f77-4a4c-ba50-c24dd5ceffa4",
@@ -952,7 +1095,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-80",
+      "tag": "proxy-92",
       "server": "158.160.105.121",
       "server_port": 51102,
       "uuid": "46c9bd28-82ab-4a50-9e20-dbf6a1eb1e47",
@@ -964,7 +1107,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-81",
+      "tag": "proxy-93",
       "server": "178.154.253.80",
       "server_port": 8443,
       "uuid": "182a355e-8ffc-4735-84b6-afbd83c98ff2",
@@ -976,7 +1119,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-82",
+      "tag": "proxy-94",
       "server": "90.156.150.134",
       "server_port": 8443,
       "uuid": "0dde7988-1d5b-416f-8184-668b1a36bc48",
@@ -988,7 +1131,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-83",
+      "tag": "proxy-95",
       "server": "87.239.106.153",
       "server_port": 443,
       "uuid": "d35900ef-0dbc-4e38-bab3-d6169b180c96",
@@ -1000,7 +1143,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-84",
+      "tag": "proxy-96",
       "server": "89.169.162.214",
       "server_port": 8443,
       "uuid": "0dde7988-1d5b-416f-8184-668b1a36bc48",
@@ -1012,7 +1155,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-85",
+      "tag": "proxy-97",
       "server": "37.139.34.145",
       "server_port": 8443,
       "uuid": "fb0bc4f7-2771-4223-8ffd-705469a039b7",
@@ -1024,7 +1167,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-86",
+      "tag": "proxy-98",
       "server": "109.172.55.157",
       "server_port": 19547,
       "uuid": "f9cdb2e1-939c-4470-b322-14b7313dec48",
@@ -1035,156 +1178,13 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-87",
+      "tag": "proxy-99",
       "server": "109.172.55.232",
       "server_port": 13760,
       "uuid": "5fad3ad2-1a94-40d0-85bb-51eb83f5c7df",
       "tls": {
         "enabled": true,
         "server_name": "yandex.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-88",
-      "server": "62.106.66.56",
-      "server_port": 443,
-      "uuid": "e3744e4a-55e5-4057-b7e2-eb8549c96a16",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-89",
-      "server": "158.160.188.11",
-      "server_port": 443,
-      "uuid": "6c69a2c8-9d9e-41d9-83f5-83a8264cd00d",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-90",
-      "server": "51.250.46.121",
-      "server_port": 5443,
-      "uuid": "001c68ea-7186-4d3e-863b-7b513e73e7a0",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-91",
-      "server": "185.162.11.223",
-      "server_port": 443,
-      "uuid": "a7b1b295-89c0-4794-bc3b-13af6cf63312",
-      "tls": {
-        "enabled": true,
-        "server_name": "sun6-21.userapi.com"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-92",
-      "server": "us.nitroo-tech.ru",
-      "server_port": 443,
-      "uuid": "f31f5fe0-0a42-436a-be94-437330801388",
-      "tls": {
-        "enabled": true,
-        "server_name": "mirror.yandex.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-93",
-      "server": "176.120.67.95",
-      "server_port": 8443,
-      "uuid": "d0dea598-9047-4567-a934-84c2797c0978",
-      "tls": {
-        "enabled": true,
-        "server_name": "ozon.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-94",
-      "server": "176.120.67.77",
-      "server_port": 8443,
-      "uuid": "d0dea598-9047-4567-a934-84c2797c0978",
-      "tls": {
-        "enabled": true,
-        "server_name": "ozon.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-95",
-      "server": "91.84.107.75",
-      "server_port": 8443,
-      "uuid": "1ef15939-7ec4-427f-9d47-eed9ced4c96f",
-      "tls": {
-        "enabled": true,
-        "server_name": "sun6-22.userapi.com"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-96",
-      "server": "89.169.162.214",
-      "server_port": 443,
-      "uuid": "86c8a690-9602-4d40-bbf7-156720de104f",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-97",
-      "server": "45.86.70.95",
-      "server_port": 8443,
-      "uuid": "1e45a266-9a04-47af-b703-e53a67373cc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-98",
-      "server": "81.26.177.206",
-      "server_port": 443,
-      "uuid": "6b02d868-81c0-4343-ad25-d1cf835a3e2f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir-3.ozone.ru"
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-99",
-      "server": "151.236.114.162",
-      "server_port": 6443,
-      "uuid": "95796d3c-955c-435f-8222-481862515236",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru"
       }
     }
   ]
