@@ -450,13 +450,25 @@ proxies:
       short-id: d8c6b58bcbb0c323
   - name: "proxy-37"
     type: vless
+    server: 152.53.33.10
+    port: 8443
+    uuid: dd91f7bf-ef07-4e1a-9be2-a75ab86069da
+    udp: true
+    network: xhttp
+    tls: true
+    servername: apple.com
+    reality-opts:
+      public-key: DaDqjwDtvZTraKzRIgGfiwdywWqNlr154dz70IEvcAo
+      short-id: 33bafb29299548d1
+  - name: "proxy-38"
+    type: vless
     server: 217.25.92.78
     port: 443
     uuid: 13da2ef2-45b5-437a-8705-d065af82bc61
     udp: true
     network: xhttp
     tls: false
-  - name: "proxy-38"
+  - name: "proxy-39"
     type: vless
     server: 138.124.186.216
     port: 443
@@ -468,7 +480,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-39"
+  - name: "proxy-40"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -479,7 +491,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-40"
+  - name: "proxy-41"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -537,6 +549,7 @@ proxy-groups:
       - "proxy-38"
       - "proxy-39"
       - "proxy-40"
+      - "proxy-41"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
