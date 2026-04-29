@@ -1822,6 +1822,18 @@ proxies:
     port: 443
     password: BmVb9TGoytYhaLnZhkrVCtx8khbQFTA_
     udp: true
+  - name: "proxy-303"
+    type: trojan
+    server: 87.252.237.151
+    port: 443
+    password: b7a98e8c-6538-41ee-99d2-2bbc4280062e
+    udp: true
+  - name: "proxy-304"
+    type: trojan
+    server: 104.194.156.164
+    port: 8443
+    password: 1234567890
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -2130,6 +2142,8 @@ proxy-groups:
       - "proxy-300"
       - "proxy-301"
       - "proxy-302"
+      - "proxy-303"
+      - "proxy-304"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
