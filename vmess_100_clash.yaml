@@ -6,6 +6,14 @@ log-level: info
 proxies:
   - name: "proxy-0"
     type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-1"
+    type: vmess
     server: usaapp1.jisuyun.top
     port: 2053
     uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
@@ -14,7 +22,7 @@ proxies:
     udp: true
     tls: true
     servername: usaapp1.jisuyun.top
-  - name: "proxy-1"
+  - name: "proxy-2"
     type: vmess
     server: 47.90.244.153
     port: 8443
@@ -22,7 +30,7 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-2"
+  - name: "proxy-3"
     type: vmess
     server: 47.244.120.197
     port: 44867
@@ -38,6 +46,7 @@ proxy-groups:
       - "proxy-0"
       - "proxy-1"
       - "proxy-2"
+      - "proxy-3"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
