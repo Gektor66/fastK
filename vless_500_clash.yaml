@@ -1328,49 +1328,16 @@ proxies:
         Host: sni.111000.dns.army
   - name: "proxy-111"
     type: vless
-    server: api-staging.dropmefile.net
+    server: 109.120.191.171
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: api-staging.dropmefile.net
+    servername: api-no-cache.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-112"
-    type: vless
-    server: filegrid.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-113"
-    type: vless
-    server: fileroute.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: fileroute.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-114"
-    type: vless
-    server: 109.120.188.50
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api3.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-115"
     type: vless
     server: 5.188.140.166
     port: 443
@@ -1381,62 +1348,7 @@ proxies:
     servername: api1.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-116"
-    type: vless
-    server: 5.188.143.70
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api2.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-117"
-    type: vless
-    server: api1.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api1.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-118"
-    type: vless
-    server: 109.120.191.171
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api-no-cache.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-119"
-    type: vless
-    server: 109.120.191.5
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api-staging.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-120"
-    type: vless
-    server: 89.208.231.52
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-121"
+  - name: "proxy-113"
     type: vless
     server: 89.208.231.81
     port: 443
@@ -1447,18 +1359,18 @@ proxies:
     servername: fileroute.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-122"
+  - name: "proxy-114"
     type: vless
-    server: api-no-cache.dropmefile.net
+    server: fileroute.cc
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: api-no-cache.dropmefile.net
+    servername: fileroute.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-123"
+  - name: "proxy-115"
     type: vless
     server: 46.243.211.17
     port: 7000
@@ -1470,7 +1382,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-124"
+  - name: "proxy-116"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -1481,7 +1393,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-125"
+  - name: "proxy-117"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1492,7 +1404,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-126"
+  - name: "proxy-118"
     type: vless
     server: st.xbs54as9c6.ru
     port: 7000
@@ -1504,7 +1416,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-127"
+  - name: "proxy-119"
     type: vless
     server: tn.xbs54as9c6.ru
     port: 4100
@@ -1516,7 +1428,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-128"
+  - name: "proxy-120"
     type: vless
     server: yy.xbs54as9c6.ru
     port: 7000
@@ -1528,7 +1440,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-129"
+  - name: "proxy-121"
     type: vless
     server: 186.246.0.28
     port: 4100
@@ -1540,7 +1452,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-130"
+  - name: "proxy-122"
     type: vless
     server: 72.56.38.48
     port: 4100
@@ -1552,7 +1464,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-131"
+  - name: "proxy-123"
     type: vless
     server: 72.56.38.52
     port: 4100
@@ -1564,7 +1476,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-132"
+  - name: "proxy-124"
     type: vless
     server: 158.160.5.176
     port: 7000
@@ -1576,7 +1488,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-133"
+  - name: "proxy-125"
     type: vless
     server: 109.172.47.214
     port: 4100
@@ -1588,7 +1500,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-134"
+  - name: "proxy-126"
     type: vless
     server: 185.247.16.63
     port: 4100
@@ -1600,7 +1512,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-135"
+  - name: "proxy-127"
     type: vless
     server: 91.198.220.226
     port: 4100
@@ -1612,7 +1524,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-136"
+  - name: "proxy-128"
     type: vless
     server: 185.247.16.5
     port: 4100
@@ -1624,7 +1536,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-137"
+  - name: "proxy-129"
     type: vless
     server: 83.222.9.244
     port: 4100
@@ -1636,7 +1548,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-138"
+  - name: "proxy-130"
     type: vless
     server: 185.247.16.42
     port: 4100
@@ -1648,7 +1560,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-139"
+  - name: "proxy-131"
     type: vless
     server: 91.229.90.52
     port: 4100
@@ -1660,7 +1572,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-140"
+  - name: "proxy-132"
     type: vless
     server: 217.114.9.170
     port: 4100
@@ -1672,7 +1584,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-141"
+  - name: "proxy-133"
     type: vless
     server: 212.113.121.161
     port: 4100
@@ -1684,7 +1596,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-142"
+  - name: "proxy-134"
     type: vless
     server: 83.222.10.107
     port: 4100
@@ -1696,7 +1608,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-143"
+  - name: "proxy-135"
     type: vless
     server: 31.129.101.32
     port: 4100
@@ -1708,7 +1620,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-144"
+  - name: "proxy-136"
     type: vless
     server: 83.222.19.45
     port: 4100
@@ -1720,7 +1632,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-145"
+  - name: "proxy-137"
     type: vless
     server: 91.210.168.147
     port: 4100
@@ -1732,7 +1644,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-146"
+  - name: "proxy-138"
     type: vless
     server: 83.222.10.131
     port: 4100
@@ -1744,7 +1656,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-147"
+  - name: "proxy-139"
     type: vless
     server: 185.247.16.7
     port: 4100
@@ -1756,7 +1668,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-148"
+  - name: "proxy-140"
     type: vless
     server: 89.223.120.216
     port: 4100
@@ -1768,7 +1680,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-149"
+  - name: "proxy-141"
     type: vless
     server: 188.225.81.60
     port: 4100
@@ -1780,7 +1692,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-150"
+  - name: "proxy-142"
     type: vless
     server: 92.255.76.96
     port: 4100
@@ -1792,7 +1704,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-151"
+  - name: "proxy-143"
     type: vless
     server: 94.241.141.11
     port: 4100
@@ -1804,7 +1716,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-152"
+  - name: "proxy-144"
     type: vless
     server: 87.249.44.93
     port: 4100
@@ -1816,7 +1728,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-153"
+  - name: "proxy-145"
     type: vless
     server: 217.149.25.86
     port: 4100
@@ -1828,7 +1740,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-154"
+  - name: "proxy-146"
     type: vless
     server: 5.42.116.247
     port: 4100
@@ -1840,7 +1752,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-155"
+  - name: "proxy-147"
     type: vless
     server: 80.90.185.102
     port: 4100
@@ -1852,7 +1764,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-156"
+  - name: "proxy-148"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1865,7 +1777,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-157"
+  - name: "proxy-149"
     type: vless
     server: 141.98.169.96
     port: 443
@@ -1876,7 +1788,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /iixmriws
-  - name: "proxy-158"
+  - name: "proxy-150"
     type: vless
     server: 87.228.124.196
     port: 4443
@@ -1884,7 +1796,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-159"
+  - name: "proxy-151"
     type: vless
     server: 178.72.186.76
     port: 7000
@@ -1894,7 +1806,7 @@ proxies:
     tls: false
     ws-opts:
       path: /stream
-  - name: "proxy-160"
+  - name: "proxy-152"
     type: vless
     server: 212.41.28.109
     port: 4443
@@ -1902,7 +1814,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-161"
+  - name: "proxy-153"
     type: vless
     server: 185.175.47.238
     port: 4443
@@ -1910,7 +1822,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-162"
+  - name: "proxy-154"
     type: vless
     server: 5.188.156.138
     port: 4443
@@ -1918,7 +1830,7 @@ proxies:
     udp: true
     network: tcp
     tls: false
-  - name: "proxy-163"
+  - name: "proxy-155"
     type: vless
     server: 31.59.39.125
     port: 443
@@ -1928,7 +1840,7 @@ proxies:
     tls: true
     servername: nlety.ksnodes.net
     flow: xtls-rprx-vision
-  - name: "proxy-164"
+  - name: "proxy-156"
     type: vless
     server: 178.72.181.26
     port: 52006
@@ -1938,7 +1850,7 @@ proxies:
     tls: true
     servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-165"
+  - name: "proxy-157"
     type: vless
     server: 5.175.220.253
     port: 9443
@@ -1948,7 +1860,7 @@ proxies:
     tls: true
     servername: berocd.herumhas.shop
     flow: xtls-rprx-vision
-  - name: "proxy-166"
+  - name: "proxy-158"
     type: vless
     server: 178.72.181.132
     port: 52006
@@ -1958,7 +1870,7 @@ proxies:
     tls: true
     servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-167"
+  - name: "proxy-159"
     type: vless
     server: 85.192.41.37
     port: 2053
@@ -1969,7 +1881,7 @@ proxies:
     servername: ynwta9.api-edge.fgfw.qzz.io
     ws-opts:
       path: /danfeng
-  - name: "proxy-168"
+  - name: "proxy-160"
     type: vless
     server: 82.202.197.2
     port: 52006
@@ -1978,7 +1890,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-169"
+  - name: "proxy-161"
     type: vless
     server: 82.202.197.68
     port: 52006
@@ -1987,7 +1899,29 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-170"
+  - name: "proxy-162"
+    type: vless
+    server: 109.120.191.5
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-staging.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-163"
+    type: vless
+    server: 89.208.231.52
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: filegrid.cc
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-164"
     type: vless
     server: 130.78.219.82
     port: 443
@@ -1997,7 +1931,7 @@ proxies:
     tls: true
     servername: ukos2.ksnodes.net
     flow: xtls-rprx-vision
-  - name: "proxy-171"
+  - name: "proxy-165"
     type: vless
     server: 89.23.112.217
     port: 443
@@ -2007,7 +1941,29 @@ proxies:
     tls: true
     servername: dnb.herumhas.shop
     flow: xtls-rprx-vision
-  - name: "proxy-172"
+  - name: "proxy-166"
+    type: vless
+    server: 109.120.188.50
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api3.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-167"
+    type: vless
+    server: 5.188.143.70
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api2.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-168"
     type: vless
     server: deu01.sidecloud.ru
     port: 443
@@ -2016,7 +1972,7 @@ proxies:
     network: tcp
     tls: true
     reality-opts:
-  - name: "proxy-173"
+  - name: "proxy-169"
     type: vless
     server: 46.243.211.17
     port: 8443
@@ -2028,7 +1984,29 @@ proxies:
       path: /stream
       headers:
         Host: rbc.ru
-  - name: "proxy-174"
+  - name: "proxy-170"
+    type: vless
+    server: api-staging.dropmefile.net
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-staging.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-171"
+    type: vless
+    server: filegrid.cc
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: filegrid.cc
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-172"
     type: vless
     server: cluster-de-1.firstvideocdn.ru
     port: 52006
@@ -2037,7 +2015,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-175"
+  - name: "proxy-173"
     type: vless
     server: berocd.herumhas.shop
     port: 9443
@@ -2046,7 +2024,18 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-176"
+  - name: "proxy-174"
+    type: vless
+    server: api1.dropmefile.net
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api1.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-175"
     type: vless
     server: api2.dropmefile.net
     port: 443
@@ -2057,7 +2046,7 @@ proxies:
     servername: api2.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-177"
+  - name: "proxy-176"
     type: vless
     server: api3.dropmefile.net
     port: 443
@@ -2068,35 +2057,35 @@ proxies:
     servername: api3.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-178"
+  - name: "proxy-177"
     type: vless
     server: ru2.frostmotiveseed.net
     port: 4443
     uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
     udp: true
     network: tcp
-  - name: "proxy-179"
+  - name: "proxy-178"
     type: vless
     server: ru3.frostmotiveseed.net
     port: 4443
     uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
     udp: true
     network: tcp
-  - name: "proxy-180"
+  - name: "proxy-179"
     type: vless
     server: ru7.frostmotiveseed.net
     port: 4443
     uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
     udp: true
     network: tcp
-  - name: "proxy-181"
+  - name: "proxy-180"
     type: vless
     server: ru8.frostmotiveseed.net
     port: 4443
     uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
     udp: true
     network: tcp
-  - name: "proxy-182"
+  - name: "proxy-181"
     type: vless
     server: 158.160.5.176
     port: 8443
@@ -2108,7 +2097,7 @@ proxies:
       path: /stream
       headers:
         Host: rbc.ru
-  - name: "proxy-183"
+  - name: "proxy-182"
     type: vless
     server: st.xbs54as9c6.ru
     port: 443
@@ -2119,7 +2108,7 @@ proxies:
       path: /stream
       headers:
         Host: rbc.ru
-  - name: "proxy-184"
+  - name: "proxy-183"
     type: vless
     server: dnb.herumhas.shop
     port: 443
@@ -2128,7 +2117,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-185"
+  - name: "proxy-184"
     type: vless
     server: 185.104.151.190
     port: 44333
@@ -2141,7 +2130,7 @@ proxies:
       path: /@Marisa_kristi
       headers:
         Host: 1n9fo0l9hl.gike.dpdns.org
-  - name: "proxy-186"
+  - name: "proxy-185"
     type: vless
     server: 185.221.196.133
     port: 4443
@@ -2154,6 +2143,17 @@ proxies:
       path: /@Marisa_kristi
       headers:
         Host: ryhvmvktfhtnv3t.luyuju.dpdns.org
+  - name: "proxy-186"
+    type: vless
+    server: api-no-cache.dropmefile.net
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-no-cache.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
   - name: "proxy-187"
     type: vless
     server: kinode24.boevik-tut.org
