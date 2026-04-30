@@ -1635,6 +1635,20 @@ proxies:
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     udp: true
+  - name: "proxy-239"
+    type: ss
+    server: 192.36.27.94
+    port: 989?
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    udp: true
+  - name: "proxy-240"
+    type: ss
+    server: basic-ru-0.undef.network
+    port: 51287?
+    cipher: chacha20-ietf-poly1305
+    password: usOjAQXmyRqcY8aRAFFghnyRR
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1873,6 +1887,8 @@ proxy-groups:
       - "proxy-236"
       - "proxy-237"
       - "proxy-238"
+      - "proxy-239"
+      - "proxy-240"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
