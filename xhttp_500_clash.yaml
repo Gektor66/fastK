@@ -1174,6 +1174,30 @@ proxies:
     servername: obhod.riotvpn.eu
   - name: "proxy-100"
     type: vless
+    server: 104.165.205.205
+    port: 8080
+    uuid: 9efb864e-5342-4c92-aef3-292f40a5122b
+    udp: true
+    network: xhttp
+    tls: true
+    servername: ozon.ru
+    reality-opts:
+      public-key: XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y
+      short-id: 6d6f13013d3e1d0c
+  - name: "proxy-101"
+    type: vless
+    server: 158.160.224.34
+    port: 8443
+    uuid: 27c8d6bd-4f4e-4fb1-8d40-8abe8d0376fe
+    udp: true
+    network: xhttp
+    tls: true
+    servername: max.ru
+    reality-opts:
+      public-key: RXG821C5MAxnSe66PDwRFriCe2mzohzIiWYppChkEDg
+      short-id: 0162e56ac9924472
+  - name: "proxy-102"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -1184,7 +1208,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-101"
+  - name: "proxy-103"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -1195,7 +1219,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-102"
+  - name: "proxy-104"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -1207,6 +1231,18 @@ proxies:
     reality-opts:
       public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
       short-id: 3b0498c3
+  - name: "proxy-105"
+    type: vless
+    server: 45.139.25.43
+    port: 443
+    uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
+    udp: true
+    network: xhttp
+    tls: true
+    servername: stats.vk-portal.net
+    reality-opts:
+      public-key: ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw
+      short-id: 965af8960474c29c
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1315,6 +1351,9 @@ proxy-groups:
       - "proxy-100"
       - "proxy-101"
       - "proxy-102"
+      - "proxy-103"
+      - "proxy-104"
+      - "proxy-105"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
