@@ -1142,27 +1142,16 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-94"
     type: vless
-    server: 89.208.231.52
+    server: api-no-cache.dropmefile.net
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: filegrid.cc
+    servername: api-no-cache.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-95"
-    type: vless
-    server: 89.208.231.81
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: fileroute.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-96"
     type: vless
     server: api-staging.dropmefile.net
     port: 443
@@ -1170,10 +1159,9 @@ proxies:
     udp: true
     network: grpc
     tls: true
-    servername: api-staging.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-97"
+  - name: "proxy-96"
     type: vless
     server: filegrid.cc
     port: 443
@@ -1184,26 +1172,37 @@ proxies:
     servername: filegrid.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
-    server: fileroute.cc
+    server: 5.188.143.70
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: fileroute.cc
+    servername: api2.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-98"
+    type: vless
+    server: 109.120.188.50
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api3.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-99"
     type: vless
-    server: 109.120.191.171
+    server: 5.188.140.166
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: api-no-cache.dropmefile.net
+    servername: api1.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
 
