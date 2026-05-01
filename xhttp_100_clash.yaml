@@ -950,6 +950,42 @@ proxies:
     servername: obhod.riotvpn.eu
   - name: "proxy-80"
     type: vless
+    server: 217.168.240.172
+    port: 3443
+    uuid: 41894276-c016-4d75-a1ce-d2785fe88b42
+    udp: true
+    network: xhttp
+    tls: true
+    servername: max.ru
+    reality-opts:
+      public-key: XqH-gNEL9eJfr1pglaI8WU3OvE654_5duXYBS35UXlM
+      short-id: ab
+  - name: "proxy-81"
+    type: vless
+    server: 87.242.118.99
+    port: 2443
+    uuid: 3d670149-728f-4045-b9e0-f89cb64941ed
+    udp: true
+    network: xhttp
+    tls: true
+    servername: ads.x5.ru
+    reality-opts:
+      public-key: XqH-gNEL9eJfr1pglaI8WU3OvE654_5duXYBS35UXlM
+      short-id: abcdef0123456789
+  - name: "proxy-82"
+    type: vless
+    server: 37.9.13.174
+    port: 9443
+    uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
+    udp: true
+    network: xhttp
+    tls: true
+    servername: stats.vk-portal.net
+    reality-opts:
+      public-key: ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw
+      short-id: 965af8960474c29c
+  - name: "proxy-83"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -960,7 +996,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-81"
+  - name: "proxy-84"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -971,7 +1007,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-82"
+  - name: "proxy-85"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -983,18 +1019,6 @@ proxies:
     reality-opts:
       public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
       short-id: 3b0498c3
-  - name: "proxy-83"
-    type: vless
-    server: 158.160.51.188
-    port: 6444
-    uuid: 8822e9a7-9b61-4b5e-9efd-a483c7322b00
-    udp: true
-    network: xhttp
-    tls: true
-    servername: ads.x5.ru
-    reality-opts:
-      public-key: kFiHVL1rkURP6u8UVc0v7L_9uYiEKK3YaQak51nxuXY
-      short-id: bad5722c72a038
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1084,6 +1108,8 @@ proxy-groups:
       - "proxy-81"
       - "proxy-82"
       - "proxy-83"
+      - "proxy-84"
+      - "proxy-85"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
