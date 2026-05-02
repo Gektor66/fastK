@@ -891,71 +891,6 @@ proxies:
       grpc-service-name: gprc
   - name: "proxy-75"
     type: vless
-    server: 109.120.191.171
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api-no-cache.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-76"
-    type: vless
-    server: 109.120.191.5
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api-staging.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-77"
-    type: vless
-    server: api-no-cache.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api-no-cache.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-78"
-    type: vless
-    server: api-staging.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-79"
-    type: vless
-    server: filegrid.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-80"
-    type: vless
-    server: fileroute.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: fileroute.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-81"
-    type: vless
     server: 5.188.140.166
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
@@ -965,7 +900,29 @@ proxies:
     servername: api1.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-82"
+  - name: "proxy-76"
+    type: vless
+    server: 109.120.191.171
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-no-cache.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-77"
+    type: vless
+    server: 89.208.231.52
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: filegrid.cc
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-78"
     type: vless
     server: 89.208.231.81
     port: 443
@@ -976,7 +933,7 @@ proxies:
     servername: fileroute.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-83"
+  - name: "proxy-79"
     type: vless
     server: 46.243.211.17
     port: 7000
@@ -988,7 +945,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-84"
+  - name: "proxy-80"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -999,7 +956,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-85"
+  - name: "proxy-81"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1010,7 +967,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-86"
+  - name: "proxy-82"
     type: vless
     server: 198.255.96.14
     port: 443
@@ -1021,7 +978,7 @@ proxies:
     servername: login.vk.com
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-87"
+  - name: "proxy-83"
     type: vless
     server: 159.194.213.95
     port: 52000
@@ -1031,7 +988,7 @@ proxies:
     tls: true
     servername: ozon.ru
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-88"
+  - name: "proxy-84"
     type: vless
     server: 91.198.220.226
     port: 4100
@@ -1042,7 +999,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-89"
+  - name: "proxy-85"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1055,17 +1012,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-90"
-    type: vless
-    server: 45.151.183.111
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: tcp
-    tls: true
-    servername: czu.ksnodes.net
-    flow: xtls-rprx-vision
-  - name: "proxy-91"
+  - name: "proxy-86"
     type: vless
     server: 47.79.144.214
     port: 443
@@ -1078,33 +1025,7 @@ proxies:
       path: /
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-92"
-    type: vless
-    server: 47.79.93.100
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
-    udp: true
-    network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-93"
-    type: vless
-    server: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
-    udp: true
-    network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-94"
+  - name: "proxy-87"
     type: vless
     server: 144.31.4.74
     port: 443
@@ -1114,30 +1035,7 @@ proxies:
     tls: true
     servername: pl74.mechvpn.online
     flow: xtls-rprx-vision
-  - name: "proxy-95"
-    type: vless
-    server: pl74.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    servername: pl74.mechvpn.online
-    flow: xtls-rprx-vision
-  - name: "proxy-96"
-    type: vless
-    server: 151.242.43.34
-    port: 2053
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    udp: true
-    network: ws
-    tls: true
-    servername: xfxl35a.node-edge.gfw.hidns.co
-    ws-opts:
-      path: /danfeng
-      headers:
-        Host: xfxl35a.node-edge.gfw.hidns.co
-  - name: "proxy-97"
+  - name: "proxy-88"
     type: vless
     server: 47.81.35.229
     port: 443
@@ -1150,9 +1048,9 @@ proxies:
       path: /danfeng?ed=2560
       headers:
         Host: ltaeqp.cdn-assets.fgfw.indevs.in
-  - name: "proxy-98"
+  - name: "proxy-89"
     type: vless
-    server: 95.213.143.166
+    server: 80.249.131.172
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
@@ -1160,7 +1058,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-99"
+  - name: "proxy-90"
     type: vless
     server: 185.242.17.17
     port: 443
@@ -1171,6 +1069,105 @@ proxies:
     servername: ru-w-t1.hotservice.icu
     ws-opts:
       path: /wspath/
+  - name: "proxy-91"
+    type: vless
+    server: 91.244.70.205
+    port: 443
+    uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "proxy-92"
+    type: vless
+    server: 45.151.183.111
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: czu.ksnodes.net
+    flow: xtls-rprx-vision
+  - name: "proxy-93"
+    type: vless
+    server: 135.84.64.74
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-94"
+    type: vless
+    server: 104.18.12.149
+    port: 443
+    uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
+    udp: true
+    network: ws
+    tls: true
+    servername: S4-f45.pAGeS.DeV
+    ws-opts:
+      path: /
+      headers:
+        Host: S4-f45.pAGeS.DeV
+  - name: "proxy-95"
+    type: vless
+    server: 77.75.199.138
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-96"
+    type: vless
+    server: 162.19.228.119
+    port: 80
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /http
+  - name: "proxy-97"
+    type: vless
+    server: 104.17.148.22
+    port: 443
+    uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
+    udp: true
+    network: ws
+    tls: true
+    servername: luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV
+    ws-opts:
+      headers:
+        Host: lucky-lab-ac6d.caveyi8071.workers.dev
+  - name: "proxy-98"
+    type: vless
+    server: 104.16.63.239
+    port: 80
+    uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: netherlands.vipserver14.workers.dev
+  - name: "proxy-99"
+    type: vless
+    server: 82.202.197.2
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
