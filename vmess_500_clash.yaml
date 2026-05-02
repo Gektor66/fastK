@@ -4,31 +4,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-2"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-4"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    udp: true
   - name: "proxy-5"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-6"
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -92,15 +68,36 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: "proxy-14"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-15"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-16"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-2"
-      - "proxy-4"
       - "proxy-5"
-      - "proxy-6"
       - "proxy-7"
       - "proxy-8"
       - "proxy-9"
@@ -108,6 +105,9 @@ proxy-groups:
       - "proxy-11"
       - "proxy-12"
       - "proxy-13"
+      - "proxy-14"
+      - "proxy-15"
+      - "proxy-16"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
