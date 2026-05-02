@@ -24,7 +24,7 @@ proxies:
     udp: true
     network: xhttp
     tls: true
-    servername: ya.ru
+    servername: yandex.ru
     reality-opts:
       public-key: IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ
   - name: "proxy-2"
@@ -38,7 +38,7 @@ proxies:
     servername: maps.yandex.ru
     reality-opts:
       public-key: A8y_UFyYYObEfIIag9EtvqOjVb--zEUAoc2JtTR_7XY
-      short-id: c43eceb825dca5eb
+      short-id: 3653560f50a8cddb
   - name: "proxy-3"
     type: vless
     server: 195.26.224.112
@@ -886,6 +886,18 @@ proxies:
     reality-opts:
       public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
       short-id: 3b0498c3
+  - name: "proxy-75"
+    type: vless
+    server: 84.32.209.56
+    port: 8443
+    uuid: 0f847daf-dab0-4ba7-bcbb-dabd43c7933c
+    udp: true
+    network: xhttp
+    tls: true
+    servername: www.tradingview.com
+    reality-opts:
+      public-key: NnDloDdLzhLM1CVF36kbOkc0JFzsqVaT3k1fYX_vXRY
+      short-id: 58ae8cd85cc31074
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -966,6 +978,7 @@ proxy-groups:
       - "proxy-72"
       - "proxy-73"
       - "proxy-74"
+      - "proxy-75"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
