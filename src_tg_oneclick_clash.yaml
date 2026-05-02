@@ -1314,6 +1314,67 @@ proxies:
     tls: false
     grpc-opts:
       grpc-service-name: gprc
+  - name: "proxy-137"
+    type: vless
+    server: 109.120.191.171
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: api-no-cache.dropmefile.net
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+  - name: "proxy-138"
+    type: vless
+    server: 5.188.140.166
+    port: 993
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+      short-id: ad7dab462a323acb
+  - name: "proxy-139"
+    type: vless
+    server: 5.188.143.70
+    port: 993
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: yandex.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+      short-id: ad7dab462a323acb
+  - name: "proxy-140"
+    type: vless
+    server: 109.120.188.50
+    port: 993
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4
+      short-id: ad7dab462a323acb
+  - name: "proxy-141"
+    type: vless
+    server: 89.208.231.81
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: grpc
+    tls: true
+    servername: fileroute.cc
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1434,6 +1495,11 @@ proxy-groups:
       - "proxy-133"
       - "proxy-135"
       - "proxy-136"
+      - "proxy-137"
+      - "proxy-138"
+      - "proxy-139"
+      - "proxy-140"
+      - "proxy-141"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
