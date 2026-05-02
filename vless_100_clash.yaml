@@ -753,28 +753,29 @@ proxies:
     udp: true
     network: grpc
     tls: true
+    servername: api-staging.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-64"
     type: vless
-    server: 5.188.143.70
+    server: filegrid.cc
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: api2.dropmefile.net
+    servername: filegrid.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-65"
     type: vless
-    server: 109.120.188.50
+    server: fileroute.cc
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
-    servername: api3.dropmefile.net
+    servername: fileroute.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-66"
@@ -790,36 +791,16 @@ proxies:
       grpc-service-name: grpc-tunnel
   - name: "proxy-67"
     type: vless
-    server: api1.dropmefile.net
+    server: 5.188.143.70
     port: 443
     uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
     udp: true
     network: grpc
     tls: true
+    servername: api2.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
   - name: "proxy-68"
-    type: vless
-    server: api2.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-69"
-    type: vless
-    server: api3.dropmefile.net
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: api3.dropmefile.net
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-70"
     type: vless
     server: 109.120.191.171
     port: 443
@@ -830,7 +811,7 @@ proxies:
     servername: api-no-cache.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-71"
+  - name: "proxy-69"
     type: vless
     server: 109.120.191.5
     port: 443
@@ -841,7 +822,7 @@ proxies:
     servername: api-staging.dropmefile.net
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-72"
+  - name: "proxy-70"
     type: vless
     server: 89.208.231.52
     port: 443
@@ -852,7 +833,7 @@ proxies:
     servername: filegrid.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-73"
+  - name: "proxy-71"
     type: vless
     server: 89.208.231.81
     port: 443
@@ -863,7 +844,7 @@ proxies:
     servername: fileroute.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-74"
+  - name: "proxy-72"
     type: vless
     server: 89.208.231.81
     port: 993
@@ -871,29 +852,7 @@ proxies:
     udp: true
     network: tcp
     flow: xtls-rprx-vision
-  - name: "proxy-75"
-    type: vless
-    server: filegrid.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: filegrid.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-76"
-    type: vless
-    server: fileroute.cc
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-    udp: true
-    network: grpc
-    tls: true
-    servername: fileroute.cc
-    grpc-opts:
-      grpc-service-name: grpc-tunnel
-  - name: "proxy-77"
+  - name: "proxy-73"
     type: vless
     server: 46.243.211.17
     port: 7000
@@ -905,7 +864,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-78"
+  - name: "proxy-74"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -916,7 +875,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-79"
+  - name: "proxy-75"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -927,7 +886,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-80"
+  - name: "proxy-76"
     type: vless
     server: 91.198.220.226
     port: 4100
@@ -938,7 +897,7 @@ proxies:
       path: /v1
       headers:
         Host: live.ok.ru
-  - name: "proxy-81"
+  - name: "proxy-77"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -951,7 +910,7 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-82"
+  - name: "proxy-78"
     type: vless
     server: 198.255.96.14
     port: 443
@@ -962,7 +921,7 @@ proxies:
     servername: login.vk.com
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-83"
+  - name: "proxy-79"
     type: vless
     server: st.xbs54as9c6.ru
     port: 7000
@@ -974,7 +933,34 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-84"
+  - name: "proxy-80"
+    type: vless
+    server: 2.26.109.124
+    port: 8443
+    uuid: 619a96ed-6cfd-4df7-8819-db5267d7d554
+    udp: true
+    network: tcp
+  - name: "proxy-81"
+    type: vless
+    server: 178.72.181.41
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-82"
+    type: vless
+    server: 91.244.70.205
+    port: 443
+    uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+  - name: "proxy-83"
     type: vless
     server: 45.151.183.111
     port: 443
@@ -984,175 +970,191 @@ proxies:
     tls: true
     servername: czu.ksnodes.net
     flow: xtls-rprx-vision
+  - name: "proxy-84"
+    type: vless
+    server: 104.16.63.239
+    port: 80
+    uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: netherlands.vipserver14.workers.dev
   - name: "proxy-85"
     type: vless
-    server: czu.ksnodes.net
+    server: 104.18.3.150
     port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    uuid: a114d067-b900-4f60-87a5-50d4d63972b8
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    flow: xtls-rprx-vision
+    servername: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: PaRiSA-CC5Zk0.paRISa-44c.woRKeRs.dev
   - name: "proxy-86"
     type: vless
-    server: ovh.furkbalancer.net
-    port: 2053
-    uuid: e0920517-fcd8-41ad-9f73-ec7343fe8243
+    server: 82.202.197.2
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: de.chocolatemango.live
     flow: xtls-rprx-vision
   - name: "proxy-87"
     type: vless
-    server: 47.79.144.214
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    server: 82.202.197.68
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    flow: xtls-rprx-vision
   - name: "proxy-88"
     type: vless
-    server: 47.79.93.100
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    server: 57.129.41.216
+    port: 80
+    uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
     udp: true
     network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    tls: false
     ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+      path: /vless/
   - name: "proxy-89"
     type: vless
-    server: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    server: 8.6.112.9
     port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
     udp: true
     network: ws
     tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+    ws-opts:
+      path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+      headers:
+        Host: ancient-heart-60c5.dpccgizieb.workers.dev
+  - name: "proxy-90"
+    type: vless
+    server: 198.41.222.191
+    port: 80
+    uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: leecher56.matinheydri.workers.dev
+  - name: "proxy-91"
+    type: vless
+    server: 166.62.108.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vms.lifetime17.workers.dev
+  - name: "proxy-92"
+    type: vless
+    server: 45.80.110.231
+    port: 443
+    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+    udp: true
+    network: ws
+    tls: true
+    servername: babayaga-6i7.pages.dev
+    ws-opts:
+      path: /?ed=2560&Telegram🇨🇳@WangCai2
+      headers:
+        Host: babayaga-6i7.pages.dev
+  - name: "proxy-93"
+    type: vless
+    server: 74.49.214.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vms.lifetime56.workers.dev
+  - name: "proxy-94"
+    type: vless
+    server: 104.21.34.189
+    port: 443
+    uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
+    udp: true
+    network: ws
+    tls: true
+    servername: stipulations.gelatin.workers.dev
+    ws-opts:
+      path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+      headers:
+        Host: stipulations.gelatin.workers.dev
+  - name: "proxy-95"
+    type: vless
+    server: 104.21.7.133
+    port: 80
+    uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
+    udp: true
+    network: ws
+    tls: false
     ws-opts:
       path: /
       headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-90"
-    type: vless
-    server: 144.31.4.74
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    servername: pl74.mechvpn.online
-    flow: xtls-rprx-vision
-  - name: "proxy-91"
-    type: vless
-    server: pl74.mechvpn.online
-    port: 443
-    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-    udp: true
-    network: tcp
-    tls: true
-    servername: pl74.mechvpn.online
-    flow: xtls-rprx-vision
-  - name: "proxy-92"
-    type: vless
-    server: 185.242.16.16
-    port: 443
-    uuid: 7c71bca8-1f80-435a-bb2d-0ad130d6d4f7
-    udp: true
-    network: ws
-    tls: true
-    servername: ru-w-t1.hotservice.icu
-    ws-opts:
-      path: /wspath/
-      headers:
-        Host: ru-w-t1.hotservice.icu
-  - name: "proxy-93"
-    type: vless
-    server: ru-w-t1.hotservice.icu
-    port: 443/
-    uuid: 7c71bca8-1f80-435a-bb2d-0ad130d6d4f7
-    udp: true
-    network: ws
-    tls: true
-    servername: ru-w-t1.hotservice.icu
-    ws-opts:
-      path: /wspath/
-      headers:
-        Host: ru-w-t1.hotservice.icu
-  - name: "proxy-94"
-    type: vless
-    server: 188.253.22.71
-    port: 443
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    udp: true
-    network: ws
-    tls: true
-    servername: xfxl35a.node-edge.gfw.hidns.co
-    ws-opts:
-      path: /danfeng
-      headers:
-        Host: xfxl35a.node-edge.gfw.hidns.co
-  - name: "proxy-95"
-    type: vless
-    server: 135.84.72.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    ws-opts:
-      headers:
-        Host: vms.lifetime06.workers.dev
+        Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
   - name: "proxy-96"
     type: vless
-    server: 135.84.74.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 104.21.224.5
+    port: 80
+    uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
     udp: true
     network: ws
+    tls: false
     ws-opts:
+      path: /
       headers:
-        Host: vms.lifetime07.workers.dev
+        Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
   - name: "proxy-97"
     type: vless
-    server: 135.84.75.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 162.159.14.88
+    port: 80
+    uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
     udp: true
     network: ws
     tls: false
     ws-opts:
+      path: /
       headers:
-        Host: vms.lifetime08.workers.dev
+        Host: long-forest-ac72.salari1382m.workers.dev
   - name: "proxy-98"
     type: vless
-    server: 154.83.2.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 104.24.45.247
+    port: 80
+    uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
     udp: true
     network: ws
     tls: false
     ws-opts:
+      path: /
       headers:
-        Host: vms.lifetime28.workers.dev
+        Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
   - name: "proxy-99"
     type: vless
-    server: 155.46.167.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    server: 104.21.82.226
+    port: 443
+    uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
     udp: true
     network: ws
+    tls: true
+    servername: 002.Inc-ElectROcElL-001-002.WoRKERS.DEV
     ws-opts:
+      path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
       headers:
-        Host: vms.lifetime50.workers.dev
+        Host: 002.inc-electrocell-001-002.workers.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
