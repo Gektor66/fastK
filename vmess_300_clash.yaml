@@ -4,15 +4,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-5"
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-7"
+  - name: "proxy-6"
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -92,13 +84,20 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: "proxy-17"
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-5"
-      - "proxy-7"
+      - "proxy-6"
       - "proxy-8"
       - "proxy-9"
       - "proxy-10"
@@ -108,6 +107,7 @@ proxy-groups:
       - "proxy-14"
       - "proxy-15"
       - "proxy-16"
+      - "proxy-17"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
