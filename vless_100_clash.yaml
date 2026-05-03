@@ -1165,17 +1165,6 @@ proxies:
     servername: stats.vk-portal.net
   - name: "proxy-95"
     type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
-  - name: "proxy-96"
-    type: vless
     server: 141.98.169.100
     port: 443
     uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
@@ -1185,6 +1174,16 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /oyoelzws
+  - name: "proxy-96"
+    type: vless
+    server: 62.60.217.95
+    port: 443
+    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
+    udp: true
+    network: tcp
+    tls: true
+    servername: stats.vk-portal.net
+    flow: xtls-rprx-vision
   - name: "proxy-97"
     type: vless
     server: 185.235.241.67
@@ -1198,27 +1197,26 @@ proxies:
       path: /hormoz
   - name: "proxy-98"
     type: vless
-    server: 62.60.217.95
+    server: 167.99.91.171
     port: 443
-    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "proxy-99"
-    type: vless
-    server: 94.131.100.173
-    port: 443
-    uuid: 0a0d846f-8f54-4db4-940b-b373b1b02e4c
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
     udp: true
     network: ws
     tls: true
-    servername: www.vk.com
+    servername: api.avito.ru
     ws-opts:
-      path: /coxzfsws
-      headers:
-        Host: 639010645287857140.accord-lmnxa.info
+      path: /sbqbfows
+  - name: "proxy-99"
+    type: vless
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
