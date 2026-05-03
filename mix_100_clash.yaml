@@ -809,35 +809,16 @@ proxies:
       path: /esoznjws
   - name: "proxy-71"
     type: vless
-    server: 62.60.217.95
+    server: 134.209.29.189
     port: 443
-    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "proxy-72"
-    type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    uuid: b214d4b1-2496-407a-8ab2-391e66915291
     udp: true
     network: ws
     tls: true
-    servername: api.avito.ru
+    servername: ozon.ru
     ws-opts:
-      path: /sbqbfows
-  - name: "proxy-73"
-    type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
-  - name: "proxy-74"
+      path: /uebodows
+  - name: "proxy-72"
     type: vless
     server: 141.98.169.100
     port: 443
@@ -848,42 +829,17 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /oyoelzws
-  - name: "proxy-75"
+  - name: "proxy-73"
     type: vless
-    server: 94.131.100.173
+    server: 62.60.217.95
     port: 443
-    uuid: 0a0d846f-8f54-4db4-940b-b373b1b02e4c
+    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: www.vk.com
-    ws-opts:
-      path: /coxzfsws
-      headers:
-        Host: 639010645287857140.accord-lmnxa.info
-  - name: "proxy-76"
-    type: vless
-    server: 141.98.169.94
-    port: 443
-    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
-    udp: true
-    network: ws
-    tls: true
-    servername: m.vk.com
-    ws-opts:
-      path: /puzoscws
-  - name: "proxy-77"
-    type: vless
-    server: 185.235.241.67
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: web.max.ru
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-78"
+    servername: stats.vk-portal.net
+    flow: xtls-rprx-vision
+  - name: "proxy-74"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -894,18 +850,7 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
-  - name: "proxy-79"
-    type: vless
-    server: 134.209.29.189
-    port: 443
-    uuid: b214d4b1-2496-407a-8ab2-391e66915291
-    udp: true
-    network: ws
-    tls: true
-    servername: ozon.ru
-    ws-opts:
-      path: /uebodows
-  - name: "proxy-80"
+  - name: "proxy-75"
     type: vless
     server: 37.18.14.103
     port: 443
@@ -914,7 +859,40 @@ proxies:
     network: tcp
     tls: true
     servername: bitva.mail.ru
-  - name: "proxy-81"
+  - name: "proxy-76"
+    type: vless
+    server: 185.235.241.67
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: web.max.ru
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-77"
+    type: vless
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
+  - name: "proxy-78"
+    type: vless
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    udp: true
+    network: ws
+    tls: true
+    servername: api.avito.ru
+    ws-opts:
+      path: /sbqbfows
+  - name: "proxy-79"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -925,7 +903,7 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-82"
+  - name: "proxy-80"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -938,29 +916,9 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-83"
+  - name: "proxy-81"
     type: vless
-    server: 198.255.96.14
-    port: 443
-    uuid: c4d69096-4026-4da5-9485-20a3da91cb14
-    udp: true
-    network: grpc
-    tls: true
-    servername: login.vk.com
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-84"
-    type: vless
-    server: 188.246.226.142
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-85"
-    type: vless
-    server: 185.242.17.17
+    server: 185.242.16.16
     port: 443
     uuid: 7c71bca8-1f80-435a-bb2d-0ad130d6d4f7
     udp: true
@@ -969,7 +927,7 @@ proxies:
     servername: ru-w-t1.hotservice.icu
     ws-opts:
       path: /wspath/
-  - name: "proxy-86"
+  - name: "proxy-82"
     type: vless
     server: 91.244.70.205
     port: 443
@@ -979,56 +937,54 @@ proxies:
     tls: false
     ws-opts:
       path: /
-  - name: "proxy-87"
+  - name: "proxy-83"
     type: vless
-    server: 104.21.7.133
-    port: 80
-    uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-  - name: "proxy-88"
-    type: vless
-    server: 104.21.224.5
-    port: 80
-    uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      path: /
-      headers:
-        Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-  - name: "proxy-89"
-    type: vless
-    server: 104.21.34.189
+    server: 45.151.183.111
     port: 443
-    uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: czu.ksnodes.net
+    flow: xtls-rprx-vision
+  - name: "proxy-84"
+    type: vless
+    server: 104.24.45.247
+    port: 80
+    uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
+  - name: "proxy-85"
+    type: vless
+    server: 104.17.148.22
+    port: 443
+    uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
     udp: true
     network: ws
     tls: true
-    servername: stipulations.gelatin.workers.dev
+    servername: luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV
     ws-opts:
-      path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
       headers:
-        Host: stipulations.gelatin.workers.dev
-  - name: "proxy-90"
+        Host: lucky-lab-ac6d.caveyi8071.workers.dev
+  - name: "proxy-86"
     type: vless
-    server: 104.18.32.47
-    port: 80
-    uuid: 787b3724-16c8-4e58-a038-2b8013cdc6d9
+    server: 8.6.112.9
+    port: 443
+    uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
     udp: true
     network: ws
-    tls: false
+    tls: true
+    servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
     ws-opts:
-      path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+      path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
       headers:
-        Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
-  - name: "proxy-91"
+        Host: ancient-heart-60c5.dpccgizieb.workers.dev
+  - name: "proxy-87"
     type: vless
     server: 172.64.155.209
     port: 80
@@ -1040,21 +996,43 @@ proxies:
       path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
       headers:
         Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
-  - name: "proxy-92"
+  - name: "proxy-88"
     type: vless
-    server: 162.159.14.88
+    server: 104.16.9.24
     port: 80
-    uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
+    uuid: 2ac6e527-6410-48ce-b9ba-cc8135ee2a3b
     udp: true
     network: ws
     tls: false
     ws-opts:
       path: /
       headers:
-        Host: long-forest-ac72.salari1382m.workers.dev
-  - name: "proxy-93"
+        Host: fragrant-recipe-09f4.wopecuyubak61.workers.dev
+  - name: "proxy-89"
     type: vless
-    server: 104.21.82.226
+    server: 104.18.15.19
+    port: 80
+    uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
+  - name: "proxy-90"
+    type: vless
+    server: 198.41.222.191
+    port: 80
+    uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: leecher56.matinheydri.workers.dev
+  - name: "proxy-91"
+    type: vless
+    server: 172.67.164.152
     port: 443
     uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
     udp: true
@@ -1065,57 +1043,56 @@ proxies:
       path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
       headers:
         Host: 002.inc-electrocell-001-002.workers.dev
-  - name: "proxy-94"
+  - name: "proxy-92"
     type: vless
-    server: 45.67.215.233
-    port: 443
-    uuid: 20e295db-a6af-4006-bfd6-91453f169968
-    udp: true
-    network: ws
-    tls: true
-    servername: 057.ElecTRocElLco-Cf-057.wOrKeRs.dEv
-    ws-opts:
-      path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-      headers:
-        Host: 057.electrocellco-cf-057.workers.dev
-  - name: "proxy-95"
-    type: vless
-    server: 104.20.6.134
-    port: 443
-    uuid: 2088ef0d-4d2c-43b3-874b-b6a03531c81b
-    udp: true
-    network: ws
-    tls: true
-    servername: r.meDiASHOPPp.sbS
-    ws-opts:
-      path: /eyJqdW5rIjoiVVpPeXNodUFQMHNVcU12aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-      headers:
-        Host: r.mediashoppp.sbs
-  - name: "proxy-96"
-    type: vless
-    server: 188.114.96.3
-    port: 443
-    uuid: d082b5e0-2435-4599-b935-d2c2b70beb67
-    udp: true
-    network: ws
-    tls: true
-    servername: purple-mrvpn294x.mrvpnandamir294.workers.dev
-    ws-opts:
-      headers:
-        Host: purple-mrvpn294x.mrvpnandamir294.workers.dev
-  - name: "proxy-97"
-    type: vless
-    server: 57.129.41.216
-    port: 80
-    uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+    server: 160.153.0.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
     network: ws
     tls: false
     ws-opts:
-      path: /vless/
-  - name: "proxy-98"
+      headers:
+        Host: vms.lifetime60.workers.dev
+  - name: "proxy-93"
     type: vless
-    server: 155.46.167.231
+    server: 162.159.141.147
+    port: 443
+    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
+    udp: true
+    network: ws
+    tls: true
+    servername: rAyAn-007.fOtOn.dPdNs.oRg
+    ws-opts:
+      path: /
+      headers:
+        Host: rAyAn-007.fOtOn.dPdNs.oRg
+  - name: "proxy-94"
+    type: vless
+    server: 104.18.14.19
+    port: 80
+    uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      path: /
+      headers:
+        Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
+  - name: "proxy-95"
+    type: vless
+    server: 104.16.63.239
+    port: 80
+    uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
+    udp: true
+    network: ws
+    tls: false
+    ws-opts:
+      headers:
+        Host: netherlands.vipserver14.workers.dev
+  - name: "proxy-96"
+    type: vless
+    server: 45.80.110.231
     port: 443
     uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
     udp: true
@@ -1126,9 +1103,34 @@ proxies:
       path: /?ed=2560&Telegram🇨🇳@WangCai2
       headers:
         Host: babayaga-6i7.pages.dev
+  - name: "proxy-97"
+    type: vless
+    server: 172.66.44.118
+    port: 443
+    uuid: 0f4d41cf-0be1-4fcc-ac41-53b843ba0752
+    udp: true
+    network: ws
+    tls: true
+    servername: H7-83W.pAgeS.deV
+    ws-opts:
+      headers:
+        Host: H7-83W.pAgeS.deV
+  - name: "proxy-98"
+    type: vless
+    server: 192.200.160.253
+    port: 443
+    uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+    udp: true
+    network: ws
+    tls: true
+    servername: qyi.fqjd663.ggff.net
+    ws-opts:
+      path: /
+      headers:
+        Host: qyi.fqjd663.ggff.net
   - name: "proxy-99"
     type: vless
-    server: 135.84.64.74
+    server: 135.84.64.66
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
@@ -1136,6 +1138,7 @@ proxies:
     tls: true
     servername: sni.111000.dynv6.net
     ws-opts:
+      path: /?Telegram🇨🇳@WangCai2=
       headers:
         Host: sni.111000.dynv6.net
 
