@@ -1588,6 +1588,18 @@ proxies:
     servername: tr-ist-11-x.blook.network
   - name: "proxy-139"
     type: vless
+    server: 195.209.210.87
+    port: 51620
+    uuid: e7d88c6a-c253-4d16-b0cb-e293b2856c6e
+    udp: true
+    network: xhttp
+    tls: true
+    servername: sso.passport.yandex.ru
+    reality-opts:
+      public-key: zActfG7j1iIjclCzN1Eid1jR85-_U9-ZR2nedr142Hk
+      short-id: 9f8d1450dbb432e9
+  - name: "proxy-140"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -1598,7 +1610,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-140"
+  - name: "proxy-141"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -1609,7 +1621,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-141"
+  - name: "proxy-142"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -1621,6 +1633,30 @@ proxies:
     reality-opts:
       public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
       short-id: 3b0498c3
+  - name: "proxy-143"
+    type: vless
+    server: 176.57.213.153
+    port: 8443
+    uuid: c7ff1fa8-c377-449e-9712-08daa0900adc
+    udp: true
+    network: xhttp
+    tls: true
+    servername: apple.com
+    reality-opts:
+      public-key: ccCb6lQBtA2KOnCMVrsKXpFmUv2x8EOsMObkuJebNWw
+      short-id: 2d5a31d63a1c4914
+  - name: "proxy-144"
+    type: vless
+    server: 195.209.210.87
+    port: 13014
+    uuid: e7d88c6a-c253-4d16-b0cb-e293b2856c6e
+    udp: true
+    network: xhttp
+    tls: true
+    servername: sso.passport.yandex.ru
+    reality-opts:
+      public-key: zActfG7j1iIjclCzN1Eid1jR85-_U9-ZR2nedr142Hk
+      short-id: 202e02334801664b
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1768,6 +1804,9 @@ proxy-groups:
       - "proxy-139"
       - "proxy-140"
       - "proxy-141"
+      - "proxy-142"
+      - "proxy-143"
+      - "proxy-144"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
