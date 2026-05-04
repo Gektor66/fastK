@@ -4,31 +4,23 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-0"
+  - name: "proxy-2"
     type: vmess
     server: 104.168.1.102
     port: 8222
-    uuid: 4b64bbe9-347d-4cbe-83e6-0c925a9583d8
+    uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-1"
+  - name: "proxy-3"
     type: vmess
-    server: 45.192.101.134
-    port: 9527
-    uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-2"
-    type: vmess
-    server: 82.198.246.233
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-3"
+  - name: "proxy-4"
     type: vmess
     server: 165.154.195.38
     port: 35034
@@ -36,15 +28,15 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-4"
+  - name: "proxy-5"
     type: vmess
-    server: 172.232.103.186
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    server: 45.192.101.134
+    port: 9527
+    uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-5"
+  - name: "proxy-6"
     type: vmess
     server: 165.140.216.141
     port: 443
@@ -52,7 +44,31 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-6"
+  - name: "proxy-7"
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-8"
+    type: vmess
+    server: 119.46.51.45
+    port: 42553
+    uuid: bc30cc65-bc08-4843-85b6-1cac2b8a9753
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-9"
+    type: vmess
+    server: 172.232.103.186
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-10"
     type: vmess
     server: 172.233.17.76
     port: 22324
@@ -60,7 +76,31 @@ proxies:
     alterId: 1
     cipher: auto
     udp: true
-  - name: "proxy-8"
+  - name: "proxy-11"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-12"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-14"
+    type: vmess
+    server: 92.119.166.167
+    port: 8081
+    uuid: a06c839c-0a51-420f-ad6e-c1f03d7077fb
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-15"
     type: vmess
     server: node-jp-1.a2a3a4.top
     port: 443
@@ -70,41 +110,9 @@ proxies:
     udp: true
     tls: true
     servername: node-jp-1.a2a3a4.top
-  - name: "proxy-10"
+  - name: "proxy-16"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-11"
-    type: vmess
-    server: www.shopify.com
-    port: 80
-    uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-12"
-    type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-13"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-15"
-    type: vmess
-    server: 82.198.246.46
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -112,13 +120,21 @@ proxies:
     udp: true
   - name: "proxy-17"
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    cipher: aes-128-gcm
+    cipher: auto
     udp: true
-  - name: "proxy-18"
+  - name: "proxy-19"
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-20"
     type: vmess
     server: 85.90.217.42
     port: 22324
@@ -126,27 +142,11 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-19"
-    type: vmess
-    server: 92.119.166.167
-    port: 8081
-    uuid: a06c839c-0a51-420f-ad6e-c1f03d7077fb
-    alterId: 0
-    cipher: auto
-    udp: true
-  - name: "proxy-20"
-    type: vmess
-    server: 119.46.51.45
-    port: 42553
-    uuid: bc30cc65-bc08-4843-85b6-1cac2b8a9753
-    alterId: 0
-    cipher: auto
-    udp: true
   - name: "proxy-21"
     type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: www.shopify.com
+    port: 80
+    uuid: 3171ac5c-d746-4298-82e0-d46f2f5aa51f
     alterId: 0
     cipher: auto
     udp: true
@@ -160,25 +160,25 @@ proxies:
     udp: true
   - name: "proxy-23"
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: 172.233.17.76
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 1
     cipher: auto
     udp: true
   - name: "proxy-24"
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 104.168.1.102
+    port: 8222
+    uuid: 4b64bbe9-347d-4cbe-83e6-0c925a9583d8
     alterId: 0
     cipher: auto
     udp: true
   - name: "proxy-25"
     type: vmess
-    server: 165.154.195.38
-    port: 35034
-    uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+    server: 172.233.17.76
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
     alterId: 0
     cipher: auto
     udp: true
@@ -192,9 +192,9 @@ proxies:
     udp: true
   - name: "proxy-27"
     type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: 45.192.101.134
+    port: 9527
+    uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
     alterId: 0
     cipher: auto
     udp: true
@@ -224,15 +224,15 @@ proxies:
     udp: true
   - name: "proxy-31"
     type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
+    server: 172.233.17.76
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 1
     cipher: auto
     udp: true
   - name: "proxy-32"
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -240,17 +240,17 @@ proxies:
     udp: true
   - name: "proxy-33"
     type: vmess
-    server: 45.192.101.134
-    port: 9527
-    uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     udp: true
   - name: "proxy-34"
     type: vmess
-    server: 104.168.1.102
-    port: 8222
-    uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     udp: true
@@ -264,13 +264,21 @@ proxies:
     udp: true
   - name: "proxy-36"
     type: vmess
-    server: 172.233.17.76
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    server: 165.154.195.38
+    port: 35034
+    uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
     alterId: 0
     cipher: auto
     udp: true
   - name: "proxy-37"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+  - name: "proxy-38"
     type: vmess
     server: 82.198.246.9
     port: 180
@@ -278,25 +286,17 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-38"
-    type: vmess
-    server: 172.233.17.76
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 1
-    cipher: auto
-    udp: true
   - name: "proxy-39"
     type: vmess
-    server: 172.233.17.76
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 1
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     udp: true
   - name: "proxy-40"
     type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.233
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -304,7 +304,7 @@ proxies:
     udp: true
   - name: "proxy-41"
     type: vmess
-    server: 82.198.246.97
+    server: 82.198.246.9
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -320,9 +320,17 @@ proxies:
     udp: true
   - name: "proxy-43"
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-44"
+    type: vmess
+    server: 45.15.170.237
+    port: 80
+    uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
     alterId: 0
     cipher: auto
     udp: true
@@ -331,21 +339,21 @@ proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-0"
-      - "proxy-1"
       - "proxy-2"
       - "proxy-3"
       - "proxy-4"
       - "proxy-5"
       - "proxy-6"
+      - "proxy-7"
       - "proxy-8"
+      - "proxy-9"
       - "proxy-10"
       - "proxy-11"
       - "proxy-12"
-      - "proxy-13"
+      - "proxy-14"
       - "proxy-15"
+      - "proxy-16"
       - "proxy-17"
-      - "proxy-18"
       - "proxy-19"
       - "proxy-20"
       - "proxy-21"
@@ -371,6 +379,7 @@ proxy-groups:
       - "proxy-41"
       - "proxy-42"
       - "proxy-43"
+      - "proxy-44"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
