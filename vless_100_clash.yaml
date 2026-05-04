@@ -1250,16 +1250,14 @@ proxies:
         Host: sni.111000.dynv6.net
   - name: "proxy-99"
     type: vless
-    server: 46.243.211.17
-    port: 7000
-    uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
+    server: 94.156.117.239
+    port: 30086
+    uuid: 8f59feef-aab9-4e0b-924c-2a31bb8f446f
     udp: true
-    network: ws
+    network: grpc
     tls: false
-    ws-opts:
-      path: /stream
-      headers:
-        Host: market.yandex.ru
+    grpc-opts:
+      grpc-service-name: gprc
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
