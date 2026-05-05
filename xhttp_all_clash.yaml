@@ -909,6 +909,42 @@ proxies:
       public-key: IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ
   - name: "proxy-79"
     type: vless
+    server: 84.201.159.203
+    port: 3010
+    uuid: 6a17d3c4-d673-4bf1-8306-1e997f9a49f7
+    udp: true
+    network: xhttp
+    tls: false
+  - name: "proxy-80"
+    type: vless
+    server: 51.250.97.237
+    port: 3010
+    uuid: 6a17d3c4-d673-4bf1-8306-1e997f9a49f7
+    udp: true
+    network: xhttp
+    tls: false
+  - name: "proxy-81"
+    type: vless
+    server: 51.250.14.155
+    port: 3010
+    uuid: 6a17d3c4-d673-4bf1-8306-1e997f9a49f7
+    udp: true
+    network: xhttp
+    tls: false
+  - name: "proxy-82"
+    type: vless
+    server: 185.91.53.80
+    port: 443
+    uuid: 0d02bd2e-9736-47d2-b386-8c1fd470b804
+    udp: true
+    network: xhttp
+    tls: true
+    servername: 5post-gate.x5.ru
+    reality-opts:
+      public-key: razU6QTL659hzCH6GUbA8icGt7J4MtOF19Wz5IrumGg
+      short-id: e3a6a0ee012466b3
+  - name: "proxy-83"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -919,7 +955,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-80"
+  - name: "proxy-84"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -930,7 +966,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-81"
+  - name: "proxy-85"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -1029,6 +1065,10 @@ proxy-groups:
       - "proxy-79"
       - "proxy-80"
       - "proxy-81"
+      - "proxy-82"
+      - "proxy-83"
+      - "proxy-84"
+      - "proxy-85"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
