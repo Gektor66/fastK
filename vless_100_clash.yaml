@@ -1056,15 +1056,6 @@ proxies:
       path: /esoznjws
   - name: "proxy-83"
     type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-84"
-    type: vless
     server: 62.60.217.95
     port: 443
     uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
@@ -1073,7 +1064,25 @@ proxies:
     tls: true
     servername: stats.vk-portal.net
     flow: xtls-rprx-vision
+  - name: "proxy-84"
+    type: vless
+    server: 148.253.208.98
+    port: 20222
+    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
+    udp: true
+    network: tcp
+    tls: true
+    servername: stats.vk-portal.net
   - name: "proxy-85"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: bitva.mail.ru
+  - name: "proxy-86"
     type: vless
     server: 185.235.241.53
     port: 443
@@ -1084,7 +1093,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /hormoz
-  - name: "proxy-86"
+  - name: "proxy-87"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -1095,15 +1104,6 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-87"
-    type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
   - name: "proxy-88"
     type: vless
     server: 185.235.241.67
@@ -1220,24 +1220,26 @@ proxies:
         Host: cdn.filterai.ru
   - name: "proxy-98"
     type: vless
-    server: 82.202.249.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    server: 159.100.9.33
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
-    network: tcp
+    network: grpc
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
   - name: "proxy-99"
     type: vless
-    server: 5.188.158.225
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    server: 159.100.9.64
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
-    network: tcp
+    network: grpc
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
