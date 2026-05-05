@@ -715,6 +715,18 @@ proxies:
       short-id: dc27d60c096413b5
   - name: "proxy-61"
     type: vless
+    server: pl-3-direct.memeplanet.org
+    port: 443
+    uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
+    udp: true
+    network: xhttp
+    tls: true
+    servername: pl-3-direct.memeplanet.org
+    reality-opts:
+      public-key: UDAInVyAQ5nU8cWS2SvC6mJ09aak6gIsPEXCjXkB00Q
+      short-id: 8ac90e6b636226f7
+  - name: "proxy-62"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -725,7 +737,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-62"
+  - name: "proxy-63"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -736,7 +748,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-63"
+  - name: "proxy-64"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -817,6 +829,7 @@ proxy-groups:
       - "proxy-61"
       - "proxy-62"
       - "proxy-63"
+      - "proxy-64"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
