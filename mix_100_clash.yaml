@@ -1098,6 +1098,15 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-88"
     type: vless
+    server: 91.84.117.29
+    port: 443
+    uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
+    udp: true
+    network: tcp
+    tls: true
+    servername: vk.com
+  - name: "proxy-89"
+    type: vless
     server: 148.253.208.98
     port: 20222
     uuid: faed8940-ce1a-4613-a05b-65d833e3346b
@@ -1105,7 +1114,18 @@ proxies:
     network: tcp
     tls: true
     servername: stats.vk-portal.net
-  - name: "proxy-89"
+  - name: "proxy-90"
+    type: vless
+    server: 185.235.241.53
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-91"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -1116,30 +1136,6 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
-  - name: "proxy-90"
-    type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
-  - name: "proxy-91"
-    type: vless
-    server: 94.131.100.173
-    port: 443
-    uuid: 0a0d846f-8f54-4db4-940b-b373b1b02e4c
-    udp: true
-    network: ws
-    tls: true
-    servername: www.vk.com
-    ws-opts:
-      path: /coxzfsws
-      headers:
-        Host: 639010645287857140.accord-lmnxa.info
   - name: "proxy-92"
     type: vless
     server: 138.68.160.230
@@ -1153,67 +1149,40 @@ proxies:
       path: /feesdgws
   - name: "proxy-93"
     type: vless
-    server: 185.235.241.53
+    server: 185.235.241.67
     port: 443
     uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: web.max.ru
     ws-opts:
       path: /hormoz
   - name: "proxy-94"
     type: vless
-    server: 188.225.87.169
+    server: 94.131.100.173
     port: 443
-    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
+    uuid: 0a0d846f-8f54-4db4-940b-b373b1b02e4c
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    servername: mirror.yandex.ru
+    servername: www.vk.com
+    ws-opts:
+      path: /coxzfsws
+      headers:
+        Host: 639010645287857140.accord-lmnxa.info
   - name: "proxy-95"
     type: vless
-    server: 185.235.241.155
+    server: 64.227.47.224
     port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    uuid: b9cade73-6c60-437f-8e99-631cc3560ca7
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: ozon.ru
     ws-opts:
-      path: /hormoz
+      path: /evvixzws
   - name: "proxy-96"
-    type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-97"
-    type: vless
-    server: 92.118.231.181
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: eh.vk.com
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-98"
-    type: vless
-    server: 141.98.169.94
-    port: 443
-    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
-    udp: true
-    network: ws
-    tls: true
-    servername: m.vk.com
-    ws-opts:
-      path: /puzoscws
-  - name: "proxy-99"
     type: vless
     server: 176.120.74.41
     port: 443
@@ -1224,6 +1193,37 @@ proxies:
     servername: st.ozone.ru
     ws-opts:
       path: /ssiiccws
+  - name: "proxy-97"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: bitva.mail.ru
+  - name: "proxy-98"
+    type: vless
+    server: 185.235.241.155
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-99"
+    type: vless
+    server: 92.118.231.181
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: eh.vk.com
+    ws-opts:
+      path: /hormoz
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
