@@ -6,19 +6,19 @@ log-level: info
 proxies:
   - name: "proxy-0"
     type: trojan
-    server: 172.64.147.106
-    port: 2096
-    password: 8r%3C%5B9%27l6hAO%238ZQi
+    server: 172.64.147.29
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
   - name: "proxy-1"
     type: trojan
-    server: 172.64.147.29
+    server: 162.159.153.2
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
   - name: "proxy-2"
     type: trojan
-    server: 162.159.153.2
+    server: 104.17.101.139
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
@@ -226,6 +226,18 @@ proxies:
     port: 24534
     password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
     udp: true
+  - name: "proxy-37"
+    type: trojan
+    server: 45.129.3.220
+    port: 10668/
+    password: oUFBC3Vs2rYmN8_bR-P7quoL
+    udp: true
+  - name: "proxy-38"
+    type: trojan
+    server: 45.15.140.107
+    port: 19106
+    password: tSk5LQoJr7F.WnRsUM4hT
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -268,6 +280,8 @@ proxy-groups:
       - "proxy-34"
       - "proxy-35"
       - "proxy-36"
+      - "proxy-37"
+      - "proxy-38"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
