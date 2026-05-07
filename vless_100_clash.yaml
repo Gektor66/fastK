@@ -823,6 +823,17 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-67"
     type: vless
+    server: reserve.pilates.rodeo
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-68"
+    type: vless
     server: 45.198.88.57
     port: 443
     uuid: 71067925-b8bb-40dc-8e93-ff874f6d70e1
@@ -831,7 +842,7 @@ proxies:
     tls: true
     servername: rbc.ru
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-68"
+  - name: "proxy-69"
     type: vless
     server: 45.198.88.57
     port: 8443
@@ -841,7 +852,7 @@ proxies:
     tls: true
     servername: rbc.ru
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-69"
+  - name: "proxy-70"
     type: vless
     server: 46.243.211.17
     port: 7000
@@ -853,7 +864,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-70"
+  - name: "proxy-71"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -864,7 +875,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-71"
+  - name: "proxy-72"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -875,7 +886,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-72"
+  - name: "proxy-73"
     type: vless
     server: 62.60.217.95
     port: 443
@@ -885,7 +896,7 @@ proxies:
     tls: true
     servername: stats.vk-portal.net
     flow: xtls-rprx-vision
-  - name: "proxy-73"
+  - name: "proxy-74"
     type: vless
     server: 148.253.208.98
     port: 20222
@@ -894,7 +905,7 @@ proxies:
     network: tcp
     tls: true
     servername: stats.vk-portal.net
-  - name: "proxy-74"
+  - name: "proxy-75"
     type: vless
     server: 167.99.91.171
     port: 443
@@ -905,7 +916,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /sbqbfows
-  - name: "proxy-75"
+  - name: "proxy-76"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -916,7 +927,7 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-76"
+  - name: "proxy-77"
     type: vless
     server: 188.225.87.169
     port: 443
@@ -925,7 +936,7 @@ proxies:
     network: tcp
     tls: true
     servername: mirror.yandex.ru
-  - name: "proxy-77"
+  - name: "proxy-78"
     type: vless
     server: 141.98.169.94
     port: 443
@@ -936,7 +947,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /puzoscws
-  - name: "proxy-78"
+  - name: "proxy-79"
     type: vless
     server: 37.18.14.103
     port: 443
@@ -945,7 +956,7 @@ proxies:
     network: tcp
     tls: true
     servername: bitva.mail.ru
-  - name: "proxy-79"
+  - name: "proxy-80"
     type: vless
     server: 94.131.100.173
     port: 443
@@ -958,7 +969,7 @@ proxies:
       path: /coxzfsws
       headers:
         Host: 639010645287857140.accord-lmnxa.info
-  - name: "proxy-80"
+  - name: "proxy-81"
     type: vless
     server: 185.235.241.67
     port: 443
@@ -969,7 +980,7 @@ proxies:
     servername: web.max.ru
     ws-opts:
       path: /hormoz
-  - name: "proxy-81"
+  - name: "proxy-82"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -980,7 +991,7 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
-  - name: "proxy-82"
+  - name: "proxy-83"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -993,14 +1004,14 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-83"
+  - name: "proxy-84"
     type: vless
     server: 138.124.255.18
     port: 443
     uuid: 1a380e3d-b336-425c-938b-bac548f67ab9
     udp: true
     network: tcp
-  - name: "proxy-84"
+  - name: "proxy-85"
     type: vless
     server: 159.100.9.33
     port: 2053
@@ -1011,7 +1022,7 @@ proxies:
     servername: nice.ducks.tel
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-85"
+  - name: "proxy-86"
     type: vless
     server: 159.100.9.64
     port: 2053
@@ -1022,7 +1033,7 @@ proxies:
     servername: nice.ducks.tel
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-86"
+  - name: "proxy-87"
     type: vless
     server: 79.133.42.192
     port: 2053
@@ -1033,7 +1044,7 @@ proxies:
     servername: nice.ducks.tel
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-87"
+  - name: "proxy-88"
     type: vless
     server: 84.201.20.75
     port: 2053
@@ -1044,7 +1055,7 @@ proxies:
     servername: nice.ducks.tel
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-88"
+  - name: "proxy-89"
     type: vless
     server: 47.79.144.214
     port: 443
@@ -1057,7 +1068,7 @@ proxies:
       path: /
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-89"
+  - name: "proxy-90"
     type: vless
     server: 47.79.93.100
     port: 443
@@ -1070,7 +1081,7 @@ proxies:
       path: /
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-90"
+  - name: "proxy-91"
     type: vless
     server: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
     port: 443
@@ -1082,7 +1093,7 @@ proxies:
     ws-opts:
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-91"
+  - name: "proxy-92"
     type: vless
     server: 80.93.187.2
     port: 52006
@@ -1092,7 +1103,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-92"
+  - name: "proxy-93"
     type: vless
     server: 82.202.197.3
     port: 52006
@@ -1102,7 +1113,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-93"
+  - name: "proxy-94"
     type: vless
     server: 82.202.249.3
     port: 52006
@@ -1112,7 +1123,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-94"
+  - name: "proxy-95"
     type: vless
     server: cluster-russia-1.firstvideocdn.ru
     port: 52006
@@ -1122,7 +1133,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-95"
+  - name: "proxy-96"
     type: vless
     server: 82.202.249.96
     port: 52006
@@ -1131,7 +1142,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-96"
+  - name: "proxy-97"
     type: vless
     server: 45.151.183.111
     port: 443
@@ -1141,7 +1152,7 @@ proxies:
     tls: true
     servername: czu.ksnodes.net
     flow: xtls-rprx-vision
-  - name: "proxy-97"
+  - name: "proxy-98"
     type: vless
     server: 162.19.228.119
     port: 80
@@ -1153,7 +1164,7 @@ proxies:
       path: /http
       headers:
         Host: de.vpnbase.net
-  - name: "proxy-98"
+  - name: "proxy-99"
     type: vless
     server: 5.188.140.245
     port: 443
@@ -1164,17 +1175,6 @@ proxies:
     servername: api.cheapgo.cc
     grpc-opts:
       grpc-service-name: grpc-tunnel
-  - name: "proxy-99"
-    type: vless
-    server: 84.201.14.22
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
