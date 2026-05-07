@@ -972,6 +972,42 @@ proxies:
       short-id: ab
   - name: "proxy-82"
     type: vless
+    server: 176.57.213.153
+    port: 8443
+    uuid: 926ae28d-d5f5-416a-9ea9-35157715cb36
+    udp: true
+    network: xhttp
+    tls: true
+    servername: apple.com
+    reality-opts:
+      public-key: ccCb6lQBtA2KOnCMVrsKXpFmUv2x8EOsMObkuJebNWw
+      short-id: 2d5a31d63a1c4914
+  - name: "proxy-83"
+    type: vless
+    server: 85.193.82.212
+    port: 8443
+    uuid: 926ae28d-d5f5-416a-9ea9-35157715cb36
+    udp: true
+    network: xhttp
+    tls: true
+    servername: max.ru
+    reality-opts:
+      public-key: RXG821C5MAxnSe66PDwRFriCe2mzohzIiWYppChkEDg
+      short-id: 0162e56ac9924472
+  - name: "proxy-84"
+    type: vless
+    server: pl-3-direct.memeplanet.org
+    port: 443
+    uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
+    udp: true
+    network: xhttp
+    tls: true
+    servername: pl-3-direct.memeplanet.org
+    reality-opts:
+      public-key: UDAInVyAQ5nU8cWS2SvC6mJ09aak6gIsPEXCjXkB00Q
+      short-id: 8ac90e6b636226f7
+  - name: "proxy-85"
+    type: vless
     server: 138.124.186.216
     port: 443
     uuid: b4ba750d-db37-5ed1-8514-dfa6f100f431
@@ -982,7 +1018,7 @@ proxies:
     reality-opts:
       public-key: d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI
       short-id: 00f4f905a2
-  - name: "proxy-83"
+  - name: "proxy-86"
     type: vless
     server: nl-bex-1.bexum.fun
     port: 443
@@ -993,7 +1029,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-84"
+  - name: "proxy-87"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -1095,6 +1131,9 @@ proxy-groups:
       - "proxy-82"
       - "proxy-83"
       - "proxy-84"
+      - "proxy-85"
+      - "proxy-86"
+      - "proxy-87"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
