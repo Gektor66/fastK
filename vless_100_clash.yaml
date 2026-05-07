@@ -1012,26 +1012,6 @@ proxies:
       path: /esoznjws
   - name: "proxy-84"
     type: vless
-    server: 45.198.88.57
-    port: 443
-    uuid: 71067925-b8bb-40dc-8e93-ff874f6d70e1
-    udp: true
-    network: tcp
-    tls: true
-    servername: rbc.ru
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-85"
-    type: vless
-    server: 45.198.88.57
-    port: 8443
-    uuid: 71067925-b8bb-40dc-8e93-ff874f6d70e1
-    udp: true
-    network: tcp
-    tls: true
-    servername: rbc.ru
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-86"
-    type: vless
     server: 62.60.217.95
     port: 443
     uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
@@ -1040,7 +1020,7 @@ proxies:
     tls: true
     servername: stats.vk-portal.net
     flow: xtls-rprx-vision
-  - name: "proxy-87"
+  - name: "proxy-85"
     type: vless
     server: 148.253.208.98
     port: 20222
@@ -1049,16 +1029,7 @@ proxies:
     network: tcp
     tls: true
     servername: stats.vk-portal.net
-  - name: "proxy-88"
-    type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-89"
+  - name: "proxy-86"
     type: vless
     server: 167.99.91.171
     port: 443
@@ -1069,18 +1040,18 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /sbqbfows
-  - name: "proxy-90"
+  - name: "proxy-87"
     type: vless
-    server: 94.131.110.93
+    server: 185.235.241.67
     port: 443
     uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
     udp: true
     network: ws
     tls: true
-    servername: www.vk.com
+    servername: web.max.ru
     ws-opts:
       path: /hormoz
-  - name: "proxy-91"
+  - name: "proxy-88"
     type: vless
     server: 141.98.169.94
     port: 443
@@ -1091,6 +1062,37 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /puzoscws
+  - name: "proxy-89"
+    type: vless
+    server: 138.68.160.230
+    port: 443
+    uuid: 72b36a89-a5bb-4c96-8cab-d0f560880ad6
+    udp: true
+    network: ws
+    tls: true
+    servername: ozon.ru
+    ws-opts:
+      path: /feesdgws
+  - name: "proxy-90"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: bitva.mail.ru
+  - name: "proxy-91"
+    type: vless
+    server: 94.131.110.93
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: www.vk.com
+    ws-opts:
+      path: /hormoz
   - name: "proxy-92"
     type: vless
     server: 94.131.100.173
@@ -1106,28 +1108,6 @@ proxies:
         Host: 639010645287857140.accord-lmnxa.info
   - name: "proxy-93"
     type: vless
-    server: 185.235.241.67
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: web.max.ru
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-94"
-    type: vless
-    server: 138.68.160.230
-    port: 443
-    uuid: 72b36a89-a5bb-4c96-8cab-d0f560880ad6
-    udp: true
-    network: ws
-    tls: true
-    servername: ozon.ru
-    ws-opts:
-      path: /feesdgws
-  - name: "proxy-95"
-    type: vless
     server: 81.161.98.228
     port: 1443/
     uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
@@ -1139,20 +1119,39 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-96"
-    type: vless
-    server: 138.124.255.18
-    port: 443
-    uuid: 1a380e3d-b336-425c-938b-bac548f67ab9
-    udp: true
-    network: tcp
-  - name: "proxy-97"
+  - name: "proxy-94"
     type: vless
     server: 138.124.254.242
     port: 443
     uuid: 1a380e3d-b336-425c-938b-bac548f67ab9
     udp: true
     network: tcp
+  - name: "proxy-95"
+    type: vless
+    server: 138.124.255.18
+    port: 443
+    uuid: 1a380e3d-b336-425c-938b-bac548f67ab9
+    udp: true
+    network: tcp
+  - name: "proxy-96"
+    type: vless
+    server: 178.72.181.41
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-97"
+    type: vless
+    server: 82.202.197.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
   - name: "proxy-98"
     type: vless
     server: 80.93.187.2
