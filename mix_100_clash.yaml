@@ -907,16 +907,23 @@ proxies:
     servername: stats.vk-portal.net
   - name: "proxy-75"
     type: vless
-    server: 167.99.91.171
+    server: 37.18.14.103
     port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
+    servername: bitva.mail.ru
   - name: "proxy-76"
+    type: vless
+    server: 188.225.87.169
+    port: 443
+    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
+    udp: true
+    network: tcp
+    tls: true
+    servername: mirror.yandex.ru
+  - name: "proxy-77"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -927,36 +934,7 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-77"
-    type: vless
-    server: 188.225.87.169
-    port: 443
-    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
-    udp: true
-    network: tcp
-    tls: true
-    servername: mirror.yandex.ru
   - name: "proxy-78"
-    type: vless
-    server: 141.98.169.94
-    port: 443
-    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
-    udp: true
-    network: ws
-    tls: true
-    servername: m.vk.com
-    ws-opts:
-      path: /puzoscws
-  - name: "proxy-79"
-    type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-80"
     type: vless
     server: 94.131.100.173
     port: 443
@@ -969,7 +947,7 @@ proxies:
       path: /coxzfsws
       headers:
         Host: 639010645287857140.accord-lmnxa.info
-  - name: "proxy-81"
+  - name: "proxy-79"
     type: vless
     server: 185.235.241.67
     port: 443
@@ -980,7 +958,18 @@ proxies:
     servername: web.max.ru
     ws-opts:
       path: /hormoz
-  - name: "proxy-82"
+  - name: "proxy-80"
+    type: vless
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    udp: true
+    network: ws
+    tls: true
+    servername: api.avito.ru
+    ws-opts:
+      path: /sbqbfows
+  - name: "proxy-81"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -991,6 +980,17 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
+  - name: "proxy-82"
+    type: vless
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
   - name: "proxy-83"
     type: vless
     server: 81.161.98.228
@@ -1013,87 +1013,15 @@ proxies:
     network: tcp
   - name: "proxy-85"
     type: vless
-    server: 159.100.9.33
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    server: 82.202.249.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
-    network: grpc
+    network: tcp
     tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision-udp443
   - name: "proxy-86"
-    type: vless
-    server: 159.100.9.64
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-87"
-    type: vless
-    server: 79.133.42.192
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-88"
-    type: vless
-    server: 84.201.20.75
-    port: 2053
-    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-    udp: true
-    network: grpc
-    tls: true
-    servername: nice.ducks.tel
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-89"
-    type: vless
-    server: 47.79.144.214
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
-    udp: true
-    network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-90"
-    type: vless
-    server: 47.79.93.100
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
-    udp: true
-    network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      path: /
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-91"
-    type: vless
-    server: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    port: 443
-    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
-    udp: true
-    network: ws
-    tls: true
-    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-    ws-opts:
-      headers:
-        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-92"
     type: vless
     server: 80.93.187.2
     port: 52006
@@ -1103,7 +1031,7 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-93"
+  - name: "proxy-87"
     type: vless
     server: 82.202.197.3
     port: 52006
@@ -1113,36 +1041,16 @@ proxies:
     tls: true
     servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-94"
+  - name: "proxy-88"
     type: vless
-    server: 82.202.249.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-95"
-    type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-96"
-    type: vless
-    server: 82.202.249.96
+    server: 95.213.143.166
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-97"
+  - name: "proxy-89"
     type: vless
     server: 45.151.183.111
     port: 443
@@ -1152,7 +1060,28 @@ proxies:
     tls: true
     servername: czu.ksnodes.net
     flow: xtls-rprx-vision
-  - name: "proxy-98"
+  - name: "proxy-90"
+    type: vless
+    server: 188.114.96.3
+    port: 443
+    uuid: d082b5e0-2435-4599-b935-d2c2b70beb67
+    udp: true
+    network: ws
+    tls: true
+    servername: purple-mrvpn294x.mrvpnandamir294.workers.dev
+    ws-opts:
+      headers:
+        Host: purple-mrvpn294x.mrvpnandamir294.workers.dev
+  - name: "proxy-91"
+    type: vless
+    server: 82.202.197.68
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-92"
     type: vless
     server: 162.19.228.119
     port: 80
@@ -1164,17 +1093,82 @@ proxies:
       path: /http
       headers:
         Host: de.vpnbase.net
-  - name: "proxy-99"
+  - name: "proxy-93"
     type: vless
-    server: 5.188.140.245
-    port: 443
-    uuid: f1d5c8e4-05d4-4a82-a0b4-b9f97d5cdcdd
+    server: 84.201.14.22
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
     udp: true
     network: grpc
     tls: true
-    servername: api.cheapgo.cc
+    servername: nice.ducks.tel
     grpc-opts:
-      grpc-service-name: grpc-tunnel
+      grpc-service-name: grpc
+  - name: "proxy-94"
+    type: vless
+    server: 82.202.197.2
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-95"
+    type: vless
+    server: 84.200.77.90
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-96"
+    type: vless
+    server: 84.201.20.75
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-97"
+    type: vless
+    server: 79.133.42.192
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-98"
+    type: vless
+    server: 159.100.9.33
+    port: 2053
+    uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
+    udp: true
+    network: grpc
+    tls: true
+    servername: nice.ducks.tel
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-99"
+    type: vless
+    server: 89.208.96.208
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.rocks
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
