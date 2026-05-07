@@ -3093,12 +3093,54 @@ proxies:
       path: /
   - name: "proxy-275"
     type: vless
+    server: 80.249.131.172
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-276"
+    type: vless
+    server: 47.79.87.5
+    port: 443
+    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    udp: true
+    network: ws
+    tls: true
+    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    ws-opts:
+      path: /
+  - name: "proxy-277"
+    type: vless
+    server: 47.79.144.155
+    port: 443
+    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    udp: true
+    network: ws
+    tls: true
+    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    ws-opts:
+      path: /
+  - name: "proxy-278"
+    type: vless
+    server: 47.79.145.132
+    port: 443
+    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    udp: true
+    network: ws
+    tls: true
+    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    ws-opts:
+      path: /
+  - name: "proxy-279"
+    type: vless
     server: 178.104.118.247
     port: 2087&type=tcp
     uuid: a34a5f3e-e9fa-40a6-f3af-2984adbd701b
     udp: true
     network: tcp
-  - name: "proxy-276"
+  - name: "proxy-280"
     type: vless
     server: cl-de-2.edgeflux.ru
     port: 52006
@@ -3106,8 +3148,18 @@ proxies:
     udp: true
     network: tcp
     tls: true
+    servername: cl-de-2.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-277"
+  - name: "proxy-281"
+    type: vless
+    server: 178.72.181.18
+    port: 52006
+    uuid: 75807638-6f19-03e8-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-282"
     type: vless
     server: 178.72.181.14
     port: 52006
@@ -3116,9 +3168,9 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-278"
+  - name: "proxy-283"
     type: vless
-    server: 178.72.181.18
+    server: 178.72.181.34
     port: 52006
     uuid: 75807638-6f19-1f40-ae08-38492ee85c88
     udp: true
@@ -3126,17 +3178,7 @@ proxies:
     tls: true
     servername: cluster-europe-1.firstvideocdn.ru
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-279"
-    type: vless
-    server: 178.72.181.35
-    port: 52006
-    uuid: 75807638-6f19-1f40-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-europe-1.firstvideocdn.ru
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-280"
+  - name: "proxy-284"
     type: vless
     server: 178.72.181.67
     port: 52006
@@ -3146,7 +3188,7 @@ proxies:
     tls: true
     servername: cluster-europe-1.firstvideocdn.ru
     flow: xtls-rprx-vision-udp443
-  - name: "proxy-281"
+  - name: "proxy-285"
     type: vless
     server: 178.72.181.72
     port: 52006
@@ -3156,7 +3198,7 @@ proxies:
     tls: true
     servername: cluster-europe-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-282"
+  - name: "proxy-286"
     type: vless
     server: cluster-europe-1.firstvideocdn.ru
     port: 52006
@@ -3166,7 +3208,17 @@ proxies:
     tls: true
     servername: cluster-europe-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-283"
+  - name: "proxy-287"
+    type: vless
+    server: cl-oth-1.edgeflux.ru
+    port: 52006
+    uuid: 75807638-6f19-0190-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cl-oth-1.edgeflux.ru
+    flow: xtls-rprx-vision-udp443
+  - name: "proxy-288"
     type: vless
     server: 178.72.181.41
     port: 52006
@@ -3174,8 +3226,9 @@ proxies:
     udp: true
     network: tcp
     tls: true
+    servername: 178.72.181.41
     flow: xtls-rprx-vision
-  - name: "proxy-284"
+  - name: "proxy-289"
     type: vless
     server: 178.72.182.12
     port: 52006
@@ -3185,7 +3238,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-285"
+  - name: "proxy-290"
     type: vless
     server: 178.72.182.13
     port: 52006
@@ -3195,7 +3248,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-286"
+  - name: "proxy-291"
     type: vless
     server: 178.72.182.17
     port: 52006
@@ -3205,7 +3258,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-287"
+  - name: "proxy-292"
     type: vless
     server: 178.72.182.18
     port: 52006
@@ -3215,57 +3268,9 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-288"
-    type: vless
-    server: 178.72.182.28
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cl-ru-2.edgeflux.ru
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-289"
-    type: vless
-    server: 178.72.182.32
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cl-ru-1.edgeflux.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-290"
-    type: vless
-    server: 188.246.226.14
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-291"
-    type: vless
-    server: 212.41.8.216
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-292"
-    type: vless
-    server: cl-ru-1.edgeflux.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cl-ru-1.edgeflux.ru
-    flow: xtls-rprx-vision
   - name: "proxy-293"
     type: vless
-    server: cl-ru-2.edgeflux.ru
+    server: 178.72.182.28
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
@@ -3275,53 +3280,60 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-294"
     type: vless
-    server: cl-oth-1.edgeflux.ru
+    server: 178.72.182.32
     port: 52006
-    uuid: 75807638-6f19-0190-ae08-38492ee85c88
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cl-oth-1.edgeflux.ru
+    servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
   - name: "proxy-295"
     type: vless
-    server: fr.safepass.click
-    port: 443
-    uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
-    udp: true
-    network: tcp
-  - name: "proxy-296"
-    type: vless
-    server: tr.safepass.click
-    port: 443
-    uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
-    udp: true
-    network: tcp
-  - name: "proxy-297"
-    type: vless
-    server: gb.safepass.click
-    port: 443
-    uuid: 7d3e6808-d105-4ee4-b904-1f6ed8417f4d
-    udp: true
-    network: tcp
-  - name: "proxy-298"
-    type: vless
-    server: bero-3.bexum.fun
-    port: 9443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+    server: 178.72.182.38
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: bero-3.bexum.fun
+    servername: cl-ru-1.edgeflux.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-296"
+    type: vless
+    server: 188.246.226.14
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-297"
+    type: vless
+    server: 212.41.8.216
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision-udp443
+  - name: "proxy-298"
+    type: vless
+    server: 80.93.187.210
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
     flow: xtls-rprx-vision
   - name: "proxy-299"
     type: vless
-    server: bero-2.bexum.fun
-    port: 9443
-    uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+    server: cl-ru-1.edgeflux.ru
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
+    servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
 
 proxy-groups:
