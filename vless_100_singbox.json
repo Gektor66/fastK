@@ -834,13 +834,24 @@
     {
       "type": "vless",
       "tag": "proxy-80",
+      "server": "23.177.185.168",
+      "server_port": 444,
+      "uuid": "90a3d2f9-04d4-467a-9603-63781354f915",
+      "tls": {
+        "enabled": true,
+        "server_name": "vk.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-81",
       "server": "46.243.211.17",
       "server_port": 7000,
       "uuid": "75356919-6ece-455c-ba7a-9f042a60d2c5"
     },
     {
       "type": "vless",
-      "tag": "proxy-81",
+      "tag": "proxy-82",
       "server": "94.131.100.163",
       "server_port": 443,
       "uuid": "19ae54a4-716b-4b08-914f-c9c1556c4380",
@@ -851,7 +862,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-82",
+      "tag": "proxy-83",
       "server": "46.101.57.231",
       "server_port": 443,
       "uuid": "037e395f-f79d-4d61-bb92-dafcc27e53ba",
@@ -862,7 +873,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-83",
+      "tag": "proxy-84",
       "server": "62.60.217.95",
       "server_port": 443,
       "uuid": "8ef19221-6d5e-4bce-baa1-7c043eae3309",
@@ -871,17 +882,6 @@
         "server_name": "stats.vk-portal.net"
       },
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-84",
-      "server": "94.131.100.173",
-      "server_port": 443,
-      "uuid": "0a0d846f-8f54-4db4-940b-b373b1b02e4c",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com"
-      }
     },
     {
       "type": "vless",
@@ -897,50 +897,6 @@
     {
       "type": "vless",
       "tag": "proxy-86",
-      "server": "188.225.87.169",
-      "server_port": 443,
-      "uuid": "b4f3c864-3241-4abe-884e-adffcbbc5ffa",
-      "tls": {
-        "enabled": true,
-        "server_name": "mirror.yandex.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-87",
-      "server": "185.235.241.67",
-      "server_port": 443,
-      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-88",
-      "server": "94.131.110.93",
-      "server_port": 443,
-      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-89",
-      "server": "138.68.160.230",
-      "server_port": 443,
-      "uuid": "72b36a89-a5bb-4c96-8cab-d0f560880ad6",
-      "tls": {
-        "enabled": true,
-        "server_name": "ozon.ru"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "proxy-90",
       "server": "141.98.169.94",
       "server_port": 443,
       "uuid": "33f4ca29-6404-42de-8ca7-18846dbf5dcc",
@@ -951,7 +907,7 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-91",
+      "tag": "proxy-87",
       "server": "167.99.91.171",
       "server_port": 443,
       "uuid": "921290a9-6e24-4661-82fb-844d88164b74",
@@ -962,7 +918,62 @@
     },
     {
       "type": "vless",
+      "tag": "proxy-88",
+      "server": "94.131.100.173",
+      "server_port": 443,
+      "uuid": "0a0d846f-8f54-4db4-940b-b373b1b02e4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-89",
+      "server": "188.72.103.3",
+      "server_port": 443,
+      "uuid": "45e55198-a5ad-4f19-bb39-236822141d25",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.tracker.yandex.net"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-90",
+      "server": "185.235.241.67",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-91",
+      "server": "138.68.160.230",
+      "server_port": 443,
+      "uuid": "72b36a89-a5bb-4c96-8cab-d0f560880ad6",
+      "tls": {
+        "enabled": true,
+        "server_name": "ozon.ru"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "proxy-92",
+      "server": "94.131.110.93",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "proxy-93",
       "server": "81.161.98.228",
       "server_port": 1443,
       "uuid": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
@@ -973,80 +984,72 @@
     },
     {
       "type": "vless",
-      "tag": "proxy-93",
-      "server": "185.242.16.16",
-      "server_port": 443,
-      "uuid": "ff9ead1f-0906-40b6-a633-8b358585af19",
-      "tls": {
-        "enabled": true,
-        "server_name": "mwscdn.ru"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "proxy-94",
-      "server": "185.242.17.17",
+      "server": "45.151.183.111",
       "server_port": 443,
-      "uuid": "ff9ead1f-0906-40b6-a633-8b358585af19",
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "tls": {
         "enabled": true,
-        "server_name": "mwscdn.ru"
-      }
+        "server_name": "czu.ksnodes.net"
+      },
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
       "tag": "proxy-95",
-      "server": "178.72.181.41",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "server": "47.79.144.214",
+      "server_port": 443,
+      "uuid": "340ce710-8daf-4204-8d0d-74f2edc46386",
       "tls": {
         "enabled": true,
-        "server_name": "cluster-russia-1.firstvideocdn.ru"
-      },
-      "flow": "xtls-rprx-vision"
+        "server_name": "pwctqbvswnne.ap-northeast-1.clawcloudrun.com"
+      }
     },
     {
       "type": "vless",
       "tag": "proxy-96",
-      "server": "82.202.249.3",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "server": "47.79.93.100",
+      "server_port": 443,
+      "uuid": "340ce710-8daf-4204-8d0d-74f2edc46386",
       "tls": {
         "enabled": true,
-        "server_name": "cluster-russia-1.firstvideocdn.ru"
-      },
-      "flow": "xtls-rprx-vision"
+        "server_name": "pwctqbvswnne.ap-northeast-1.clawcloudrun.com"
+      }
     },
     {
       "type": "vless",
       "tag": "proxy-97",
-      "server": "82.202.197.3",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "server": "pwctqbvswnne.ap-northeast-1.clawcloudrun.com",
+      "server_port": 443,
+      "uuid": "340ce710-8daf-4204-8d0d-74f2edc46386",
       "tls": {
         "enabled": true,
-        "server_name": "cluster-russia-1.firstvideocdn.ru"
-      },
-      "flow": "xtls-rprx-vision"
+        "server_name": "pwctqbvswnne.ap-northeast-1.clawcloudrun.com"
+      }
     },
     {
       "type": "vless",
       "tag": "proxy-98",
-      "server": "80.93.187.2",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-07d0-ae08-38492ee85c88",
+      "server": "144.31.4.74",
+      "server_port": 443,
+      "uuid": "6d916d55-fead-4ff3-a3a9-83e175ea8ad7",
       "tls": {
         "enabled": true,
-        "server_name": "cluster-russia-1.firstvideocdn.ru"
+        "server_name": "pl74.mechvpn.online"
       },
       "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
       "tag": "proxy-99",
-      "server": "178.72.186.76",
-      "server_port": 7000,
-      "uuid": "75356919-6ece-455c-ba7a-9f042a60d2c5"
+      "server": "pl74.mechvpn.online",
+      "server_port": 443,
+      "uuid": "6d916d55-fead-4ff3-a3a9-83e175ea8ad7",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl74.mechvpn.online"
+      },
+      "flow": "xtls-rprx-vision"
     }
   ]
 }
