@@ -776,6 +776,18 @@ proxies:
       short-id: 6ba85179e30d4fc2
   - name: "proxy-66"
     type: vless
+    server: 159.195.57.113
+    port: 1443
+    uuid: 3d168767-6e7e-463d-8739-a6e6cc4ae508
+    udp: true
+    network: xhttp
+    tls: true
+    servername: www.samsung.com
+    reality-opts:
+      public-key: TLPje36xFe_1inJo50NX6xV1OvY9HBbmgxxilLORcmU
+      short-id: 5e2f7c1a9d3b8460
+  - name: "proxy-67"
+    type: vless
     server: nl-bex-1.bexum.fun
     port: 443
     uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
@@ -785,7 +797,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-67"
+  - name: "proxy-68"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -870,6 +882,7 @@ proxy-groups:
       - "proxy-65"
       - "proxy-66"
       - "proxy-67"
+      - "proxy-68"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
