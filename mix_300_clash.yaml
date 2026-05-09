@@ -2122,55 +2122,14 @@ proxies:
       path: /puzoscws
   - name: "proxy-168"
     type: vless
-    server: 141.98.169.100
+    server: 37.18.14.103
     port: 443
-    uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: www.vk.com
-    ws-opts:
-      path: /oyoelzws
+    servername: bitva.mail.ru
   - name: "proxy-169"
-    type: vless
-    server: 94.131.110.93
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: www.vk.com
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-170"
-    type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
-  - name: "proxy-171"
-    type: vless
-    server: 188.225.87.169
-    port: 443
-    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
-    udp: true
-    network: tcp
-    tls: true
-    servername: mirror.yandex.ru
-  - name: "proxy-172"
-    type: vless
-    server: 62.60.217.95
-    port: 443
-    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
-    udp: true
-    network: tcp
-    tls: true
-    servername: stats.vk-portal.net
-    flow: xtls-rprx-vision
-  - name: "proxy-173"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -2181,15 +2140,58 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-174"
+  - name: "proxy-170"
     type: vless
-    server: 37.18.14.103
+    server: 141.98.169.100
     port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
+    udp: true
+    network: ws
+    tls: true
+    servername: www.vk.com
+    ws-opts:
+      path: /oyoelzws
+  - name: "proxy-171"
+    type: vless
+    server: 62.60.217.95
+    port: 443
+    uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
     udp: true
     network: tcp
     tls: true
-    servername: bitva.mail.ru
+    servername: stats.vk-portal.net
+    flow: xtls-rprx-vision
+  - name: "proxy-172"
+    type: vless
+    server: 188.225.87.169
+    port: 443
+    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
+    udp: true
+    network: tcp
+    tls: true
+    servername: mirror.yandex.ru
+  - name: "proxy-173"
+    type: vless
+    server: 94.131.110.93
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: www.vk.com
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-174"
+    type: vless
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    udp: true
+    network: ws
+    tls: true
+    servername: api.avito.ru
+    ws-opts:
+      path: /sbqbfows
   - name: "proxy-175"
     type: vless
     server: 94.131.100.173
@@ -2216,17 +2218,6 @@ proxies:
       path: /hormoz
   - name: "proxy-177"
     type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
-  - name: "proxy-178"
-    type: vless
     server: 144.31.96.174
     port: 443
     uuid: 6946cf76-2c1e-4fbc-a28a-e2beeb7c29cb
@@ -2234,7 +2225,7 @@ proxies:
     network: tcp
     tls: true
     reality-opts:
-  - name: "proxy-179"
+  - name: "proxy-178"
     type: vless
     server: st.xbs54as9c6.ru
     port: 7000
@@ -2246,7 +2237,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-180"
+  - name: "proxy-179"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -2259,17 +2250,155 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-181"
+  - name: "proxy-180"
     type: vless
-    server: 45.151.183.111
-    port: 443
-    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    server: 80.93.187.2
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: czu.ksnodes.net
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-181"
+    type: vless
+    server: 82.202.249.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-182"
+    type: vless
+    server: 5.178.87.140
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-183"
+    type: vless
+    server: 82.202.197.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-184"
+    type: vless
+    server: 195.209.90.178
+    port: 443
+    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-185"
+    type: vless
+    server: 195.209.88.216
+    port: 443
+    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-186"
+    type: vless
+    server: 82.202.197.68
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-187"
+    type: vless
+    server: 82.202.197.2
+    port: 52006
+    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-188"
+    type: vless
+    server: 46.8.209.232
+    port: 8443
+    uuid: 6741cbb3-2948-44d9-a7b9-7d978ea3fa43
+    udp: true
+    network: grpc
+    tls: false
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: "proxy-189"
+    type: vless
+    server: 195.209.88.180
+    port: 443
+    uuid: a8f9766b-e1e8-fade-a893-e2bd2c78f192
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-190"
+    type: vless
+    server: 195.209.82.149
+    port: 443
+    uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-191"
+    type: vless
+    server: 212.193.147.245
+    port: 443
+    uuid: ddd7b044-6a87-Fade-8911-e0be8fdbf4a2
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-192"
+    type: vless
+    server: 89.248.193.164
+    port: 52006
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: de.active-engine.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-193"
+    type: vless
+    server: 109.236.57.8
+    port: 8443
+    uuid: 92b6e169-3574-Fade-affb-425baa8460a4
+    udp: true
+    network: grpc
+    tls: true
+    servername: vyrrh-ru-24sel.r-fade.cfd
+    grpc-opts:
+  - name: "proxy-194"
     type: vless
     server: 47.79.144.214
     port: 443
@@ -2282,9 +2411,9 @@ proxies:
       path: /
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-183"
+  - name: "proxy-195"
     type: vless
-    server: 47.79.93.100
+    server: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
     port: 443
     uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
     udp: true
@@ -2294,37 +2423,16 @@ proxies:
     ws-opts:
       headers:
         Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
-  - name: "proxy-184"
+  - name: "proxy-196"
     type: vless
-    server: 80.93.187.2
+    server: cluster-russia-1.firstvideocdn.ru
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-185"
-    type: vless
-    server: 82.202.197.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-186"
-    type: vless
-    server: 82.202.249.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-188"
+  - name: "proxy-197"
     type: vless
     server: 216.24.57.1
     port: 443
@@ -2337,7 +2445,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-189"
+  - name: "proxy-198"
     type: vless
     server: 45.131.208.191
     port: 2096
@@ -2350,7 +2458,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-190"
+  - name: "proxy-199"
     type: vless
     server: 45.131.208.191
     port: 443
@@ -2363,7 +2471,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-191"
+  - name: "proxy-200"
     type: vless
     server: 45.131.209.191
     port: 2096
@@ -2376,20 +2484,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-192"
-    type: vless
-    server: 45.131.209.191
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-193"
+  - name: "proxy-201"
     type: vless
     server: 5.10.244.191
     port: 2096
@@ -2402,7 +2497,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-194"
+  - name: "proxy-202"
     type: vless
     server: 5.10.245.191
     port: 443
@@ -2415,7 +2510,7 @@ proxies:
       path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-195"
+  - name: "proxy-203"
     type: vless
     server: 5.10.247.191
     port: 443
@@ -2428,114 +2523,31 @@ proxies:
       path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-196"
-    type: vless
-    server: 178.72.181.71
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-197"
-    type: vless
-    server: 195.209.88.216
-    port: 443
-    uuid: d471e982-4237-Fade-94df-c0d11029282a
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-198"
-    type: vless
-    server: 195.209.88.180
-    port: 443
-    uuid: d471e982-4237-Fade-94df-c0d11029282a
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-199"
-    type: vless
-    server: 195.209.90.178
-    port: 443
-    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-200"
-    type: vless
-    server: 82.202.197.2
-    port: 52006
-    uuid: 75807638-6f19-0bb8-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-201"
-    type: vless
-    server: 82.202.197.68
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-202"
-    type: vless
-    server: 46.8.209.232
-    port: 8443
-    uuid: dd77161d-faa8-4a59-832d-7c0596a97512
-    udp: true
-    network: grpc
-    tls: false
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: "proxy-203"
-    type: vless
-    server: 195.209.82.149
-    port: 443
-    uuid: 6e42b88a-b78f-Fade-b164-791160cbaef5
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
   - name: "proxy-204"
     type: vless
-    server: 212.193.147.245
-    port: 443
-    uuid: ddd7b044-6a87-Fade-8911-e0be8fdbf4a2
+    server: 193.164.155.27
+    port: 2053
+    uuid: 8007e155-622e-4c9d-8a6e-67f49b4678f4
     udp: true
     network: ws
     tls: true
-    servername: s28233.cdn.ngenix.net
+    servername: edt2-lgy.pages.dev
     ws-opts:
+      path: /
       headers:
-        Host: s28233.cdn.ngenix.net
+        Host: edt2-lgy.pages.dev
   - name: "proxy-205"
     type: vless
-    server: 109.236.57.8
-    port: 8443
-    uuid: 92b6e169-3574-Fade-affb-425baa8460a4
+    server: usa.visa.com
+    port: 443
+    uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
     udp: true
-    network: grpc
+    network: ws
     tls: true
-    servername: vyrrh-ru-24sel.r-fade.cfd
-    grpc-opts:
+    servername: daluan.eu.org
+    ws-opts:
+      headers:
+        Host: daluan.eu.org
   - name: "proxy-206"
     type: vless
     server: node1.nanonet.host
@@ -2831,6 +2843,16 @@ proxies:
         Host: gogo5.kmj.qzz.io
   - name: "proxy-235"
     type: vless
+    server: 45.151.183.111
+    port: 443
+    uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+    udp: true
+    network: tcp
+    tls: true
+    servername: czu.ksnodes.net
+    flow: xtls-rprx-vision
+  - name: "proxy-236"
+    type: vless
     server: 80.93.187.210
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
@@ -2838,7 +2860,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-236"
+  - name: "proxy-237"
     type: vless
     server: 45.153.7.191
     port: 2096
@@ -2850,7 +2872,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-237"
+  - name: "proxy-238"
     type: vless
     server: 172.67.204.84
     port: 443
@@ -2862,7 +2884,7 @@ proxies:
     ws-opts:
       headers:
         Host: cassiusvpn-cassiusvpn-000.stat-4.workers.dev
-  - name: "proxy-238"
+  - name: "proxy-239"
     type: vless
     server: 43.153.206.239
     port: 27015
@@ -2874,7 +2896,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-239"
+  - name: "proxy-240"
     type: vless
     server: cl-ru-2.edgeflux.ru
     port: 52006
@@ -2884,7 +2906,7 @@ proxies:
     tls: true
     servername: cl-ru-2.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-240"
+  - name: "proxy-241"
     type: vless
     server: 47.82.98.161
     port: 18081
@@ -2896,7 +2918,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-241"
+  - name: "proxy-242"
     type: vless
     server: 14.102.228.191
     port: 443
@@ -2908,7 +2930,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-242"
+  - name: "proxy-243"
     type: vless
     server: 1.161.48.13
     port: 443
@@ -2920,7 +2942,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo2.kmj.qzz.io
-  - name: "proxy-243"
+  - name: "proxy-244"
     type: vless
     server: 104.18.13.149
     port: 8443
@@ -2932,7 +2954,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-244"
+  - name: "proxy-245"
     type: vless
     server: 27.50.48.138
     port: 2096
@@ -2944,7 +2966,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-245"
+  - name: "proxy-246"
     type: vless
     server: 193.233.82.122
     port: 443
@@ -2953,7 +2975,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-246"
+  - name: "proxy-247"
     type: vless
     server: 146.56.43.189
     port: 34454
@@ -2965,7 +2987,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-247"
+  - name: "proxy-248"
     type: vless
     server: 8.216.48.198
     port: 443
@@ -2977,7 +2999,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo.kmj.qzz.io
-  - name: "proxy-248"
+  - name: "proxy-249"
     type: vless
     server: s306.okgg.top
     port: 443
@@ -2987,7 +3009,7 @@ proxies:
     tls: true
     servername: e788s306.okgg.top
     flow: xtls-rprx-vision
-  - name: "proxy-249"
+  - name: "proxy-250"
     type: vless
     server: 172.67.171.253
     port: 443
@@ -2999,7 +3021,7 @@ proxies:
     ws-opts:
       headers:
         Host: gardconfig12.bnam38637.workers.dev
-  - name: "proxy-250"
+  - name: "proxy-251"
     type: vless
     server: 45.149.12.191
     port: 443
@@ -3011,7 +3033,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-251"
+  - name: "proxy-252"
     type: vless
     server: 154.17.11.177
     port: 443
@@ -3023,7 +3045,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo.kmj.qzz.io
-  - name: "proxy-252"
+  - name: "proxy-253"
     type: vless
     server: 122.10.119.252
     port: 443
@@ -3035,7 +3057,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo10.kmj.qzz.io
-  - name: "proxy-253"
+  - name: "proxy-254"
     type: vless
     server: 185.135.9.138
     port: 443
@@ -3047,7 +3069,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-254"
+  - name: "proxy-255"
     type: vless
     server: 159.89.194.243
     port: 22539
@@ -3056,7 +3078,7 @@ proxies:
     network: raw
     tls: true
     servername: node1.nanonet.host
-  - name: "proxy-255"
+  - name: "proxy-256"
     type: vless
     server: 152.233.28.198
     port: 8443
@@ -3065,7 +3087,7 @@ proxies:
     network: tcp
     tls: true
     servername: uk1.fromblancwithlove.com
-  - name: "proxy-256"
+  - name: "proxy-257"
     type: vless
     server: 144.31.4.74
     port: 443
@@ -3075,7 +3097,7 @@ proxies:
     tls: true
     servername: pl74.mechvpn.online
     flow: xtls-rprx-vision
-  - name: "proxy-257"
+  - name: "proxy-258"
     type: vless
     server: 207.57.128.9
     port: 443
@@ -3087,7 +3109,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo6.kmj.qzz.io
-  - name: "proxy-258"
+  - name: "proxy-259"
     type: vless
     server: 154.21.95.34
     port: 443
@@ -3099,7 +3121,7 @@ proxies:
     ws-opts:
       headers:
         Host: sn1.skylee5.cloudns.ch
-  - name: "proxy-259"
+  - name: "proxy-260"
     type: vless
     server: 83.229.123.217
     port: 443
@@ -3111,7 +3133,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo9.kmj.qzz.io
-  - name: "proxy-260"
+  - name: "proxy-261"
     type: vless
     server: 89.150.40.152
     port: 443
@@ -3123,7 +3145,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-85q.pages.dev
-  - name: "proxy-261"
+  - name: "proxy-262"
     type: vless
     server: czu.ksnodes.net
     port: 443
@@ -3132,7 +3154,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-262"
+  - name: "proxy-263"
     type: vless
     server: 109.235.242.101
     port: 443
@@ -3144,7 +3166,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-93f.pages.dev
-  - name: "proxy-263"
+  - name: "proxy-264"
     type: vless
     server: 60.249.21.29
     port: 443
@@ -3156,7 +3178,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo4.kmj.qzz.io
-  - name: "proxy-264"
+  - name: "proxy-265"
     type: vless
     server: 8.222.244.182
     port: 443
@@ -3168,7 +3190,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo6.kmj.qzz.io
-  - name: "proxy-265"
+  - name: "proxy-266"
     type: vless
     server: 43.133.23.88
     port: 8388
@@ -3180,7 +3202,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-266"
+  - name: "proxy-267"
     type: vless
     server: 8.6.112.0
     port: 443
@@ -3192,7 +3214,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-267"
+  - name: "proxy-268"
     type: vless
     server: 38.47.125.152
     port: 26048
@@ -3204,7 +3226,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-268"
+  - name: "proxy-269"
     type: vless
     server: 45.142.120.191
     port: 2096
@@ -3216,7 +3238,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-269"
+  - name: "proxy-270"
     type: vless
     server: 195.181.173.199
     port: 8443
@@ -3225,7 +3247,7 @@ proxies:
     network: tcp
     tls: true
     servername: ams1.fromblancwithlove.com
-  - name: "proxy-270"
+  - name: "proxy-271"
     type: vless
     server: 13.216.170.138
     port: 443
@@ -3237,7 +3259,7 @@ proxies:
     ws-opts:
       headers:
         Host: juzi8186.qea.ccwu.cc
-  - name: "proxy-271"
+  - name: "proxy-272"
     type: vless
     server: 85.192.27.113
     port: 443
@@ -3249,7 +3271,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.rocks
-  - name: "proxy-272"
+  - name: "proxy-273"
     type: vless
     server: 100.22.77.114
     port: 443
@@ -3261,7 +3283,7 @@ proxies:
     ws-opts:
       headers:
         Host: 2-eox.pages.dev
-  - name: "proxy-273"
+  - name: "proxy-274"
     type: vless
     server: 116.251.216.12
     port: 8443
@@ -3273,7 +3295,7 @@ proxies:
     ws-opts:
       headers:
         Host: 3-7gj.pages.dev
-  - name: "proxy-274"
+  - name: "proxy-275"
     type: vless
     server: cl-de-1.edgeflux.ru
     port: 52006
@@ -3282,7 +3304,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-275"
+  - name: "proxy-276"
     type: vless
     server: 43.161.218.151
     port: 11111
@@ -3294,7 +3316,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo.kmj.qzz.io
-  - name: "proxy-276"
+  - name: "proxy-277"
     type: vless
     server: 47.250.81.46
     port: 2087
@@ -3306,7 +3328,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-277"
+  - name: "proxy-278"
     type: vless
     server: 45.12.30.191
     port: 2096
@@ -3318,7 +3340,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-278"
+  - name: "proxy-279"
+    type: vless
+    server: 47.79.93.100
+    port: 443
+    uuid: 340ce710-8daf-4204-8d0d-74f2edc46386
+    udp: true
+    network: ws
+    tls: true
+    servername: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+    ws-opts:
+      headers:
+        Host: pwctqbvswnne.ap-northeast-1.clawcloudrun.com
+  - name: "proxy-280"
     type: vless
     server: 65.49.236.30
     port: 443
@@ -3330,7 +3364,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo2.kmj.qzz.io
-  - name: "proxy-279"
+  - name: "proxy-281"
     type: vless
     server: 47.245.99.109
     port: 443
@@ -3342,7 +3376,7 @@ proxies:
     ws-opts:
       headers:
         Host: gogo4.kmj.qzz.io
-  - name: "proxy-280"
+  - name: "proxy-282"
     type: vless
     server: 178.72.182.12
     port: 52006
@@ -3352,14 +3386,14 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-281"
+  - name: "proxy-283"
     type: vless
     server: 38.55.146.153
     port: 13000
     uuid: b852270a-1283-4ea8-8a2f-5bae8e644a3e
     udp: true
     network: raw
-  - name: "proxy-282"
+  - name: "proxy-284"
     type: vless
     server: 149.28.129.157
     port: 2053
@@ -3371,7 +3405,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-283"
+  - name: "proxy-285"
     type: vless
     server: cl-ru-1.edgeflux.ru
     port: 52006
@@ -3381,7 +3415,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-284"
+  - name: "proxy-286"
     type: vless
     server: 45.140.147.139
     port: 443
@@ -3393,7 +3427,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-285"
+  - name: "proxy-287"
     type: vless
     server: 178.72.182.29
     port: 52006
@@ -3403,7 +3437,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-286"
+  - name: "proxy-288"
     type: vless
     server: chatgpt.com
     port: 2053
@@ -3415,7 +3449,7 @@ proxies:
     ws-opts:
       headers:
         Host: BpB241.gaNIJoV670.WOrkErs.dev.
-  - name: "proxy-287"
+  - name: "proxy-289"
     type: vless
     server: 45.43.79.121
     port: 443
@@ -3427,7 +3461,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-288"
+  - name: "proxy-290"
     type: vless
     server: 116.251.216.23
     port: 8443
@@ -3439,7 +3473,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-289"
+  - name: "proxy-291"
     type: vless
     server: 185.135.9.138
     port: 2096
@@ -3451,7 +3485,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-290"
+  - name: "proxy-292"
     type: vless
     server: 154.17.225.73
     port: 443
@@ -3463,7 +3497,7 @@ proxies:
     ws-opts:
       headers:
         Host: sn1.skylee5.cloudns.ch
-  - name: "proxy-291"
+  - name: "proxy-293"
     type: vless
     server: 45.80.111.138
     port: 2096
@@ -3475,7 +3509,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-292"
+  - name: "proxy-294"
     type: vless
     server: 109.120.134.232
     port: 8443
@@ -3487,7 +3521,7 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-293"
+  - name: "proxy-295"
     type: vless
     server: 116.251.217.63
     port: 443
@@ -3499,7 +3533,7 @@ proxies:
     ws-opts:
       headers:
         Host: 1-jk1.pages.dev
-  - name: "proxy-294"
+  - name: "proxy-296"
     type: vless
     server: 23.173.104.209
     port: 2053
@@ -3511,14 +3545,14 @@ proxies:
     ws-opts:
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-295"
+  - name: "proxy-297"
     type: vless
     server: 109.120.132.142
     port: 40617
     uuid: d8d05386-e381-40a4-bb63-715c208b3ed3
     udp: true
     network: raw
-  - name: "proxy-296"
+  - name: "proxy-298"
     type: vless
     server: 178.72.182.23
     port: 52006
@@ -3528,7 +3562,7 @@ proxies:
     tls: true
     servername: cl-ru-1.edgeflux.ru
     flow: xtls-rprx-vision
-  - name: "proxy-297"
+  - name: "proxy-299"
     type: vless
     server: s28233.cdn.ngenix.net
     port: 443
@@ -3540,30 +3574,6 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-298"
-    type: vless
-    server: 176.124.223.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-299"
-    type: vless
-    server: 147.45.77.159
-    port: 2053
-    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-    udp: true
-    network: ws
-    tls: true
-    servername: babayaga-6i7.pages.dev
-    ws-opts:
-      headers:
-        Host: babayaga-6i7.pages.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -3756,6 +3766,7 @@ proxy-groups:
       - "proxy-184"
       - "proxy-185"
       - "proxy-186"
+      - "proxy-187"
       - "proxy-188"
       - "proxy-189"
       - "proxy-190"
