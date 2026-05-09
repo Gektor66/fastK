@@ -1034,6 +1034,18 @@ proxies:
       short-id: bbb76504
   - name: "proxy-87"
     type: vless
+    server: 87.228.101.232
+    port: 443
+    uuid: 8281ce38-5f16-450a-b6b7-f67e32eb0a64
+    udp: true
+    network: xhttp
+    tls: true
+    servername: 5post-gate.x5.ru
+    reality-opts:
+      public-key: razU6QTL659hzCH6GUbA8icGt7J4MtOF19Wz5IrumGg
+      short-id: e3a6a0ee012466b3
+  - name: "proxy-88"
+    type: vless
     server: nl-bex-1.bexum.fun
     port: 443
     uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
@@ -1043,7 +1055,7 @@ proxies:
     servername: nl-bex-1.bexum.fun
     reality-opts:
       public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-  - name: "proxy-88"
+  - name: "proxy-89"
     type: vless
     server: 87.120.219.56
     port: 443
@@ -1149,6 +1161,7 @@ proxy-groups:
       - "proxy-86"
       - "proxy-87"
       - "proxy-88"
+      - "proxy-89"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
