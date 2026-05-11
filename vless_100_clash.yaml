@@ -1195,6 +1195,15 @@ proxies:
         Host: sni.latonyamadeline.ndjp.net
   - name: "proxy-98"
     type: vless
+    server: ru5.cleanersaz.help
+    port: 7443/
+    uuid: e90662c3-968e-4c6d-a6c3-500d2e8a6c63
+    udp: true
+    network: tcp
+    tls: true
+    servername: ru5.cleanersaz.help
+  - name: "proxy-99"
+    type: vless
     server: 188.72.103.3
     port: 443
     uuid: 45e55198-a5ad-4f19-bb39-236822141d25
@@ -1206,18 +1215,6 @@ proxies:
       path: /stream/updates/b66b78d7/019dfd7f-0777-6283-7287-911777c3720f4
       headers:
         Host: cdn.lovecrafty.link
-  - name: "proxy-99"
-    type: vless
-    server: 46.243.211.17
-    port: 7000
-    uuid: 75356919-6ece-455c-ba7a-9f042a60d2c5
-    udp: true
-    network: ws
-    tls: false
-    ws-opts:
-      path: /stream
-      headers:
-        Host: market.yandex.ru
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
