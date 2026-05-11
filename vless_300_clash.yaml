@@ -1240,16 +1240,6 @@ proxies:
         Host: sni.111000.v6.army
   - name: "proxy-97"
     type: vless
-    server: 46.149.71.46
-    port: 443
-    uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
-    udp: true
-    network: tcp
-    tls: true
-    servername: www.avito.ru
-    flow: xtls-rprx-vision-udp443
-  - name: "proxy-98"
-    type: vless
     server: 188.72.103.3
     port: 443
     uuid: 45e55198-a5ad-4f19-bb39-236822141d25
@@ -1261,7 +1251,7 @@ proxies:
       path: /stream/updates/b66b78d7/019dfd7f-0777-6283-7287-911777c3720f4
       headers:
         Host: cdn.lovecrafty.link
-  - name: "proxy-99"
+  - name: "proxy-98"
     type: vless
     server: 46.243.211.17
     port: 7000
@@ -1273,7 +1263,7 @@ proxies:
       path: /stream
       headers:
         Host: market.yandex.ru
-  - name: "proxy-100"
+  - name: "proxy-99"
     type: vless
     server: 94.131.100.163
     port: 443
@@ -1284,7 +1274,7 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /pyzrgqws
-  - name: "proxy-101"
+  - name: "proxy-100"
     type: vless
     server: 46.101.57.231
     port: 443
@@ -1295,16 +1285,7 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /esoznjws
-  - name: "proxy-102"
-    type: vless
-    server: 188.225.87.169
-    port: 443
-    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
-    udp: true
-    network: tcp
-    tls: true
-    servername: mirror.yandex.ru
-  - name: "proxy-103"
+  - name: "proxy-101"
     type: vless
     server: 62.60.217.95
     port: 443
@@ -1314,18 +1295,7 @@ proxies:
     tls: true
     servername: stats.vk-portal.net
     flow: xtls-rprx-vision
-  - name: "proxy-104"
-    type: vless
-    server: 185.235.241.67
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: web.max.ru
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-105"
+  - name: "proxy-102"
     type: vless
     server: 148.253.208.98
     port: 20222
@@ -1334,27 +1304,29 @@ proxies:
     network: tcp
     tls: true
     servername: stats.vk-portal.net
-  - name: "proxy-106"
+  - name: "proxy-103"
     type: vless
-    server: 141.98.169.94
+    server: 141.98.169.100
     port: 443
-    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
     udp: true
     network: ws
     tls: true
-    servername: m.vk.com
+    servername: www.vk.com
     ws-opts:
-      path: /puzoscws
-  - name: "proxy-107"
+      path: /oyoelzws
+  - name: "proxy-104"
     type: vless
-    server: 37.18.14.103
+    server: 167.99.91.171
     port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-108"
+    servername: api.avito.ru
+    ws-opts:
+      path: /sbqbfows
+  - name: "proxy-105"
     type: vless
     server: 94.131.100.173
     port: 443
@@ -1367,18 +1339,27 @@ proxies:
       path: /coxzfsws
       headers:
         Host: 639010645287857140.accord-lmnxa.info
-  - name: "proxy-109"
+  - name: "proxy-106"
     type: vless
-    server: 141.98.169.100
+    server: 185.235.241.67
     port: 443
-    uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
     udp: true
     network: ws
     tls: true
-    servername: www.vk.com
+    servername: web.max.ru
     ws-opts:
-      path: /oyoelzws
-  - name: "proxy-110"
+      path: /hormoz
+  - name: "proxy-107"
+    type: vless
+    server: 188.225.87.169
+    port: 443
+    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
+    udp: true
+    network: tcp
+    tls: true
+    servername: mirror.yandex.ru
+  - name: "proxy-108"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -1389,6 +1370,26 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
+  - name: "proxy-109"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: bitva.mail.ru
+  - name: "proxy-110"
+    type: vless
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
   - name: "proxy-111"
     type: vless
     server: 138.68.160.230
@@ -1402,17 +1403,6 @@ proxies:
       path: /feesdgws
   - name: "proxy-112"
     type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
-  - name: "proxy-113"
-    type: vless
     server: 81.161.98.228
     port: 1443/
     uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
@@ -1424,47 +1414,47 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-114"
+  - name: "proxy-113"
     type: vless
-    server: 80.93.187.2
+    server: 178.72.181.47
     port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
+    servername: cluster-de-2.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-114"
+    type: vless
+    server: 178.72.181.49
+    port: 52006
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-115"
     type: vless
-    server: 178.72.181.69
+    server: cluster-de-1.firstvideocdn.ru
     port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
+    servername: cluster-de-1.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-116"
     type: vless
-    server: 82.202.197.3
+    server: cluster-de-2.firstvideocdn.ru
     port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
+    servername: cluster-de-2.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-117"
-    type: vless
-    server: 188.246.226.142
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-118"
     type: vless
     server: 5.129.204.161
     port: 8443
@@ -1474,24 +1464,117 @@ proxies:
     tls: true
     servername: altrunet-probe.tw1.su
     flow: xtls-rprx-vision
+  - name: "proxy-118"
+    type: vless
+    server: 178.72.162.160
+    port: 52006
+    uuid: 75807638-6f19-0190-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-other-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
   - name: "proxy-119"
+    type: vless
+    server: cluster-other-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-0190-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-other-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-120"
+    type: vless
+    server: 178.72.181.40
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-3.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-121"
+    type: vless
+    server: 178.72.181.69
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision-udp443
+  - name: "proxy-122"
+    type: vless
+    server: 80.93.187.2
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-123"
+    type: vless
+    server: 82.202.197.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-124"
+    type: vless
+    server: 82.202.249.3
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-125"
+    type: vless
+    server: cluster-russia-1.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-126"
+    type: vless
+    server: ru.c2horizon.app
+    port: 443
+    uuid: d11a928e-5d3d-4256-9227-55dccf509ccf
+    udp: true
+    network: tcp
+  - name: "proxy-127"
+    type: vless
+    server: 178.72.162.154
+    port: 52006
+    uuid: 75807638-6f19-0898-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    flow: xtls-rprx-vision
+  - name: "proxy-128"
+    type: vless
+    server: 91.206.14.229
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-1.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-129"
     type: vless
     server: 195.209.88.216
     port: 443
-    uuid: 18f88fb7-470f-fade-8da9-b57f35009c6d
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      path: /
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-120"
-    type: vless
-    server: 195.209.88.180
-    port: 443
-    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
+    uuid: d471e982-4237-Fade-94df-c0d11029282a
     udp: true
     network: ws
     tls: true
@@ -1499,19 +1582,7 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-121"
-    type: vless
-    server: 195.209.82.149
-    port: 443
-    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-122"
+  - name: "proxy-130"
     type: vless
     server: 195.209.90.178
     port: 443
@@ -1523,7 +1594,7 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-123"
+  - name: "proxy-131"
     type: vless
     server: 212.193.147.245
     port: 443
@@ -1535,27 +1606,19 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-124"
+  - name: "proxy-132"
     type: vless
-    server: 178.72.181.49
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+    server: 195.209.88.180
+    port: 443
+    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    servername: cluster-de-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-125"
-    type: vless
-    server: 178.72.181.47
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-2.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-126"
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-133"
     type: vless
     server: 82.202.197.2
     port: 52006
@@ -1564,7 +1627,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-127"
+  - name: "proxy-134"
     type: vless
     server: 82.202.197.68
     port: 52006
@@ -1573,17 +1636,29 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-128"
+  - name: "proxy-135"
     type: vless
-    server: 178.72.181.132
+    server: 178.72.181.39
     port: 52006
     uuid: 75807638-6f19-01f4-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
-    servername: cluster-de-1.firstvideocdn.ru
+    servername: cluster-de-2.firstvideocdn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-129"
+  - name: "proxy-136"
+    type: vless
+    server: 195.209.82.149
+    port: 443
+    uuid: 6e42b88a-b78f-Fade-b164-791160cbaef5
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-137"
     type: vless
     server: 109.236.57.8
     port: 8443
@@ -1593,92 +1668,15 @@ proxies:
     tls: true
     servername: vyrrh-ru-24sel.r-fade.cfd
     grpc-opts:
-  - name: "proxy-130"
+  - name: "proxy-138"
     type: vless
-    server: 89.248.193.206
+    server: 5.178.87.85
     port: 52006
     uuid: 75807638-6f19-2710-ae08-38492ee85c88
     udp: true
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-131"
-    type: vless
-    server: cluster-de-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-132"
-    type: vless
-    server: cluster-de-2.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-de-2.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-133"
-    type: vless
-    server: 178.72.162.160
-    port: 52006
-    uuid: 75807638-6f19-0190-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-other-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-134"
-    type: vless
-    server: cluster-other-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-0190-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-other-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-135"
-    type: vless
-    server: 178.72.181.40
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-3.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-136"
-    type: vless
-    server: 82.202.249.3
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-137"
-    type: vless
-    server: cluster-russia-1.firstvideocdn.ru
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: cluster-russia-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-138"
-    type: vless
-    server: ru.c2horizon.app
-    port: 443
-    uuid: d11a928e-5d3d-4256-9227-55dccf509ccf
-    udp: true
-    network: tcp
   - name: "proxy-139"
     type: vless
     server: node1.nanonet.host
