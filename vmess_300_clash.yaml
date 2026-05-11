@@ -504,6 +504,22 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: "proxy-63"
+    type: vmess
+    server: 45.15.185.17
+    port: 80
+    uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-64"
+    type: vmess
+    server: 5.188.190.252
+    port: 22324
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 1
+    cipher: auto
+    udp: true
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -570,6 +586,8 @@ proxy-groups:
       - "proxy-60"
       - "proxy-61"
       - "proxy-62"
+      - "proxy-63"
+      - "proxy-64"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
