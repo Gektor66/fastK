@@ -1630,12 +1630,19 @@ proxies:
     udp: true
   - name: "proxy-248"
     type: ss
+    server: 83.166.250.6
+    port: 50529
+    cipher: chacha20-ietf-poly1305
+    password: zEozh4psdpqyy1k9U5tykMFF5
+    udp: true
+  - name: "proxy-249"
+    type: ss
     server: 95.163.211.121
     port: 1080
     cipher: chacha20-ietf-poly1305
     password: 4108cjAYsR5t3b05ToMfe-MRNJu6f5bR
     udp: true
-  - name: "proxy-249"
+  - name: "proxy-250"
     type: ss
     server: 95.163.210.102
     port: 1080
@@ -1881,6 +1888,7 @@ proxy-groups:
       - "proxy-247"
       - "proxy-248"
       - "proxy-249"
+      - "proxy-250"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
