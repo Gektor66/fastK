@@ -1196,13 +1196,13 @@ proxies:
         Host: sni.my111000.tech
   - name: "proxy-94"
     type: vless
-    server: 198.255.96.14
+    server: us1server.rabstvo.shop
     port: 443
-    uuid: c4d69096-4026-4da5-9485-20a3da91cb14
+    uuid: 90a3d2f9-04d4-467a-9603-63781354f915
     udp: true
     network: grpc
     tls: true
-    servername: login.vk.com
+    servername: vk.com
     grpc-opts:
       grpc-service-name: grpc
   - name: "proxy-95"
@@ -1254,13 +1254,15 @@ proxies:
       path: /esoznjws
   - name: "proxy-99"
     type: vless
-    server: 148.253.208.98
-    port: 20222
-    uuid: faed8940-ce1a-4613-a05b-65d833e3346b
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    servername: stats.vk-portal.net
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
