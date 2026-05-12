@@ -4,129 +4,7 @@ mode: rule
 log-level: info
 
 proxies:
-  - name: "proxy-0"
-    type: vless
-    server: 5.10.247.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      path: /
-      headers:
-        Host: sni.111000.indevs.in
   - name: "proxy-1"
-    type: trojan
-    server: 172.64.146.129
-    port: 443
-    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "proxy-2"
-    type: vless
-    server: 104.18.32.47
-    port: 2053
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-3"
-    type: vless
-    server: 162.159.153.231
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-4"
-    type: vless
-    server: 45.67.215.191
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-5"
-    type: vless
-    server: 213.241.198.138
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.indevs.in
-    ws-opts:
-      path: /?Telegram🇨🇳@WangCai2=
-      headers:
-        Host: sni.111000.indevs.in
-  - name: "proxy-6"
-    type: vless
-    server: 5.10.245.191
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      path: Telegram@WangCai2/
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-7"
-    type: vless
-    server: 45.67.215.191
-    port: 2096
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.my111000.tech
-    ws-opts:
-      path: /
-      headers:
-        Host: sni.my111000.tech
-  - name: "proxy-8"
-    type: vless
-    server: 46.101.201.34
-    port: 2087
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.latonyamadeline.ndjp.net
-    ws-opts:
-      path: /?https://t.me/WangCai2🇨🇳=
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-9"
-    type: vless
-    server: 152.114.192.17
-    port: 443
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-    network: ws
-    tls: true
-    servername: sni.111000.v6.army
-    ws-opts:
-      path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
-      headers:
-        Host: sni.111000.v6.army
-  - name: "proxy-11"
     type: vless
     server: 104.18.191.0
     port: 443
@@ -139,7 +17,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-12"
+  - name: "proxy-2"
     type: vless
     server: 104.17.48.197
     port: 443
@@ -152,7 +30,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-13"
+  - name: "proxy-3"
     type: vless
     server: 172.64.146.143
     port: 80
@@ -164,7 +42,7 @@ proxies:
       path: /
       headers:
         Host: tt.andishehparenting.com
-  - name: "proxy-14"
+  - name: "proxy-4"
     type: vless
     server: 5.10.245.191
     port: 2096
@@ -177,7 +55,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-15"
+  - name: "proxy-5"
     type: vless
     server: 45.192.224.191
     port: 443
@@ -190,7 +68,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-16"
+  - name: "proxy-6"
     type: vless
     server: 185.193.31.138
     port: 2096
@@ -203,7 +81,7 @@ proxies:
       path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-17"
+  - name: "proxy-7"
     type: vless
     server: 5.10.246.43
     port: 443
@@ -216,7 +94,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.cc.cd
-  - name: "proxy-18"
+  - name: "proxy-8"
     type: vless
     server: 172.64.146.37
     port: 80
@@ -228,7 +106,7 @@ proxies:
       path: /
       headers:
         Host: tt.andishehparenting.com
-  - name: "proxy-19"
+  - name: "proxy-9"
     type: vless
     server: 162.159.153.70
     port: 443
@@ -241,7 +119,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-20"
+  - name: "proxy-10"
     type: vless
     server: 172.64.146.43
     port: 80
@@ -253,7 +131,7 @@ proxies:
       path: /
       headers:
         Host: tt.andishehparenting.com
-  - name: "proxy-21"
+  - name: "proxy-11"
     type: vless
     server: 172.64.146.102
     port: 80
@@ -265,7 +143,7 @@ proxies:
       path: /
       headers:
         Host: tt.andishehparenting.com
-  - name: "proxy-22"
+  - name: "proxy-12"
     type: vless
     server: 104.17.185.207
     port: 443
@@ -278,7 +156,7 @@ proxies:
       path: /?proxyip=ip.111000.de5.net:443
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-23"
+  - name: "proxy-13"
     type: vless
     server: 8.6.112.191
     port: 2096
@@ -291,7 +169,7 @@ proxies:
       path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-24"
+  - name: "proxy-14"
     type: vless
     server: 27.50.48.191
     port: 2096
@@ -303,7 +181,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-25"
+  - name: "proxy-15"
     type: vless
     server: 195.181.173.199
     port: 8443
@@ -312,7 +190,7 @@ proxies:
     network: tcp
     tls: true
     servername: ams1.fromblancwithlove.com
-  - name: "proxy-26"
+  - name: "proxy-16"
     type: vless
     server: 104.18.4.46
     port: 8880
@@ -324,7 +202,7 @@ proxies:
       path: /
       headers:
         Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
-  - name: "proxy-27"
+  - name: "proxy-17"
     type: vless
     server: 89.106.83.39
     port: 443
@@ -337,7 +215,7 @@ proxies:
     reality-opts:
       public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
       short-id: 23000000
-  - name: "proxy-28"
+  - name: "proxy-18"
     type: vless
     server: 94.183.177.149
     port: 443
@@ -350,7 +228,7 @@ proxies:
     reality-opts:
       public-key: kyWPXUwlQP4fXoNgq07O7uAibgbqIt076MQzR9huDC8
       short-id: 7e8b7e5f0d53d777
-  - name: "proxy-29"
+  - name: "proxy-19"
     type: vless
     server: nl.rush-server.com
     port: 443
@@ -363,7 +241,7 @@ proxies:
     reality-opts:
       public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
       short-id: 64c1fe36c7846400
-  - name: "proxy-30"
+  - name: "proxy-20"
     type: vless
     server: africa.visa.com
     port: 8880
@@ -375,7 +253,7 @@ proxies:
       path: /
       headers:
         Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
-  - name: "proxy-31"
+  - name: "proxy-21"
     type: vless
     server: 154.81.141.138
     port: 2096
@@ -387,7 +265,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-32"
+  - name: "proxy-22"
     type: vless
     server: 154.211.8.138
     port: 2096
@@ -399,7 +277,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-33"
+  - name: "proxy-23"
     type: vless
     server: 162.159.33.40
     port: 443
@@ -412,7 +290,7 @@ proxies:
       path: /?https://t.me/wangcai2🇨🇳=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-34"
+  - name: "proxy-24"
     type: vless
     server: 198.202.211.138
     port: 2096
@@ -425,7 +303,7 @@ proxies:
       path: /?telegram🇨🇳+@wangcai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-35"
+  - name: "proxy-25"
     type: vless
     server: 31.56.7.90
     port: 443
@@ -438,7 +316,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-36"
+  - name: "proxy-26"
     type: vless
     server: georg.sbrf-cdn342.ru
     port: 443
@@ -448,7 +326,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-37"
+  - name: "proxy-27"
     type: vless
     server: 104.18.32.47
     port: 8443
@@ -461,7 +339,7 @@ proxies:
       path: /?Telegram+@WangCai2
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-38"
+  - name: "proxy-28"
     type: vless
     server: 193.233.134.77
     port: 443
@@ -474,7 +352,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-39"
+  - name: "proxy-29"
     type: vless
     server: 45.12.30.138
     port: 2096
@@ -487,7 +365,7 @@ proxies:
       path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-40"
+  - name: "proxy-30"
     type: vless
     server: 147.78.140.231
     port: 443
@@ -500,7 +378,7 @@ proxies:
       path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
       headers:
         Host: babayaga-6i7.pages.dev
-  - name: "proxy-41"
+  - name: "proxy-31"
     type: vless
     server: 154.194.12.138
     port: 2096
@@ -513,7 +391,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-42"
+  - name: "proxy-32"
     type: vless
     server: 35.156.76.43
     port: 8443
@@ -526,7 +404,7 @@ proxies:
       path: /?https://t.me/youtube@ZYFXS🇨🇳=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-43"
+  - name: "proxy-33"
     type: vless
     server: 172.64.146.198
     port: 2096
@@ -539,7 +417,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-44"
+  - name: "proxy-34"
     type: vless
     server: 185.162.231.138
     port: 2096
@@ -552,7 +430,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-45"
+  - name: "proxy-35"
     type: vless
     server: 141.193.213.11
     port: 2053
@@ -565,7 +443,7 @@ proxies:
       path: /
       headers:
         Host: qyi.fqjd663.ggff.net
-  - name: "proxy-46"
+  - name: "proxy-36"
     type: vless
     server: 89.106.83.59
     port: 2053
@@ -579,7 +457,7 @@ proxies:
       short-id: 23
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-47"
+  - name: "proxy-37"
     type: vless
     server: 43.250.54.97
     port: 8443
@@ -592,7 +470,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-48"
+  - name: "proxy-38"
     type: vless
     server: 104.18.16.56
     port: 8443
@@ -605,7 +483,7 @@ proxies:
       path: /?Telegram+@WangCai2
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-49"
+  - name: "proxy-39"
     type: vless
     server: 104.18.42.98
     port: 2096
@@ -617,7 +495,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-50"
+  - name: "proxy-40"
     type: vless
     server: 94.159.97.192
     port: 443
@@ -630,7 +508,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-51"
+  - name: "proxy-41"
     type: vless
     server: 45.15.129.32
     port: 443
@@ -642,7 +520,7 @@ proxies:
     reality-opts:
       public-key: qsT9UM8_tjOILuNP9skeOZ0SfXfnj1oTRG-kKoCfqXs
       short-id: d0000000
-  - name: "proxy-52"
+  - name: "proxy-42"
     type: vless
     server: 45.131.208.191
     port: 2096
@@ -655,7 +533,7 @@ proxies:
       path: /
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-53"
+  - name: "proxy-43"
     type: vless
     server: 217.65.79.122
     port: 2053
@@ -668,7 +546,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.dns.army
-  - name: "proxy-55"
+  - name: "proxy-45"
     type: vless
     server: 54.37.75.187
     port: 443
@@ -681,13 +559,13 @@ proxies:
     reality-opts:
       public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
       short-id: 479826bdfc3eb86e
-  - name: "proxy-56"
+  - name: "proxy-46"
     type: trojan
     server: 162.159.152.2
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "proxy-57"
+  - name: "proxy-47"
     type: vless
     server: 185.238.228.238
     port: 2096
@@ -699,7 +577,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-58"
+  - name: "proxy-48"
     type: vless
     server: 92.53.190.138
     port: 2096
@@ -712,7 +590,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-59"
+  - name: "proxy-49"
     type: vless
     server: 104.18.13.149
     port: 2053
@@ -724,7 +602,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-60"
+  - name: "proxy-50"
     type: vless
     server: 167.68.5.191
     port: 443
@@ -736,7 +614,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-61"
+  - name: "proxy-51"
     type: vless
     server: 45.80.111.138
     port: 2096
@@ -748,7 +626,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-62"
+  - name: "proxy-52"
     type: vless
     server: 104.18.4.130
     port: 8443
@@ -761,7 +639,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-63"
+  - name: "proxy-53"
     type: vless
     server: 141.11.203.238
     port: 2096
@@ -774,7 +652,7 @@ proxies:
       path: /
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-64"
+  - name: "proxy-54"
     type: vless
     server: 8.35.211.75
     port: 8443
@@ -787,7 +665,7 @@ proxies:
       path: /
       headers:
         Host: javad.fighterjavad8-faa.workers.dev
-  - name: "proxy-65"
+  - name: "proxy-55"
     type: vless
     server: 213.176.114.65
     port: 443
@@ -800,7 +678,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-66"
+  - name: "proxy-56"
     type: vless
     server: 104.17.111.43
     port: 443
@@ -813,7 +691,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.v6.army
-  - name: "proxy-67"
+  - name: "proxy-57"
     type: vless
     server: 104.18.13.149
     port: 8443
@@ -826,7 +704,7 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-68"
+  - name: "proxy-58"
     type: vless
     server: 45.131.6.191
     port: 2096
@@ -838,7 +716,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-69"
+  - name: "proxy-59"
     type: vless
     server: 45.205.0.191
     port: 443
@@ -850,7 +728,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-70"
+  - name: "proxy-60"
     type: vless
     server: 72.56.120.196
     port: 443
@@ -863,7 +741,19 @@ proxies:
     reality-opts:
       public-key: GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU
       short-id: 8ae24275272f
-  - name: "proxy-71"
+  - name: "proxy-61"
+    type: vless
+    server: 5.10.245.191
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-62"
     type: vless
     server: 5.129.209.230
     port: 443
@@ -876,7 +766,7 @@ proxies:
     reality-opts:
       public-key: GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU
       short-id: ca5096
-  - name: "proxy-72"
+  - name: "proxy-63"
     type: vless
     server: 14.102.229.191
     port: 443
@@ -888,7 +778,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-73"
+  - name: "proxy-64"
     type: vless
     server: 31.185.108.138
     port: 2096
@@ -901,7 +791,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-74"
+  - name: "proxy-65"
     type: vless
     server: 104.18.42.159
     port: 2096
@@ -914,7 +804,7 @@ proxies:
       path: /
       headers:
         Host: cocobaby.pages.dev
-  - name: "proxy-75"
+  - name: "proxy-66"
     type: vless
     server: 193.124.203.126
     port: 443
@@ -927,7 +817,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.dns.army
-  - name: "proxy-76"
+  - name: "proxy-67"
     type: vless
     server: 89.106.95.203
     port: 443
@@ -940,7 +830,7 @@ proxies:
     reality-opts:
       public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
       short-id: 23
-  - name: "proxy-77"
+  - name: "proxy-68"
     type: vless
     server: 167.68.5.191
     port: 2096
@@ -952,7 +842,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-78"
+  - name: "proxy-69"
     type: vless
     server: 193.227.99.138
     port: 2096
@@ -964,7 +854,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-79"
+  - name: "proxy-70"
     type: vless
     server: 152.233.28.198
     port: 8443
@@ -973,7 +863,7 @@ proxies:
     network: tcp
     tls: true
     servername: uk1.fromblancwithlove.com
-  - name: "proxy-80"
+  - name: "proxy-71"
     type: vless
     server: 193.23.219.205
     port: 8443
@@ -986,7 +876,7 @@ proxies:
       path: /
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-81"
+  - name: "proxy-72"
     type: vless
     server: 135.84.72.75
     port: 443
@@ -999,7 +889,7 @@ proxies:
       path: /?Telegram🇨🇳@WangCai2=
       headers:
         Host: sni.111000.dynv6.net
-  - name: "proxy-82"
+  - name: "proxy-73"
     type: vless
     server: 193.24.209.103
     port: 8443
@@ -1012,7 +902,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-83"
+  - name: "proxy-74"
     type: vless
     server: 104.18.16.56
     port: 2096
@@ -1024,7 +914,19 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-84"
+  - name: "proxy-75"
+    type: vless
+    server: 45.67.215.191
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.my111000.tech
+    ws-opts:
+      headers:
+        Host: sni.my111000.tech
+  - name: "proxy-76"
     type: vless
     server: 104.16.250.22
     port: 2096
@@ -1037,7 +939,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-85"
+  - name: "proxy-77"
     type: vless
     server: 104.18.12.149
     port: 2053
@@ -1050,7 +952,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-86"
+  - name: "proxy-78"
     type: vless
     server: 91.193.58.212
     port: 443
@@ -1062,7 +964,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.rocks
-  - name: "proxy-87"
+  - name: "proxy-79"
     type: vless
     server: 25.26.27.191
     port: 2096
@@ -1075,7 +977,7 @@ proxies:
       path: /
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-88"
+  - name: "proxy-80"
     type: vless
     server: 45.8.211.191
     port: 443
@@ -1087,13 +989,13 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-89"
+  - name: "proxy-81"
     type: trojan
     server: 162.159.153.212
     port: 2087
     password: r137979f
     udp: true
-  - name: "proxy-90"
+  - name: "proxy-82"
     type: vless
     server: 91.193.58.247
     port: 443
@@ -1106,7 +1008,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.v6.rocks
-  - name: "proxy-91"
+  - name: "proxy-83"
     type: vless
     server: 141.101.121.169
     port: 2096
@@ -1119,13 +1021,13 @@ proxies:
       path: /?ed
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-92"
+  - name: "proxy-84"
     type: trojan
     server: 162.159.36.5
     port: 443
     password: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "proxy-93"
+  - name: "proxy-85"
     type: vless
     server: 167.68.42.191
     port: 443
@@ -1137,7 +1039,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-94"
+  - name: "proxy-86"
     type: vless
     server: 45.12.30.191
     port: 2096
@@ -1149,7 +1051,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-95"
+  - name: "proxy-87"
     type: vless
     server: 5.10.247.191
     port: 2096
@@ -1161,7 +1063,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-96"
+  - name: "proxy-88"
     type: vless
     server: 20.16.105.244
     port: 443
@@ -1173,13 +1075,13 @@ proxies:
     ws-opts:
       headers:
         Host: juzi8186.qea.ccwu.cc
-  - name: "proxy-97"
+  - name: "proxy-89"
     type: trojan
     server: 79.127.82.170
     port: 443/
     password: 2a599135-886f-4359-bf68-0993baa990f1
     udp: true
-  - name: "proxy-98"
+  - name: "proxy-90"
     type: vless
     server: 89.106.83.60
     port: 2053
@@ -1193,7 +1095,7 @@ proxies:
       short-id: 23
     grpc-opts:
       grpc-service-name: grpc
-  - name: "proxy-99"
+  - name: "proxy-91"
     type: vless
     server: 162.19.243.8
     port: 2053
@@ -1206,7 +1108,7 @@ proxies:
       path: /?Telegram🇨🇳@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-100"
+  - name: "proxy-92"
     type: vless
     server: 185.18.250.238
     port: 2096
@@ -1219,7 +1121,7 @@ proxies:
       path: /
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-101"
+  - name: "proxy-93"
     type: vless
     server: 2.26.123.64
     port: 443
@@ -1232,7 +1134,7 @@ proxies:
     reality-opts:
       public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
       short-id: ad8c7a6ace2f
-  - name: "proxy-102"
+  - name: "proxy-94"
     type: vless
     server: 193.42.110.120
     port: 8443
@@ -1245,7 +1147,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.dns.army
-  - name: "proxy-103"
+  - name: "proxy-95"
     type: vless
     server: 45.131.208.191
     port: 443
@@ -1257,7 +1159,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-104"
+  - name: "proxy-96"
     type: vless
     server: 45.82.254.107
     port: 443
@@ -1270,7 +1172,7 @@ proxies:
     reality-opts:
       public-key: pBuXpWQ1Owy-fOEJZPUzYd-8xBsJB_1S05sLp_YMwzE
       short-id: 4929ddcb86e785f7
-  - name: "proxy-105"
+  - name: "proxy-97"
     type: vless
     server: 91.193.58.73
     port: 443
@@ -1283,7 +1185,7 @@ proxies:
       path: /
       headers:
         Host: sni.111000.v6.rocks
-  - name: "proxy-106"
+  - name: "proxy-98"
     type: vless
     server: 5.10.244.191
     port: 2096
@@ -1295,7 +1197,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-107"
+  - name: "proxy-99"
     type: vless
     server: 45.85.119.191
     port: 443
@@ -1307,7 +1209,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-108"
+  - name: "proxy-100"
     type: vless
     server: 104.19.49.83
     port: 2087
@@ -1320,7 +1222,7 @@ proxies:
       path: /fp=chrome
       headers:
         Host: cocobaby.pages.dev
-  - name: "proxy-109"
+  - name: "proxy-101"
     type: vless
     server: 86.38.214.43
     port: 443
@@ -1333,13 +1235,13 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.cc.cd
-  - name: "proxy-110"
+  - name: "proxy-102"
     type: trojan
     server: 27.50.48.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "proxy-111"
+  - name: "proxy-103"
     type: vless
     server: 104.18.12.149
     port: 443
@@ -1351,7 +1253,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-112"
+  - name: "proxy-104"
     type: vless
     server: 45.142.120.191
     port: 443
@@ -1364,7 +1266,7 @@ proxies:
       path: Telegram🇨🇳@WangCai2
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-113"
+  - name: "proxy-105"
     type: vless
     server: 45.205.0.191
     port: 2096
@@ -1376,7 +1278,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-114"
+  - name: "proxy-106"
     type: vless
     server: 185.171.83.147
     port: 443
@@ -1389,7 +1291,7 @@ proxies:
       path: /?https://t.me/WangCai2🇨🇳=
       headers:
         Host: sni.111000.v6.army
-  - name: "proxy-115"
+  - name: "proxy-107"
     type: vless
     server: 93.115.16.24
     port: 8443
@@ -1402,7 +1304,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2Fyoutube%40ZYFXS%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.111000.v6.army
-  - name: "proxy-116"
+  - name: "proxy-108"
     type: vless
     server: 45.149.12.191
     port: 443
@@ -1414,7 +1316,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-117"
+  - name: "proxy-109"
     type: vless
     server: 77.239.101.3
     port: 443
@@ -1427,7 +1329,7 @@ proxies:
     reality-opts:
       public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
       short-id: 0123456789abcdef
-  - name: "proxy-118"
+  - name: "proxy-110"
     type: vless
     server: 194.59.5.238
     port: 2096
@@ -1440,7 +1342,7 @@ proxies:
       path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
       headers:
         Host: sni.jpmj.dev
-  - name: "proxy-119"
+  - name: "proxy-111"
     type: vless
     server: 194.247.186.199
     port: 443
@@ -1453,7 +1355,7 @@ proxies:
       path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
       headers:
         Host: sni.latonyamadeline.ndjp.net
-  - name: "proxy-120"
+  - name: "proxy-112"
     type: vless
     server: 45.149.12.191
     port: 2096
@@ -1465,7 +1367,7 @@ proxies:
     ws-opts:
       headers:
         Host: sni.my111000.tech
-  - name: "proxy-121"
+  - name: "proxy-113"
     type: vless
     server: 45.85.119.191
     port: 2096
@@ -1483,7 +1385,6 @@ proxy-groups:
   - name: "🚀 FAST KEYS VPN"
     type: select
     proxies:
-      - "proxy-0"
       - "proxy-1"
       - "proxy-2"
       - "proxy-3"
@@ -1493,6 +1394,7 @@ proxy-groups:
       - "proxy-7"
       - "proxy-8"
       - "proxy-9"
+      - "proxy-10"
       - "proxy-11"
       - "proxy-12"
       - "proxy-13"
@@ -1526,7 +1428,6 @@ proxy-groups:
       - "proxy-41"
       - "proxy-42"
       - "proxy-43"
-      - "proxy-44"
       - "proxy-45"
       - "proxy-46"
       - "proxy-47"
@@ -1536,6 +1437,7 @@ proxy-groups:
       - "proxy-51"
       - "proxy-52"
       - "proxy-53"
+      - "proxy-54"
       - "proxy-55"
       - "proxy-56"
       - "proxy-57"
@@ -1595,14 +1497,6 @@ proxy-groups:
       - "proxy-111"
       - "proxy-112"
       - "proxy-113"
-      - "proxy-114"
-      - "proxy-115"
-      - "proxy-116"
-      - "proxy-117"
-      - "proxy-118"
-      - "proxy-119"
-      - "proxy-120"
-      - "proxy-121"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
