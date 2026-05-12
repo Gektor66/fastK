@@ -166,13 +166,29 @@ proxies:
     udp: true
   - name: "proxy-22"
     type: vmess
+    server: 45.15.185.17
+    port: 80
+    uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-23"
+    type: vmess
     server: 45.15.170.237
     port: 80
     uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
     alterId: 0
     cipher: auto
     udp: true
-  - name: "proxy-23"
+  - name: "proxy-24"
+    type: vmess
+    server: 45.15.185.17
+    port: 80
+    uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "proxy-25"
     type: vmess
     server: 45.15.185.17
     port: 80
@@ -207,6 +223,8 @@ proxy-groups:
       - "proxy-21"
       - "proxy-22"
       - "proxy-23"
+      - "proxy-24"
+      - "proxy-25"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN

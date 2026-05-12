@@ -5914,18 +5914,21 @@ proxies:
         Host: e43zyc.cdn-edge-jp.fgfw.qzz.io
   - name: "proxy-532"
     type: vless
-    server: 87.228.124.109
-    port: 52006
-    uuid: 75807638-6f19-2710-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    servername: de.active-engine.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-533"
-    type: vless
     server: 217.16.27.216
     port: 8090
+    uuid: 87d58e85-a4b3-4187-9fb7-6f0a73b21a6b
+    udp: true
+    network: ws
+    tls: true
+    servername: chat.speedload.ru
+    ws-opts:
+      path: /ws
+      headers:
+        Host: chat.speedload.ru
+  - name: "proxy-533"
+    type: vless
+    server: 217.16.26.158
+    port: 8443
     uuid: 87d58e85-a4b3-4187-9fb7-6f0a73b21a6b
     udp: true
     network: ws
@@ -6170,15 +6173,6 @@ proxies:
       path: /ws
   - name: "proxy-557"
     type: vless
-    server: 109.120.177.84
-    port: 443
-    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
-    udp: true
-    network: tcp
-    tls: true
-    servername: decdn7.suio.me
-  - name: "proxy-558"
-    type: vless
     server: 109.120.132.6
     port: 443
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -6190,19 +6184,7 @@ proxies:
       path: /?Telegram🇨🇳+@WangCai2=
       headers:
         Host: sni.111000.v6.navy
-  - name: "proxy-559"
-    type: vless
-    server: 45.15.167.17
-    port: 443
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    udp: true
-    network: ws
-    tls: true
-    servername: 2-eox.pages.dev
-    ws-opts:
-      headers:
-        Host: 2-eox.pages.dev
-  - name: "proxy-560"
+  - name: "proxy-558"
     type: vless
     server: 109.120.179.99
     port: 443
@@ -6215,7 +6197,7 @@ proxies:
       path: /?Telegram🇨🇳@WangCai2=
       headers:
         Host: sni.111000.indevs.in
-  - name: "proxy-561"
+  - name: "proxy-559"
     type: vless
     server: 109.120.188.160
     port: 443/
@@ -6225,7 +6207,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-562"
+  - name: "proxy-560"
     type: vless
     server: 109.120.188.225
     port: 443/
@@ -6235,7 +6217,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-563"
+  - name: "proxy-561"
     type: vless
     server: 89.208.230.167
     port: 443/
@@ -6245,7 +6227,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-564"
+  - name: "proxy-562"
     type: vless
     server: 109.120.188.27
     port: 443/
@@ -6255,7 +6237,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-565"
+  - name: "proxy-563"
     type: vless
     server: 89.208.230.145
     port: 443/
@@ -6265,7 +6247,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-566"
+  - name: "proxy-564"
     type: vless
     server: 89.208.231.198
     port: 443/
@@ -6275,7 +6257,7 @@ proxies:
     tls: true
     servername: anti-vpn.ru
     flow: xtls-rprx-vision
-  - name: "proxy-567"
+  - name: "proxy-565"
     type: vless
     server: 84.201.20.217
     port: 443
@@ -6286,7 +6268,7 @@ proxies:
     servername: sni.111000.indevs.in
     ws-opts:
       path: /
-  - name: "proxy-568"
+  - name: "proxy-566"
     type: vless
     server: 84.201.132.179
     port: 443
@@ -6295,7 +6277,7 @@ proxies:
     network: grpc
     tls: false
     grpc-opts:
-  - name: "proxy-569"
+  - name: "proxy-567"
     type: vless
     server: 51.250.102.190
     port: 443
@@ -6308,7 +6290,7 @@ proxies:
       path: /
       headers:
         Host: russ.hsshsjsjsospsppsa.online
-  - name: "proxy-570"
+  - name: "proxy-568"
     type: vless
     server: 51.250.102.191
     port: 443
@@ -6321,7 +6303,7 @@ proxies:
       path: /
       headers:
         Host: russ.hsshsjsjsospsppsa.online
-  - name: "proxy-571"
+  - name: "proxy-569"
     type: vless
     server: 51.250.13.243
     port: 443
@@ -6334,7 +6316,7 @@ proxies:
       path: /
       headers:
         Host: russ.hsshsjsjsospsppsa.online
-  - name: "proxy-572"
+  - name: "proxy-570"
     type: vless
     server: 51.250.22.108
     port: 443
@@ -6347,7 +6329,7 @@ proxies:
       path: /
       headers:
         Host: russ.hsshsjsjsospsppsa.online
-  - name: "proxy-573"
+  - name: "proxy-571"
     type: vless
     server: 84.201.176.174
     port: 443
@@ -6360,6 +6342,27 @@ proxies:
       path: /
       headers:
         Host: russ.hsshsjsjsospsppsa.online
+  - name: "proxy-572"
+    type: vless
+    server: 109.120.177.84
+    port: 443
+    uuid: ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1
+    udp: true
+    network: tcp
+    tls: true
+    servername: decdn7.suio.me
+  - name: "proxy-573"
+    type: vless
+    server: 45.15.167.17
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 2-eox.pages.dev
+    ws-opts:
+      headers:
+        Host: 2-eox.pages.dev
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
