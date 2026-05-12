@@ -196,6 +196,16 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
+  - name: "proxy-26"
+    type: vmess
+    server: 104.17.77.77
+    port: 8443
+    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    servername: v2ray1.dozapp.xyz
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -225,6 +235,7 @@ proxy-groups:
       - "proxy-23"
       - "proxy-24"
       - "proxy-25"
+      - "proxy-26"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
