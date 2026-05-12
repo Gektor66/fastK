@@ -4120,14 +4120,15 @@ proxies:
       path: /
   - name: "proxy-362"
     type: vless
-    server: 178.72.181.26
-    port: 52006
-    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    server: 5.188.140.245
+    port: 443
+    uuid: f95f057b-6c44-4f4d-b1b7-c1e93a0957cb
     udp: true
-    network: tcp
+    network: grpc
     tls: true
-    servername: cluster-de-1.firstvideocdn.ru
-    flow: xtls-rprx-vision
+    servername: api.cheapgo.cc
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
   - name: "proxy-363"
     type: vless
     server: 103.90.75.121
@@ -4307,7 +4308,7 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-378"
     type: vless
-    server: 188.246.226.14
+    server: 82.202.249.96
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
     udp: true
@@ -4316,15 +4317,6 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-379"
     type: vless
-    server: 82.202.249.96
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-    udp: true
-    network: tcp
-    tls: true
-    flow: xtls-rprx-vision
-  - name: "proxy-380"
-    type: vless
     server: cl-ru-2.edgeflux.ru
     port: 52006
     uuid: 75807638-6f19-07d0-ae08-38492ee85c88
@@ -4332,6 +4324,16 @@ proxies:
     network: tcp
     tls: true
     servername: cl-ru-2.edgeflux.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-380"
+    type: vless
+    server: cluster-russia-3.firstvideocdn.ru
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-3.firstvideocdn.ru
     flow: xtls-rprx-vision
   - name: "proxy-381"
     type: vless
