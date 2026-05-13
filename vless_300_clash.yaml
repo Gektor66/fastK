@@ -1441,6 +1441,26 @@ proxies:
       path: /esoznjws
   - name: "proxy-116"
     type: vless
+    server: 185.235.241.67
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: web.max.ru
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-117"
+    type: vless
+    server: 37.18.14.103
+    port: 443
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
+    udp: true
+    network: tcp
+    tls: true
+    servername: bitva.mail.ru
+  - name: "proxy-118"
+    type: vless
     server: 141.98.169.100
     port: 443
     uuid: 3d617588-ae06-4379-bed9-60b6bac8dbdc
@@ -1450,18 +1470,16 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /oyoelzws
-  - name: "proxy-117"
+  - name: "proxy-119"
     type: vless
-    server: 141.98.169.94
+    server: 188.225.87.169
     port: 443
-    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: m.vk.com
-    ws-opts:
-      path: /puzoscws
-  - name: "proxy-118"
+    servername: mirror.yandex.ru
+  - name: "proxy-120"
     type: vless
     server: 94.131.100.173
     port: 443
@@ -1474,18 +1492,7 @@ proxies:
       path: /coxzfsws
       headers:
         Host: 639010645287857140.accord-lmnxa.info
-  - name: "proxy-119"
-    type: vless
-    server: 185.235.241.67
-    port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    udp: true
-    network: ws
-    tls: true
-    servername: web.max.ru
-    ws-opts:
-      path: /hormoz
-  - name: "proxy-120"
+  - name: "proxy-121"
     type: vless
     server: 167.99.91.171
     port: 443
@@ -1496,7 +1503,18 @@ proxies:
     servername: api.avito.ru
     ws-opts:
       path: /sbqbfows
-  - name: "proxy-121"
+  - name: "proxy-122"
+    type: vless
+    server: 141.98.169.94
+    port: 443
+    uuid: 33f4ca29-6404-42de-8ca7-18846dbf5dcc
+    udp: true
+    network: ws
+    tls: true
+    servername: m.vk.com
+    ws-opts:
+      path: /puzoscws
+  - name: "proxy-123"
     type: vless
     server: 94.131.110.93
     port: 443
@@ -1507,7 +1525,7 @@ proxies:
     servername: www.vk.com
     ws-opts:
       path: /hormoz
-  - name: "proxy-122"
+  - name: "proxy-124"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -1518,16 +1536,7 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-123"
-    type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
-  - name: "proxy-124"
+  - name: "proxy-125"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1540,33 +1549,33 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-125"
-    type: vless
-    server: 185.242.17.17
-    port: 443
-    uuid: ff9ead1f-0906-40b6-a633-8b358585af19
-    udp: true
-    network: ws
-    tls: true
-    servername: mwscdn.ru
-    ws-opts:
-      path: /websocket/callroom/server1
-      headers:
-        Host: top1001400138.mwscdn.ru
   - name: "proxy-126"
     type: vless
-    server: 185.242.16.16
+    server: 195.209.88.180
     port: 443
-    uuid: ff9ead1f-0906-40b6-a633-8b358585af19
+    uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
     udp: true
     network: ws
     tls: true
-    servername: mwscdn.ru
+    servername: s28233.cdn.ngenix.net
     ws-opts:
-      path: /websocket/callroom/server1
+      path: /
       headers:
-        Host: top419302045.mwscdn.ru
+        Host: s28233.cdn.ngenix.net
   - name: "proxy-127"
+    type: vless
+    server: 212.193.147.245
+    port: 443
+    uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      path: /
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-128"
     type: vless
     server: 5.129.204.161
     port: 8443
@@ -1576,7 +1585,39 @@ proxies:
     tls: true
     servername: altrunet-probe.tw1.su
     flow: xtls-rprx-vision
-  - name: "proxy-128"
+  - name: "proxy-129"
+    type: vless
+    server: 178.72.181.52
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-3.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-130"
+    type: vless
+    server: 188.124.37.201
+    port: 52006
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    udp: true
+    network: tcp
+    tls: true
+    servername: cluster-russia-3.firstvideocdn.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-131"
+    type: vless
+    server: 195.209.88.216
+    port: 443
+    uuid: 31df9217-b7d0-Fade-946c-ac50d556aeff
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-132"
     type: vless
     server: 195.209.90.178
     port: 443
@@ -1588,20 +1629,7 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-129"
-    type: vless
-    server: 195.209.88.216
-    port: 443
-    uuid: 18f88fb7-470f-fade-8da9-b57f35009c6d
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      path: /
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-130"
+  - name: "proxy-133"
     type: vless
     server: 82.202.197.2
     port: 52006
@@ -1610,7 +1638,7 @@ proxies:
     network: tcp
     tls: true
     flow: xtls-rprx-vision
-  - name: "proxy-131"
+  - name: "proxy-134"
     type: vless
     server: 195.209.82.149
     port: 443
@@ -1622,43 +1650,9 @@ proxies:
     ws-opts:
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-132"
-    type: vless
-    server: 195.209.88.180
-    port: 443
-    uuid: 6e42b88a-b78f-Fade-b164-791160cbaef5
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-133"
-    type: vless
-    server: 212.193.147.245
-    port: 443
-    uuid: 6e42b88a-b78f-Fade-b164-791160cbaef5
-    udp: true
-    network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
-    ws-opts:
-      headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-134"
-    type: vless
-    server: 109.236.57.8
-    port: 8443
-    uuid: 37d4b779-5081-Fade-b791-8703fef4a9f7
-    udp: true
-    network: grpc
-    tls: true
-    servername: vyrrh-ru-24sel.r-fade.cfd
-    grpc-opts:
   - name: "proxy-135"
     type: vless
-    server: 87.228.124.109
+    server: 82.202.197.52
     port: 52006
     uuid: 75807638-6f19-2710-ae08-38492ee85c88
     udp: true
@@ -1668,14 +1662,14 @@ proxies:
     flow: xtls-rprx-vision
   - name: "proxy-136"
     type: vless
-    server: 178.72.181.52
-    port: 52006
-    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    server: 109.236.57.8
+    port: 8443
+    uuid: 92b6e169-3574-Fade-affb-425baa8460a4
     udp: true
-    network: tcp
+    network: grpc
     tls: true
-    servername: cluster-russia-3.firstvideocdn.ru
-    flow: xtls-rprx-vision
+    servername: vyrrh-ru-24sel.r-fade.cfd
+    grpc-opts:
   - name: "proxy-137"
     type: vless
     server: kinode24.boevik-tut.org
