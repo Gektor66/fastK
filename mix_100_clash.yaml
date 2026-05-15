@@ -1146,14 +1146,7 @@ proxies:
         Host: cdn.filterai.ru
   - name: "proxy-93"
     type: vless
-    server: partner.zoom.us
-    port: 80
-    uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
-    udp: true
-    network: tcp
-  - name: "proxy-94"
-    type: vless
-    server: 212.193.147.245
+    server: 195.209.90.178
     port: 443
     uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
     udp: true
@@ -1164,7 +1157,7 @@ proxies:
       path: /
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-95"
+  - name: "proxy-94"
     type: vless
     server: fi-g.sbrf-cdn342.ru
     port: 443
@@ -1174,7 +1167,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-96"
+  - name: "proxy-95"
     type: vless
     server: 89.23.100.17
     port: 443
@@ -1184,7 +1177,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-97"
+  - name: "proxy-96"
     type: vless
     server: yt-noads.sbrf-cdn342.ru
     port: 443
@@ -1194,7 +1187,7 @@ proxies:
     tls: true
     servername: sub.sbrf-cdn342.ru
     flow: xtls-rprx-vision
-  - name: "proxy-98"
+  - name: "proxy-97"
     type: vless
     server: 195.209.82.149
     port: 443
@@ -1207,9 +1200,22 @@ proxies:
       path: /
       headers:
         Host: s28233.cdn.ngenix.net
-  - name: "proxy-99"
+  - name: "proxy-98"
     type: vless
     server: 195.209.88.180
+    port: 443
+    uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      path: /
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-99"
+    type: vless
+    server: 195.209.88.216
     port: 443
     uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
     udp: true
