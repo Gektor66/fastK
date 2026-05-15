@@ -1060,8 +1060,8 @@ proxies:
         Host: babayaga-6i7.pages.dev
   - name: "proxy-84"
     type: vless
-    server: 158.160.224.147
-    port: 8443
+    server: 84.201.129.19
+    port: 8433
     uuid: c286cb84-1a5c-4543-bc9e-d7727a0ad823
     udp: true
     network: ws
@@ -1072,19 +1072,6 @@ proxies:
       headers:
         Host: e.genesis1780.ru
   - name: "proxy-85"
-    type: vless
-    server: 158.160.50.116
-    port: 8443
-    uuid: c286cb84-1a5c-4543-bc9e-d7727a0ad823
-    udp: true
-    network: ws
-    tls: true
-    servername: e.genesis1780.ru
-    ws-opts:
-      path: /
-      headers:
-        Host: e.genesis1780.ru
-  - name: "proxy-86"
     type: vless
     server: 84.201.167.77
     port: 443
@@ -1097,6 +1084,19 @@ proxies:
       path: /
       headers:
         Host: e.genesis1780.ru
+  - name: "proxy-86"
+    type: vless
+    server: s3.listwhite.cc
+    port: 443
+    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
+    udp: true
+    network: ws
+    tls: true
+    servername: s3.listwhite.cc
+    ws-opts:
+      path: /upload/session
+      headers:
+        Host: s2.ws.listwhite.cc
   - name: "proxy-87"
     type: vless
     server: 198.255.96.14
