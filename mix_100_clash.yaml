@@ -1071,27 +1071,14 @@ proxies:
       path: /hormoz
   - name: "proxy-86"
     type: vless
-    server: 94.131.110.93
+    server: 37.18.14.103
     port: 443
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    servername: www.vk.com
-    ws-opts:
-      path: /hormoz
+    servername: bitva.mail.ru
   - name: "proxy-87"
-    type: vless
-    server: 167.99.91.171
-    port: 443
-    uuid: 921290a9-6e24-4661-82fb-844d88164b74
-    udp: true
-    network: ws
-    tls: true
-    servername: api.avito.ru
-    ws-opts:
-      path: /sbqbfows
-  - name: "proxy-88"
     type: vless
     server: 141.98.169.94
     port: 443
@@ -1102,7 +1089,29 @@ proxies:
     servername: m.vk.com
     ws-opts:
       path: /puzoscws
+  - name: "proxy-88"
+    type: vless
+    server: 167.99.91.171
+    port: 443
+    uuid: 921290a9-6e24-4661-82fb-844d88164b74
+    udp: true
+    network: ws
+    tls: true
+    servername: api.avito.ru
+    ws-opts:
+      path: /sbqbfows
   - name: "proxy-89"
+    type: vless
+    server: 94.131.110.93
+    port: 443
+    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+    udp: true
+    network: ws
+    tls: true
+    servername: www.vk.com
+    ws-opts:
+      path: /hormoz
+  - name: "proxy-90"
     type: vless
     server: 138.68.160.230
     port: 443
@@ -1113,25 +1122,7 @@ proxies:
     servername: ozon.ru
     ws-opts:
       path: /feesdgws
-  - name: "proxy-90"
-    type: vless
-    server: 37.18.14.103
-    port: 443
-    uuid: 4feab863-0b04-444d-87e5-4375adca92cf
-    udp: true
-    network: tcp
-    tls: true
-    servername: bitva.mail.ru
   - name: "proxy-91"
-    type: vless
-    server: 188.225.87.169
-    port: 443
-    uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
-    udp: true
-    network: tcp
-    tls: true
-    servername: mirror.yandex.ru
-  - name: "proxy-92"
     type: vless
     server: 81.161.98.228
     port: 1443/
@@ -1144,50 +1135,19 @@ proxies:
       path: /websocketpl
       headers:
         Host: cdn.filterai.ru
-  - name: "proxy-93"
+  - name: "proxy-92"
     type: vless
-    server: 195.209.90.178
-    port: 443
-    uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
+    server: partner.zoom.us
+    port: 80
+    uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
     udp: true
     network: ws
-    tls: true
-    servername: s28233.cdn.ngenix.net
+    servername: partner.zoom.us
     ws-opts:
-      path: /
+      path: /@Tech_Sonic
       headers:
-        Host: s28233.cdn.ngenix.net
-  - name: "proxy-94"
-    type: vless
-    server: fi-g.sbrf-cdn342.ru
-    port: 443
-    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-95"
-    type: vless
-    server: 89.23.100.17
-    port: 443
-    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-96"
-    type: vless
-    server: yt-noads.sbrf-cdn342.ru
-    port: 443
-    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
-    udp: true
-    network: tcp
-    tls: true
-    servername: sub.sbrf-cdn342.ru
-    flow: xtls-rprx-vision
-  - name: "proxy-97"
+        Host: free-server.techsonic.ggff.net
+  - name: "proxy-93"
     type: vless
     server: 195.209.82.149
     port: 443
@@ -1200,6 +1160,49 @@ proxies:
       path: /
       headers:
         Host: s28233.cdn.ngenix.net
+  - name: "proxy-94"
+    type: vless
+    server: 212.193.147.245
+    port: 443
+    uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
+    udp: true
+    network: ws
+    tls: true
+    servername: s28233.cdn.ngenix.net
+    ws-opts:
+      path: /
+      headers:
+        Host: s28233.cdn.ngenix.net
+  - name: "proxy-95"
+    type: vless
+    server: fi-g.sbrf-cdn342.ru
+    port: 443
+    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-96"
+    type: vless
+    server: 89.23.100.17
+    port: 443
+    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
+  - name: "proxy-97"
+    type: vless
+    server: yt-noads.sbrf-cdn342.ru
+    port: 443
+    uuid: 85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa
+    udp: true
+    network: tcp
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+    flow: xtls-rprx-vision
   - name: "proxy-98"
     type: vless
     server: 195.209.88.180
