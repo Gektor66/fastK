@@ -1179,6 +1179,18 @@ proxies:
         Host: e.genesis1780.ru
   - name: "proxy-93"
     type: vless
+    server: 84.201.129.19
+    port: 4433
+    uuid: c286cb84-1a5c-4543-bc9e-d7727a0ad823
+    udp: true
+    network: ws
+    tls: true
+    servername: e.genesis1780.ru
+    ws-opts:
+      headers:
+        Host: e.genesis1780.ru
+  - name: "proxy-94"
+    type: vless
     server: 146.185.241.40
     port: 443
     uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
@@ -1188,7 +1200,7 @@ proxies:
     servername: w2ws.listwhite.cc
     ws-opts:
       path: /upload/session
-  - name: "proxy-94"
+  - name: "proxy-95"
     type: vless
     server: 146.185.241.45
     port: 443
@@ -1199,7 +1211,7 @@ proxies:
     servername: w1ws.listwhite.cc
     ws-opts:
       path: /upload/session
-  - name: "proxy-95"
+  - name: "proxy-96"
     type: vless
     server: 146.185.243.233
     port: 443
@@ -1210,20 +1222,9 @@ proxies:
     servername: s3.listwhite.cc
     ws-opts:
       path: /upload/session
-  - name: "proxy-96"
-    type: vless
-    server: 87.239.107.130
-    port: 443
-    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
-    udp: true
-    network: ws
-    tls: true
-    servername: s1.ws.listwhite.cc
-    ws-opts:
-      path: /upload/session
   - name: "proxy-97"
     type: vless
-    server: s1.ws.listwhite.cc
+    server: 87.239.107.130
     port: 443
     uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
     udp: true
@@ -1236,6 +1237,19 @@ proxies:
         Host: s1.ws.listwhite.cc
   - name: "proxy-98"
     type: vless
+    server: s1.ws.listwhite.cc
+    port: 443
+    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
+    udp: true
+    network: ws
+    tls: true
+    servername: s1.ws.listwhite.cc
+    ws-opts:
+      path: /upload/session
+      headers:
+        Host: s1.ws.listwhite.cc
+  - name: "proxy-99"
+    type: vless
     server: s3.listwhite.cc
     port: 443
     uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
@@ -1247,19 +1261,6 @@ proxies:
       path: /upload/session
       headers:
         Host: s2.ws.listwhite.cc
-  - name: "proxy-99"
-    type: vless
-    server: w1ws.listwhite.cc
-    port: 443
-    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
-    udp: true
-    network: ws
-    tls: true
-    servername: w1ws.listwhite.cc
-    ws-opts:
-      path: /upload/session
-      headers:
-        Host: s1.ws.listwhite.cc
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
