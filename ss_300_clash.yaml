@@ -1637,24 +1637,31 @@ proxies:
     udp: true
   - name: "proxy-249"
     type: ss
+    server: 5.188.224.71
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
+    udp: true
+  - name: "proxy-250"
+    type: ss
+    server: 5.188.181.201
+    port: 9011
+    cipher: aes-256-cfb
+    password: M3t2ZEQcMGRWBjRa
+    udp: true
+  - name: "proxy-251"
+    type: ss
     server: 95.163.211.121
     port: 1080
     cipher: chacha20-ietf-poly1305
     password: 4108cjAYsR5t3b05ToMfe-MRNJu6f5bR
     udp: true
-  - name: "proxy-250"
+  - name: "proxy-252"
     type: ss
     server: 95.163.210.102
     port: 1080
     cipher: chacha20-ietf-poly1305
     password: XBR_sBUQuDK-ZodYhRJjHTSusRYErq4E
-    udp: true
-  - name: "proxy-251"
-    type: ss
-    server: 5.188.181.201
-    port: 9042
-    cipher: aes-256-cfb
-    password: S7KwUu7yBy58S3Ga
     udp: true
 
 proxy-groups:
@@ -1897,6 +1904,7 @@ proxy-groups:
       - "proxy-249"
       - "proxy-250"
       - "proxy-251"
+      - "proxy-252"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
