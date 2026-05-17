@@ -1259,18 +1259,7 @@ proxies:
         Host: sni.111000.v6.rocks
   - name: "proxy-98"
     type: vless
-    server: 87.239.107.130
-    port: 443
-    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
-    udp: true
-    network: ws
-    tls: true
-    servername: s1.ws.listwhite.cc
-    ws-opts:
-      path: /upload/session
-  - name: "proxy-99"
-    type: vless
-    server: w2ws.listwhite.cc
+    server: 146.185.241.40
     port: 443
     uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
     udp: true
@@ -1281,6 +1270,17 @@ proxies:
       path: /upload/session
       headers:
         Host: s2.ws.listwhite.cc
+  - name: "proxy-99"
+    type: vless
+    server: 87.239.107.130
+    port: 443
+    uuid: 25f1947f-63a8-2040-8f3b-b101eed550e7
+    udp: true
+    network: ws
+    tls: true
+    servername: s1.ws.listwhite.cc
+    ws-opts:
+      path: /upload/session
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
