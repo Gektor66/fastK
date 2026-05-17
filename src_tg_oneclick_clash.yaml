@@ -1582,6 +1582,164 @@ proxies:
       path: /
       headers:
         Host: sni.111000.indevs.in
+  - name: "proxy-145"
+    type: trojan
+    server: 172.64.146.129
+    port: 443
+    password: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "proxy-146"
+    type: vless
+    server: 172.64.147.223
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.dynv6.net
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+  - name: "proxy-147"
+    type: vless
+    server: 213.182.199.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-148"
+    type: vless
+    server: 8.6.112.111
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-149"
+    type: vless
+    server: 104.18.32.47
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /?ed
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-150"
+    type: vless
+    server: 31.185.108.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-151"
+    type: trojan
+    server: 147.45.248.153
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+  - name: "proxy-152"
+    type: trojan
+    server: 194.87.200.151
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+  - name: "proxy-153"
+    type: vless
+    server: 104.129.166.138
+    port: 2096
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.indevs.in
+    ws-opts:
+      path: /
+      headers:
+        Host: sni.111000.indevs.in
+  - name: "proxy-154"
+    type: vless
+    server: 51.91.251.43
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+    network: ws
+    tls: true
+    servername: sni.111000.v6.navy
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+  - name: "proxy-155"
+    type: vless
+    server: 104.18.204.2
+    port: 2053
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    udp: true
+    network: ws
+    tls: true
+    servername: 71679760.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: 71679760.xyz
+  - name: "proxy-156"
+    type: vless
+    server: 94.103.0.52
+    port: 8080
+    uuid: dc0d7304-bc63-4460-8bbb-81041caa4d9b
+    udp: true
+    network: tcp
+    tls: true
+    servername: google.com
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: CYKagtK98gl-fsPdTkeS6TaxaT46T7tP-ZYfB4qp6lc
+      short-id: 1d
+  - name: "proxy-157"
+    type: vless
+    server: 31.130.129.33
+    port: 443
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    udp: true
+    network: ws
+    tls: true
+    servername: 3-2ll.pages.dev
+    ws-opts:
+      path: /
+      headers:
+        Host: 3-2ll.pages.dev
+  - name: "proxy-158"
+    type: vless
+    server: 173.245.59.233
+    port: 2053
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    udp: true
+    network: ws
+    tls: true
+    servername: 71679760.xyz
+    ws-opts:
+      path: /
+      headers:
+        Host: 71679760.xyz
 
 proxy-groups:
   - name: "🚀 FAST KEYS VPN"
@@ -1730,6 +1888,20 @@ proxy-groups:
       - "proxy-142"
       - "proxy-143"
       - "proxy-144"
+      - "proxy-145"
+      - "proxy-146"
+      - "proxy-147"
+      - "proxy-148"
+      - "proxy-149"
+      - "proxy-150"
+      - "proxy-151"
+      - "proxy-152"
+      - "proxy-153"
+      - "proxy-154"
+      - "proxy-155"
+      - "proxy-156"
+      - "proxy-157"
+      - "proxy-158"
 
 rules:
   - MATCH,🚀 FAST KEYS VPN
